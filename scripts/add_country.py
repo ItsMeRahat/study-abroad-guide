@@ -88,10 +88,9 @@ def build(cc):
         rate = round(fx_to_bdt(cur), 4)
     except Exception as exc:
         print("WARNING: exchange rate unavailable:", exc)
-    population = c.get("population") or None
-    population_year = None
+    population, population_year = world_bank_population(cc)
     if not population:
-        population, population_year = world_bank_population(cc)
+        population = c.get("population") or None
     unis, uni_source = universities(cc)
 
     facts = {
