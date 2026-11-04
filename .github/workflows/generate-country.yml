@@ -43,7 +43,7 @@ jobs:
           if not re.fullmatch(r"[A-Z]{2}", code):
               raise SystemExit("Country code must be two letters.")
           with open(os.environ["GITHUB_OUTPUT"], "a") as f:
-              f.write("code=" + code + "\\n")
+              f.write("code=" + code + "\n")
           PY
       - name: Generate country guide data
         run: python scripts/add_country.py "${{ steps.country.outputs.code }}"
