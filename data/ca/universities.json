@@ -1,0 +1,2067 @@
+{
+ "source": "https://www.wikidata.org/",
+ "ranking_note": "Ranks are added only from data/rankings.json.",
+ "universities": [
+  {
+   "id": "acadia-university",
+   "name": "Acadia University",
+   "city": "See official website",
+   "website": "http://www.acadiau.ca",
+   "top10": false,
+   "profile": {},
+   "profile_source": "University directory record from Wikidata; verify institution status and programme details on the official website."
+  },
+  {
+   "id": "acsenda-school-of-management-vancouver",
+   "name": "Acsenda School of Management - Vancouver",
+   "city": "Vancouver",
+   "website": "http://www.acsenda.com/",
+   "top10": false,
+   "profile": {},
+   "profile_source": "University directory record from Wikidata; verify institution status and programme details on the official website."
+  },
+  {
+   "id": "alberta-bible-college",
+   "name": "Alberta Bible College",
+   "city": "Alberta",
+   "website": "https://www.abccampus.ca/",
+   "top10": false,
+   "profile": {},
+   "profile_source": "University directory record from Wikidata; verify institution status and programme details on the official website."
+  },
+  {
+   "id": "alberta-university-of-the-arts",
+   "name": "Alberta University of the Arts",
+   "city": "Alberta",
+   "website": "https://www.auarts.ca/",
+   "top10": false,
+   "profile": {},
+   "profile_source": "University directory record from Wikidata; verify institution status and programme details on the official website."
+  },
+  {
+   "id": "algoma-university",
+   "name": "Algoma University",
+   "city": "Sault Ste. Marie",
+   "website": "http://www.algomau.ca/",
+   "top10": false,
+   "profile": {},
+   "profile_source": "University directory record from Wikidata; verify institution status and programme details on the official website."
+  },
+  {
+   "id": "ambrose-university",
+   "name": "Ambrose University",
+   "city": "Calgary",
+   "website": "https://ambrose.edu/",
+   "top10": false,
+   "profile": {},
+   "profile_source": "University directory record from Wikidata; verify institution status and programme details on the official website."
+  },
+  {
+   "id": "arthur-kroeger-college-of-public-affairs",
+   "name": "Arthur Kroeger College of Public Affairs",
+   "city": "Ottawa",
+   "website": "http://www1.carleton.ca/akcollege/",
+   "top10": false,
+   "profile": {},
+   "profile_source": "University directory record from Wikidata; verify institution status and programme details on the official website."
+  },
+  {
+   "id": "assumption-university",
+   "name": "Assumption University",
+   "city": "Ontario",
+   "website": "http://www.assumptionu.ca/",
+   "top10": false,
+   "profile": {},
+   "profile_source": "University directory record from Wikidata; verify institution status and programme details on the official website."
+  },
+  {
+   "id": "athabasca-university",
+   "name": "Athabasca University",
+   "city": "Athabasca",
+   "website": "https://www.athabascau.ca",
+   "top10": false,
+   "profile": {},
+   "profile_source": "University directory record from Wikidata; verify institution status and programme details on the official website."
+  },
+  {
+   "id": "bishop-s-university",
+   "name": "Bishop's University",
+   "city": "Lennoxville",
+   "website": "https://www.ubishops.ca/",
+   "top10": false,
+   "profile": {},
+   "profile_source": "University directory record from Wikidata; verify institution status and programme details on the official website."
+  },
+  {
+   "id": "blue-quills-university",
+   "name": "Blue Quills University",
+   "city": "See official website",
+   "website": "https://www.bluequills.ca/",
+   "top10": false,
+   "profile": {},
+   "profile_source": "University directory record from Wikidata; verify institution status and programme details on the official website."
+  },
+  {
+   "id": "booth-university-college",
+   "name": "Booth University College",
+   "city": "Manitoba",
+   "website": "https://boothuc.ca",
+   "top10": false,
+   "profile": {},
+   "profile_source": "University directory record from Wikidata; verify institution status and programme details on the official website."
+  },
+  {
+   "id": "brandon-university",
+   "name": "Brandon University",
+   "city": "Brandon",
+   "website": "https://www.brandonu.ca/",
+   "top10": false,
+   "profile": {},
+   "profile_source": "University directory record from Wikidata; verify institution status and programme details on the official website."
+  },
+  {
+   "id": "brescia-university-college",
+   "name": "Brescia University College",
+   "city": "Ontario",
+   "website": "http://www.brescia.uwo.ca",
+   "top10": false,
+   "profile": {},
+   "profile_source": "University directory record from Wikidata; verify institution status and programme details on the official website."
+  },
+  {
+   "id": "briercrest-college-and-seminary",
+   "name": "Briercrest College and Seminary",
+   "city": "Saskatchewan",
+   "website": "http://www.briercrest.ca",
+   "top10": false,
+   "profile": {},
+   "profile_source": "University directory record from Wikidata; verify institution status and programme details on the official website."
+  },
+  {
+   "id": "british-columbia-institute-of-technology",
+   "name": "British Columbia Institute of Technology",
+   "city": "North Vancouver",
+   "website": "https://www.bcit.ca/",
+   "top10": false,
+   "profile": {},
+   "profile_source": "University directory record from Wikidata; verify institution status and programme details on the official website."
+  },
+  {
+   "id": "brock-university",
+   "name": "Brock University",
+   "city": "St. Catharines",
+   "website": "https://brocku.ca",
+   "top10": false,
+   "profile": {},
+   "profile_source": "University directory record from Wikidata; verify institution status and programme details on the official website."
+  },
+  {
+   "id": "burman-university",
+   "name": "Burman University",
+   "city": "Alberta",
+   "website": "http://www.cauc.ca/",
+   "top10": false,
+   "profile": {},
+   "profile_source": "University directory record from Wikidata; verify institution status and programme details on the official website."
+  },
+  {
+   "id": "chrp",
+   "name": "CHRP",
+   "city": "See official website",
+   "website": "http://www.chrp.ca/",
+   "top10": false,
+   "profile": {},
+   "profile_source": "University directory record from Wikidata; verify institution status and programme details on the official website."
+  },
+  {
+   "id": "canada-christian-college",
+   "name": "Canada Christian College",
+   "city": "Ontario",
+   "website": "http://www.canadachristiancollege.com/",
+   "top10": false,
+   "profile": {},
+   "profile_source": "University directory record from Wikidata; verify institution status and programme details on the official website."
+  },
+  {
+   "id": "canadian-coast-guard-academy",
+   "name": "Canadian Coast Guard Academy",
+   "city": "Cape Breton",
+   "website": "http://www.ccg-gcc.gc.ca/College",
+   "top10": false,
+   "profile": {},
+   "profile_source": "University directory record from Wikidata; verify institution status and programme details on the official website."
+  },
+  {
+   "id": "canadian-payroll-association",
+   "name": "Canadian Payroll Association",
+   "city": "Toronto",
+   "website": "http://www.payroll.ca/",
+   "top10": false,
+   "profile": {},
+   "profile_source": "University directory record from Wikidata; verify institution status and programme details on the official website."
+  },
+  {
+   "id": "canadian-securities-institute",
+   "name": "Canadian Securities Institute",
+   "city": "Toronto",
+   "website": "https://www.csi.ca/",
+   "top10": false,
+   "profile": {},
+   "profile_source": "University directory record from Wikidata; verify institution status and programme details on the official website."
+  },
+  {
+   "id": "canadian-virtual-university",
+   "name": "Canadian Virtual University",
+   "city": "Ottawa",
+   "website": "http://www.cvu-uvc.ca",
+   "top10": false,
+   "profile": {},
+   "profile_source": "University directory record from Wikidata; verify institution status and programme details on the official website."
+  },
+  {
+   "id": "canadore-college",
+   "name": "Canadore College",
+   "city": "North Bay",
+   "website": "https://www.canadorecollege.ca/",
+   "top10": false,
+   "profile": {},
+   "profile_source": "University directory record from Wikidata; verify institution status and programme details on the official website."
+  },
+  {
+   "id": "canterbury-college",
+   "name": "Canterbury College",
+   "city": "See official website",
+   "website": "http://www.uwindsor.ca/canterbury/welcome-to-canterbury-college",
+   "top10": false,
+   "profile": {},
+   "profile_source": "University directory record from Wikidata; verify institution status and programme details on the official website."
+  },
+  {
+   "id": "cape-breton-university",
+   "name": "Cape Breton University",
+   "city": "Sydney",
+   "website": "https://www.cbu.ca/",
+   "top10": false,
+   "profile": {},
+   "profile_source": "University directory record from Wikidata; verify institution status and programme details on the official website."
+  },
+  {
+   "id": "capernwray-harbour-bible-school",
+   "name": "Capernwray Harbour Bible School",
+   "city": "See official website",
+   "website": "http://www.capernwray.ca",
+   "top10": false,
+   "profile": {},
+   "profile_source": "University directory record from Wikidata; verify institution status and programme details on the official website."
+  },
+  {
+   "id": "capilano-university",
+   "name": "Capilano University",
+   "city": "North Vancouver",
+   "website": "https://www.capilanou.ca/",
+   "top10": false,
+   "profile": {},
+   "profile_source": "University directory record from Wikidata; verify institution status and programme details on the official website."
+  },
+  {
+   "id": "carleton-university",
+   "name": "Carleton University",
+   "city": "Capital Ward",
+   "website": "https://carleton.ca/",
+   "top10": false,
+   "profile": {},
+   "profile_source": "University directory record from Wikidata; verify institution status and programme details on the official website."
+  },
+  {
+   "id": "carleton-university-s-school-of-public-policy-and-administration",
+   "name": "Carleton University's School of Public Policy and Administration",
+   "city": "See official website",
+   "website": "https://carleton.ca/sppa/",
+   "top10": false,
+   "profile": {},
+   "profile_source": "University directory record from Wikidata; verify institution status and programme details on the official website."
+  },
+  {
+   "id": "columbia-bible-college",
+   "name": "Columbia Bible College",
+   "city": "British Columbia",
+   "website": "https://columbiabc.edu/",
+   "top10": false,
+   "profile": {},
+   "profile_source": "University directory record from Wikidata; verify institution status and programme details on the official website."
+  },
+  {
+   "id": "columbia-college",
+   "name": "Columbia College",
+   "city": "Vancouver",
+   "website": "https://www.columbiacollege.ca/",
+   "top10": false,
+   "profile": {},
+   "profile_source": "University directory record from Wikidata; verify institution status and programme details on the official website."
+  },
+  {
+   "id": "concordia-university",
+   "name": "Concordia University",
+   "city": "Quebec",
+   "website": "https://www.concordia.ca/",
+   "top10": false,
+   "profile": {},
+   "profile_source": "University directory record from Wikidata; verify institution status and programme details on the official website."
+  },
+  {
+   "id": "concordia-university-of-edmonton",
+   "name": "Concordia University of Edmonton",
+   "city": "Alberta",
+   "website": "https://concordia.ab.ca/",
+   "top10": false,
+   "profile": {},
+   "profile_source": "University directory record from Wikidata; verify institution status and programme details on the official website."
+  },
+  {
+   "id": "crandall-university",
+   "name": "Crandall University",
+   "city": "New Brunswick",
+   "website": "http://www.crandallu.ca/",
+   "top10": false,
+   "profile": {},
+   "profile_source": "University directory record from Wikidata; verify institution status and programme details on the official website."
+  },
+  {
+   "id": "cumberland-college",
+   "name": "Cumberland College",
+   "city": "See official website",
+   "website": "http://www.cumberlandcollege.sk.ca/",
+   "top10": false,
+   "profile": {},
+   "profile_source": "University directory record from Wikidata; verify institution status and programme details on the official website."
+  },
+  {
+   "id": "dalhousie-university",
+   "name": "Dalhousie University",
+   "city": "Halifax",
+   "website": "https://www.dal.ca/",
+   "top10": false,
+   "profile": {},
+   "profile_source": "University directory record from Wikidata; verify institution status and programme details on the official website."
+  },
+  {
+   "id": "dominican-university-college",
+   "name": "Dominican University College",
+   "city": "Ottawa",
+   "website": "http://www.dominicanu.ca",
+   "top10": false,
+   "profile": {},
+   "profile_source": "University directory record from Wikidata; verify institution status and programme details on the official website."
+  },
+  {
+   "id": "douglas-college",
+   "name": "Douglas College",
+   "city": "New Westminster",
+   "website": "https://www.douglascollege.ca/",
+   "top10": false,
+   "profile": {},
+   "profile_source": "University directory record from Wikidata; verify institution status and programme details on the official website."
+  },
+  {
+   "id": "emily-carr-university-of-art-and-design",
+   "name": "Emily Carr University of Art and Design",
+   "city": "Vancouver",
+   "website": "https://www.ecuad.ca",
+   "top10": false,
+   "profile": {},
+   "profile_source": "University directory record from Wikidata; verify institution status and programme details on the official website."
+  },
+  {
+   "id": "emmanuel-bible-college",
+   "name": "Emmanuel Bible College",
+   "city": "Ontario",
+   "website": "https://www.emmanuelbiblecollege.ca/",
+   "top10": false,
+   "profile": {},
+   "profile_source": "University directory record from Wikidata; verify institution status and programme details on the official website."
+  },
+  {
+   "id": "eston-college",
+   "name": "Eston College",
+   "city": "Saskatchewan",
+   "website": "http://www.estoncollege.ca",
+   "top10": false,
+   "profile": {},
+   "profile_source": "University directory record from Wikidata; verify institution status and programme details on the official website."
+  },
+  {
+   "id": "faculte-de-theologie-et-de-sciences-religieuses-de-l-universite-laval",
+   "name": "Faculté de théologie et de sciences religieuses de l'Université Laval",
+   "city": "Cité-Universitaire",
+   "website": "https://www.ftsr.ulaval.ca/",
+   "top10": false,
+   "profile": {},
+   "profile_source": "University directory record from Wikidata; verify institution status and programme details on the official website."
+  },
+  {
+   "id": "fleming-college",
+   "name": "Fleming College",
+   "city": "Peterborough",
+   "website": "http://www.flemingc.on.ca/",
+   "top10": false,
+   "profile": {},
+   "profile_source": "University directory record from Wikidata; verify institution status and programme details on the official website."
+  },
+  {
+   "id": "fox-college-of-business",
+   "name": "Fox College of Business",
+   "city": "Mississauga",
+   "website": "http://www.foxcollege.ca/",
+   "top10": false,
+   "profile": {},
+   "profile_source": "University directory record from Wikidata; verify institution status and programme details on the official website."
+  },
+  {
+   "id": "great-lakes-bible-college",
+   "name": "Great Lakes Bible College",
+   "city": "Waterloo",
+   "website": "http://www.glbc.ca",
+   "top10": false,
+   "profile": {},
+   "profile_source": "University directory record from Wikidata; verify institution status and programme details on the official website."
+  },
+  {
+   "id": "great-northern-concrete-toboggan-race",
+   "name": "Great Northern Concrete Toboggan Race",
+   "city": "See official website",
+   "website": "https://www.gnctr.ca/",
+   "top10": false,
+   "profile": {},
+   "profile_source": "University directory record from Wikidata; verify institution status and programme details on the official website."
+  },
+  {
+   "id": "gulf-islands-film-and-television-school",
+   "name": "Gulf Islands Film and Television School",
+   "city": "See official website",
+   "website": "http://www.giftsfilms.com/",
+   "top10": false,
+   "profile": {},
+   "profile_source": "University directory record from Wikidata; verify institution status and programme details on the official website."
+  },
+  {
+   "id": "hec-montreal",
+   "name": "HEC Montréal",
+   "city": "Quebec",
+   "website": "http://www.hec.ca/en/",
+   "top10": false,
+   "profile": {},
+   "profile_source": "University directory record from Wikidata; verify institution status and programme details on the official website."
+  },
+  {
+   "id": "heritage-baptist-college-and-heritage-theological-seminary",
+   "name": "Heritage Baptist College and Heritage Theological Seminary",
+   "city": "Ontario",
+   "website": "http://www.heritage-theo.edu",
+   "top10": false,
+   "profile": {},
+   "profile_source": "University directory record from Wikidata; verify institution status and programme details on the official website."
+  },
+  {
+   "id": "higher-education-quality-council-of-ontario",
+   "name": "Higher Education Quality Council of Ontario",
+   "city": "Toronto",
+   "website": "http://www.heqco.ca/",
+   "top10": false,
+   "profile": {},
+   "profile_source": "University directory record from Wikidata; verify institution status and programme details on the official website."
+  },
+  {
+   "id": "holland-college",
+   "name": "Holland College",
+   "city": "Charlottetown",
+   "website": "http://www.hollandcollege.com",
+   "top10": false,
+   "profile": {},
+   "profile_source": "University directory record from Wikidata; verify institution status and programme details on the official website."
+  },
+  {
+   "id": "humber-polytechnic",
+   "name": "Humber Polytechnic",
+   "city": "Toronto",
+   "website": "https://www.humber.ca/",
+   "top10": false,
+   "profile": {},
+   "profile_source": "University directory record from Wikidata; verify institution status and programme details on the official website."
+  },
+  {
+   "id": "huntington-university",
+   "name": "Huntington University",
+   "city": "Greater Sudbury",
+   "website": "http://www.huntingtonu.ca/",
+   "top10": false,
+   "profile": {},
+   "profile_source": "University directory record from Wikidata; verify institution status and programme details on the official website."
+  },
+  {
+   "id": "huron-university-college",
+   "name": "Huron University College",
+   "city": "Ontario",
+   "website": "https://huronatwestern.ca/",
+   "top10": false,
+   "profile": {},
+   "profile_source": "University directory record from Wikidata; verify institution status and programme details on the official website."
+  },
+  {
+   "id": "institut-biblique-vie",
+   "name": "Institut Biblique VIE",
+   "city": "Montreal",
+   "website": "http://www.etem.ca/",
+   "top10": false,
+   "profile": {},
+   "profile_source": "University directory record from Wikidata; verify institution status and programme details on the official website."
+  },
+  {
+   "id": "institute-of-criminology-and-criminal-justice",
+   "name": "Institute of Criminology and Criminal Justice",
+   "city": "Ottawa",
+   "website": "http://www.carleton.ca/criminology/index.htm",
+   "top10": false,
+   "profile": {},
+   "profile_source": "University directory record from Wikidata; verify institution status and programme details on the official website."
+  },
+  {
+   "id": "institute-of-indigenous-government",
+   "name": "Institute of Indigenous Government",
+   "city": "Burnaby",
+   "website": "http://www.all-nations.ca",
+   "top10": false,
+   "profile": {},
+   "profile_source": "University directory record from Wikidata; verify institution status and programme details on the official website."
+  },
+  {
+   "id": "institute-of-theological-formation-of-montreal",
+   "name": "Institute of Theological Formation of Montreal",
+   "city": "Quebec",
+   "website": "https://ifti.ca/",
+   "top10": false,
+   "profile": {},
+   "profile_source": "University directory record from Wikidata; verify institution status and programme details on the official website."
+  },
+  {
+   "id": "iohahi-io-akwesasne-education-training-institute",
+   "name": "Iohahi:io Akwesasne Education & Training Institute",
+   "city": "See official website",
+   "website": "http://www.akwesasne.ca/",
+   "top10": false,
+   "profile": {},
+   "profile_source": "University directory record from Wikidata; verify institution status and programme details on the official website."
+  },
+  {
+   "id": "iona-college",
+   "name": "Iona College",
+   "city": "See official website",
+   "website": "http://web4.uwindsor.ca/units/ionacollege/mainv2.nsf/inToc/2FF64362F774BC1985256FF2005A8103",
+   "top10": false,
+   "profile": {},
+   "profile_source": "University directory record from Wikidata; verify institution status and programme details on the official website."
+  },
+  {
+   "id": "justice-institute-of-british-columbia",
+   "name": "Justice Institute of British Columbia",
+   "city": "Pitt Meadows",
+   "website": "https://www.jibc.ca/",
+   "top10": false,
+   "profile": {},
+   "profile_source": "University directory record from Wikidata; verify institution status and programme details on the official website."
+  },
+  {
+   "id": "kawartha-lakes-bible-college",
+   "name": "Kawartha Lakes Bible College",
+   "city": "Peterborough",
+   "website": "http://www.klbc.ca",
+   "top10": false,
+   "profile": {},
+   "profile_source": "University directory record from Wikidata; verify institution status and programme details on the official website."
+  },
+  {
+   "id": "kenjgewin-teg-educational-institute",
+   "name": "Kenjgewin Teg Educational Institute",
+   "city": "See official website",
+   "website": "http://www.ktei.net/",
+   "top10": false,
+   "profile": {},
+   "profile_source": "University directory record from Wikidata; verify institution status and programme details on the official website."
+  },
+  {
+   "id": "king-s-university-college",
+   "name": "King's University College",
+   "city": "Ontario",
+   "website": "https://www.kings.uwo.ca/",
+   "top10": false,
+   "profile": {},
+   "profile_source": "University directory record from Wikidata; verify institution status and programme details on the official website."
+  },
+  {
+   "id": "kingswood-university",
+   "name": "Kingswood University",
+   "city": "New Brunswick",
+   "website": "http://kingswood.edu",
+   "top10": false,
+   "profile": {},
+   "profile_source": "University directory record from Wikidata; verify institution status and programme details on the official website."
+  },
+  {
+   "id": "kwantlen-polytechnic-university",
+   "name": "Kwantlen Polytechnic University",
+   "city": "Langley",
+   "website": "https://www.kpu.ca/",
+   "top10": false,
+   "profile": {},
+   "profile_source": "University directory record from Wikidata; verify institution status and programme details on the official website."
+  },
+  {
+   "id": "lakehead-university",
+   "name": "Lakehead University",
+   "city": "Thunder Bay",
+   "website": "http://www.lakeheadu.ca/",
+   "top10": false,
+   "profile": {},
+   "profile_source": "University directory record from Wikidata; verify institution status and programme details on the official website."
+  },
+  {
+   "id": "lambton-college",
+   "name": "Lambton College",
+   "city": "Sarnia",
+   "website": "https://www.lambtoncollege.ca/",
+   "top10": false,
+   "profile": {},
+   "profile_source": "University directory record from Wikidata; verify institution status and programme details on the official website."
+  },
+  {
+   "id": "lansbridge-university",
+   "name": "Lansbridge University",
+   "city": "See official website",
+   "website": "http://www.lansbridge.edu",
+   "top10": false,
+   "profile": {},
+   "profile_source": "University directory record from Wikidata; verify institution status and programme details on the official website."
+  },
+  {
+   "id": "laurentian-university",
+   "name": "Laurentian University",
+   "city": "Ontario",
+   "website": "https://laurentian.ca/",
+   "top10": false,
+   "profile": {},
+   "profile_source": "University directory record from Wikidata; verify institution status and programme details on the official website."
+  },
+  {
+   "id": "laval-university",
+   "name": "Laval University",
+   "city": "Cité-Universitaire",
+   "website": "https://www.ulaval.ca/",
+   "top10": false,
+   "profile": {},
+   "profile_source": "University directory record from Wikidata; verify institution status and programme details on the official website."
+  },
+  {
+   "id": "le-petit-seminaire-de-quebec-campus-de-l-outaouais",
+   "name": "Le Petit Séminaire de Québec, campus de l'Outaouais",
+   "city": "Gatineau",
+   "website": "http://www.psqco.qc.ca/",
+   "top10": false,
+   "profile": {},
+   "profile_source": "University directory record from Wikidata; verify institution status and programme details on the official website."
+  },
+  {
+   "id": "lethbridge-polytechnic",
+   "name": "Lethbridge Polytechnic",
+   "city": "Lethbridge",
+   "website": "http://www.lethbridgecollege.ca/",
+   "top10": false,
+   "profile": {},
+   "profile_source": "University directory record from Wikidata; verify institution status and programme details on the official website."
+  },
+  {
+   "id": "liu-institute-for-global-issues",
+   "name": "Liu Institute for Global Issues",
+   "city": "Vancouver",
+   "website": "http://liu.arts.ubc.ca/",
+   "top10": false,
+   "profile": {},
+   "profile_source": "University directory record from Wikidata; verify institution status and programme details on the official website."
+  },
+  {
+   "id": "macewan-university",
+   "name": "MacEwan University",
+   "city": "Edmonton",
+   "website": "https://www.macewan.ca/",
+   "top10": false,
+   "profile": {},
+   "profile_source": "University directory record from Wikidata; verify institution status and programme details on the official website."
+  },
+  {
+   "id": "major-seminary-of-montreal",
+   "name": "Major Seminary of Montreal",
+   "city": "Montreal",
+   "website": "http://www.gsdm.qc.ca",
+   "top10": false,
+   "profile": {},
+   "profile_source": "University directory record from Wikidata; verify institution status and programme details on the official website."
+  },
+  {
+   "id": "maritime-christian-college",
+   "name": "Maritime Christian College",
+   "city": "Charlottetown",
+   "website": "http://www.mccpei.com",
+   "top10": false,
+   "profile": {},
+   "profile_source": "University directory record from Wikidata; verify institution status and programme details on the official website."
+  },
+  {
+   "id": "maritime-college-of-forest-technology",
+   "name": "Maritime College of Forest Technology",
+   "city": "See official website",
+   "website": "http://www.mcft.ca",
+   "top10": false,
+   "profile": {},
+   "profile_source": "University directory record from Wikidata; verify institution status and programme details on the official website."
+  },
+  {
+   "id": "mcgill-university",
+   "name": "McGill University",
+   "city": "Montreal",
+   "website": "https://www.mcgill.ca/",
+   "top10": false,
+   "profile": {},
+   "profile_source": "University directory record from Wikidata; verify institution status and programme details on the official website."
+  },
+  {
+   "id": "mckenzie-college",
+   "name": "McKenzie College",
+   "city": "Sydney",
+   "website": "http://www.mckenziecollege.com/",
+   "top10": false,
+   "profile": {},
+   "profile_source": "University directory record from Wikidata; verify institution status and programme details on the official website."
+  },
+  {
+   "id": "mcmaster-integrated-science",
+   "name": "McMaster Integrated Science",
+   "city": "Hamilton",
+   "website": "http://www.science.mcmaster.ca/isci/",
+   "top10": false,
+   "profile": {},
+   "profile_source": "University directory record from Wikidata; verify institution status and programme details on the official website."
+  },
+  {
+   "id": "mcmaster-school-of-nursing",
+   "name": "McMaster School of Nursing",
+   "city": "Hamilton",
+   "website": "http://fhs.mcmaster.ca/nursing/",
+   "top10": false,
+   "profile": {},
+   "profile_source": "University directory record from Wikidata; verify institution status and programme details on the official website."
+  },
+  {
+   "id": "mcmaster-university",
+   "name": "McMaster University",
+   "city": "Hamilton",
+   "website": "https://www.mcmaster.ca/",
+   "top10": false,
+   "profile": {},
+   "profile_source": "University directory record from Wikidata; verify institution status and programme details on the official website."
+  },
+  {
+   "id": "medix-school",
+   "name": "Medix School",
+   "city": "See official website",
+   "website": "http://www.medixcollege.ca",
+   "top10": false,
+   "profile": {},
+   "profile_source": "University directory record from Wikidata; verify institution status and programme details on the official website."
+  },
+  {
+   "id": "memorial-university-of-newfoundland",
+   "name": "Memorial University of Newfoundland",
+   "city": "St. John's",
+   "website": "http://www.mun.ca/",
+   "top10": false,
+   "profile": {},
+   "profile_source": "University directory record from Wikidata; verify institution status and programme details on the official website."
+  },
+  {
+   "id": "meritus-university",
+   "name": "Meritus University",
+   "city": "See official website",
+   "website": "http://www.meritusu.ca",
+   "top10": false,
+   "profile": {},
+   "profile_source": "University directory record from Wikidata; verify institution status and programme details on the official website."
+  },
+  {
+   "id": "metalworks-institute",
+   "name": "Metalworks Institute",
+   "city": "Mississauga",
+   "website": "http://metalworksinstitute.com",
+   "top10": false,
+   "profile": {},
+   "profile_source": "University directory record from Wikidata; verify institution status and programme details on the official website."
+  },
+  {
+   "id": "millar-college-of-the-bible",
+   "name": "Millar College of the Bible",
+   "city": "Saskatchewan",
+   "website": "http://www.millarcollege.ca/",
+   "top10": false,
+   "profile": {},
+   "profile_source": "University directory record from Wikidata; verify institution status and programme details on the official website."
+  },
+  {
+   "id": "mount-allison-university",
+   "name": "Mount Allison University",
+   "city": "New Brunswick",
+   "website": "https://mta.ca/",
+   "top10": false,
+   "profile": {},
+   "profile_source": "University directory record from Wikidata; verify institution status and programme details on the official website."
+  },
+  {
+   "id": "mount-royal-university",
+   "name": "Mount Royal University",
+   "city": "Alberta",
+   "website": "http://www.mtroyal.ca/",
+   "top10": false,
+   "profile": {},
+   "profile_source": "University directory record from Wikidata; verify institution status and programme details on the official website."
+  },
+  {
+   "id": "mount-saint-vincent-university",
+   "name": "Mount Saint Vincent University",
+   "city": "See official website",
+   "website": "http://www.msvu.ca/",
+   "top10": false,
+   "profile": {},
+   "profile_source": "University directory record from Wikidata; verify institution status and programme details on the official website."
+  },
+  {
+   "id": "national-institute-of-scientific-research",
+   "name": "National Institute of Scientific Research",
+   "city": "Quebec City",
+   "website": "https://inrs.ca/",
+   "top10": false,
+   "profile": {},
+   "profile_source": "University directory record from Wikidata; verify institution status and programme details on the official website."
+  },
+  {
+   "id": "network-in-canadian-history-and-environment",
+   "name": "Network in Canadian History and Environment",
+   "city": "See official website",
+   "website": "http://niche-canada.org",
+   "top10": false,
+   "profile": {},
+   "profile_source": "University directory record from Wikidata; verify institution status and programme details on the official website."
+  },
+  {
+   "id": "new-brunswick-college-of-craft-and-design",
+   "name": "New Brunswick College of Craft and Design",
+   "city": "See official website",
+   "website": "http://www.nbccd.ca/",
+   "top10": false,
+   "profile": {},
+   "profile_source": "University directory record from Wikidata; verify institution status and programme details on the official website."
+  },
+  {
+   "id": "new-brunswick-community-college",
+   "name": "New Brunswick Community College",
+   "city": "Miramichi",
+   "website": "http://www.nbcc.ca/",
+   "top10": false,
+   "profile": {},
+   "profile_source": "University directory record from Wikidata; verify institution status and programme details on the official website."
+  },
+  {
+   "id": "niagara-college-teaching-winery",
+   "name": "Niagara College Teaching Winery",
+   "city": "Regional Municipality of Niagara",
+   "website": "http://www.nctwinery.ca",
+   "top10": false,
+   "profile": {},
+   "profile_source": "University directory record from Wikidata; verify institution status and programme details on the official website."
+  },
+  {
+   "id": "nicola-valley-institute-of-technology",
+   "name": "Nicola Valley Institute of Technology",
+   "city": "Merritt",
+   "website": "https://nvit.ca",
+   "top10": false,
+   "profile": {},
+   "profile_source": "University directory record from Wikidata; verify institution status and programme details on the official website."
+  },
+  {
+   "id": "nipawin-bible-college",
+   "name": "Nipawin Bible College",
+   "city": "Saskatchewan",
+   "website": "http://www.nipawin.org/",
+   "top10": false,
+   "profile": {},
+   "profile_source": "University directory record from Wikidata; verify institution status and programme details on the official website."
+  },
+  {
+   "id": "nipissing-university",
+   "name": "Nipissing University",
+   "city": "North Bay",
+   "website": "http://www.nipissingu.ca/",
+   "top10": false,
+   "profile": {},
+   "profile_source": "University directory record from Wikidata; verify institution status and programme details on the official website."
+  },
+  {
+   "id": "north-island-college",
+   "name": "North Island College",
+   "city": "Campbell River",
+   "website": "https://www.nic.bc.ca/",
+   "top10": false,
+   "profile": {},
+   "profile_source": "University directory record from Wikidata; verify institution status and programme details on the official website."
+  },
+  {
+   "id": "north-west-regional-college",
+   "name": "North West Regional College",
+   "city": "See official website",
+   "website": "http://www.northwestcollege.ca/",
+   "top10": false,
+   "profile": {},
+   "profile_source": "University directory record from Wikidata; verify institution status and programme details on the official website."
+  },
+  {
+   "id": "northeastern-university-toronto",
+   "name": "Northeastern University Toronto",
+   "city": "Toronto",
+   "website": "https://toronto.northeastern.edu/",
+   "top10": false,
+   "profile": {},
+   "profile_source": "University directory record from Wikidata; verify institution status and programme details on the official website."
+  },
+  {
+   "id": "northern-alberta-institute-of-technology",
+   "name": "Northern Alberta Institute of Technology",
+   "city": "Alberta",
+   "website": "http://www.nait.ca/",
+   "top10": false,
+   "profile": {},
+   "profile_source": "University directory record from Wikidata; verify institution status and programme details on the official website."
+  },
+  {
+   "id": "northern-college",
+   "name": "Northern College",
+   "city": "Timmins",
+   "website": "http://www.northernc.on.ca",
+   "top10": false,
+   "profile": {},
+   "profile_source": "University directory record from Wikidata; verify institution status and programme details on the official website."
+  },
+  {
+   "id": "northern-lights-college",
+   "name": "Northern Lights College",
+   "city": "Northern Rockies Regional Municipality",
+   "website": "https://www.nlc.bc.ca/",
+   "top10": false,
+   "profile": {},
+   "profile_source": "University directory record from Wikidata; verify institution status and programme details on the official website."
+  },
+  {
+   "id": "northlands-college",
+   "name": "Northlands College",
+   "city": "La Ronge",
+   "website": "http://trainnorth.ca/",
+   "top10": false,
+   "profile": {},
+   "profile_source": "University directory record from Wikidata; verify institution status and programme details on the official website."
+  },
+  {
+   "id": "ocad-university",
+   "name": "OCAD University",
+   "city": "Toronto",
+   "website": "http://www.ocadu.ca",
+   "top10": false,
+   "profile": {},
+   "profile_source": "University directory record from Wikidata; verify institution status and programme details on the official website."
+  },
+  {
+   "id": "okanagan-university-college",
+   "name": "Okanagan University College",
+   "city": "Kelowna",
+   "website": "http://www.ouc.bc.ca/",
+   "top10": false,
+   "profile": {},
+   "profile_source": "University directory record from Wikidata; verify institution status and programme details on the official website."
+  },
+  {
+   "id": "ontario-police-college",
+   "name": "Ontario Police College",
+   "city": "Malahide",
+   "website": "http://www.opconline.ca/",
+   "top10": false,
+   "profile": {},
+   "profile_source": "University directory record from Wikidata; verify institution status and programme details on the official website."
+  },
+  {
+   "id": "ontario-tech-university",
+   "name": "Ontario Tech University",
+   "city": "Ontario",
+   "website": "https://ontariotechu.ca/",
+   "top10": false,
+   "profile": {},
+   "profile_source": "University directory record from Wikidata; verify institution status and programme details on the official website."
+  },
+  {
+   "id": "ontario-universities-application-centre",
+   "name": "Ontario Universities' Application Centre",
+   "city": "Guelph",
+   "website": "https://www.ouac.on.ca/",
+   "top10": false,
+   "profile": {},
+   "profile_source": "University directory record from Wikidata; verify institution status and programme details on the official website."
+  },
+  {
+   "id": "ontario-veterinary-college",
+   "name": "Ontario Veterinary College",
+   "city": "Guelph",
+   "website": "https://www.uoguelph.ca/ovc",
+   "top10": false,
+   "profile": {},
+   "profile_source": "University directory record from Wikidata; verify institution status and programme details on the official website."
+  },
+  {
+   "id": "our-lady-seat-of-wisdom-academy",
+   "name": "Our Lady Seat of Wisdom Academy",
+   "city": "See official website",
+   "website": "http://www.seatofwisdom.org/",
+   "top10": false,
+   "profile": {},
+   "profile_source": "University directory record from Wikidata; verify institution status and programme details on the official website."
+  },
+  {
+   "id": "pacific-life-bible-college",
+   "name": "Pacific Life Bible College",
+   "city": "Surrey",
+   "website": "http://pacificlife.edu/",
+   "top10": false,
+   "profile": {},
+   "profile_source": "University directory record from Wikidata; verify institution status and programme details on the official website."
+  },
+  {
+   "id": "peace-river-bible-institute",
+   "name": "Peace River Bible Institute",
+   "city": "Sexsmith",
+   "website": "http://www.prbi.edu",
+   "top10": false,
+   "profile": {},
+   "profile_source": "University directory record from Wikidata; verify institution status and programme details on the official website."
+  },
+  {
+   "id": "pearson-peacekeeping-centre",
+   "name": "Pearson Peacekeeping Centre",
+   "city": "Ottawa",
+   "website": "http://www.pearsoncentre.org",
+   "top10": false,
+   "profile": {},
+   "profile_source": "University directory record from Wikidata; verify institution status and programme details on the official website."
+  },
+  {
+   "id": "polytechnic-school-of-montreal",
+   "name": "Polytechnic School of Montreal",
+   "city": "Montreal",
+   "website": "https://www.polymtl.ca/",
+   "top10": false,
+   "profile": {},
+   "profile_source": "University directory record from Wikidata; verify institution status and programme details on the official website."
+  },
+  {
+   "id": "pontifical-institute-of-mediaeval-studies",
+   "name": "Pontifical Institute of Mediaeval Studies",
+   "city": "Toronto",
+   "website": "http://pims.ca",
+   "top10": false,
+   "profile": {},
+   "profile_source": "University directory record from Wikidata; verify institution status and programme details on the official website."
+  },
+  {
+   "id": "population-research-laboratory",
+   "name": "Population Research Laboratory",
+   "city": "Edmonton",
+   "website": "http://www.ualberta.ca/",
+   "top10": false,
+   "profile": {},
+   "profile_source": "University directory record from Wikidata; verify institution status and programme details on the official website."
+  },
+  {
+   "id": "prairie-college",
+   "name": "Prairie College",
+   "city": "Three Hills",
+   "website": "http://www.prairie.edu/",
+   "top10": false,
+   "profile": {},
+   "profile_source": "University directory record from Wikidata; verify institution status and programme details on the official website."
+  },
+  {
+   "id": "programs-for-50-tmu",
+   "name": "Programs for 50+TMU",
+   "city": "See official website",
+   "website": "https://continuing.torontomu.ca/",
+   "top10": false,
+   "profile": {},
+   "profile_source": "University directory record from Wikidata; verify institution status and programme details on the official website."
+  },
+  {
+   "id": "providence-university-college-and-theological-seminary",
+   "name": "Providence University College and Theological Seminary",
+   "city": "Manitoba",
+   "website": "http://www.providenceuc.ca",
+   "top10": false,
+   "profile": {},
+   "profile_source": "University directory record from Wikidata; verify institution status and programme details on the official website."
+  },
+  {
+   "id": "queen-s-university",
+   "name": "Queen's University",
+   "city": "Kingston",
+   "website": "https://queensu.ca/",
+   "top10": false,
+   "profile": {},
+   "profile_source": "University directory record from Wikidata; verify institution status and programme details on the official website."
+  },
+  {
+   "id": "quest-university",
+   "name": "Quest University",
+   "city": "Vancouver",
+   "website": "http://www.questu.ca/",
+   "top10": false,
+   "profile": {},
+   "profile_source": "University directory record from Wikidata; verify institution status and programme details on the official website."
+  },
+  {
+   "id": "red-river-college-polytechnic",
+   "name": "Red River College Polytechnic",
+   "city": "Winnipeg",
+   "website": "https://www.rrc.ca/",
+   "top10": false,
+   "profile": {},
+   "profile_source": "University directory record from Wikidata; verify institution status and programme details on the official website."
+  },
+  {
+   "id": "redeemer-university",
+   "name": "Redeemer University",
+   "city": "Hamilton",
+   "website": "http://www.redeemer.ca/",
+   "top10": false,
+   "profile": {},
+   "profile_source": "University directory record from Wikidata; verify institution status and programme details on the official website."
+  },
+  {
+   "id": "renison-university-college",
+   "name": "Renison University College",
+   "city": "Waterloo",
+   "website": "http://www.uwaterloo.ca/renison",
+   "top10": false,
+   "profile": {},
+   "profile_source": "University directory record from Wikidata; verify institution status and programme details on the official website."
+  },
+  {
+   "id": "robert-land-academy",
+   "name": "Robert Land Academy",
+   "city": "Ontario",
+   "website": "http://www.robertlandacademy.com",
+   "top10": false,
+   "profile": {},
+   "profile_source": "University directory record from Wikidata; verify institution status and programme details on the official website."
+  },
+  {
+   "id": "rocky-mountain-college-calgary",
+   "name": "Rocky Mountain College, Calgary",
+   "city": "Calgary",
+   "website": "https://www.rockymountaincollege.ca/",
+   "top10": false,
+   "profile": {},
+   "profile_source": "University directory record from Wikidata; verify institution status and programme details on the official website."
+  },
+  {
+   "id": "royal-military-college-of-canada",
+   "name": "Royal Military College of Canada",
+   "city": "Kingston",
+   "website": "https://www.rmc-cmr.ca/en",
+   "top10": false,
+   "profile": {},
+   "profile_source": "University directory record from Wikidata; verify institution status and programme details on the official website."
+  },
+  {
+   "id": "royal-roads-military-college",
+   "name": "Royal Roads Military College",
+   "city": "Colwood",
+   "website": "http://www.rmc.ca/other/museum/index_e.html",
+   "top10": false,
+   "profile": {},
+   "profile_source": "University directory record from Wikidata; verify institution status and programme details on the official website."
+  },
+  {
+   "id": "royal-roads-university",
+   "name": "Royal Roads University",
+   "city": "Colwood",
+   "website": "https://www.royalroads.ca/",
+   "top10": false,
+   "profile": {},
+   "profile_source": "University directory record from Wikidata; verify institution status and programme details on the official website."
+  },
+  {
+   "id": "saint-mary-s-university",
+   "name": "Saint Mary's University",
+   "city": "Nova Scotia",
+   "website": "https://www.smu.ca/",
+   "top10": false,
+   "profile": {},
+   "profile_source": "University directory record from Wikidata; verify institution status and programme details on the official website."
+  },
+  {
+   "id": "saint-paul-university",
+   "name": "Saint Paul University",
+   "city": "Ontario",
+   "website": "http://www.ustpaul.ca/",
+   "top10": false,
+   "profile": {},
+   "profile_source": "University directory record from Wikidata; verify institution status and programme details on the official website."
+  },
+  {
+   "id": "saskatchewan-indian-institute-of-technologies",
+   "name": "Saskatchewan Indian Institute of Technologies",
+   "city": "Saskatoon",
+   "website": "http://www.siit.ca/",
+   "top10": false,
+   "profile": {},
+   "profile_source": "University directory record from Wikidata; verify institution status and programme details on the official website."
+  },
+  {
+   "id": "saskatchewan-polytechnic",
+   "name": "Saskatchewan Polytechnic",
+   "city": "Saskatoon",
+   "website": "http://www.saskpolytech.ca/",
+   "top10": false,
+   "profile": {},
+   "profile_source": "University directory record from Wikidata; verify institution status and programme details on the official website."
+  },
+  {
+   "id": "selkirk-college",
+   "name": "Selkirk College",
+   "city": "Nakusp",
+   "website": "https://www.selkirk.ca/",
+   "top10": false,
+   "profile": {},
+   "profile_source": "University directory record from Wikidata; verify institution status and programme details on the official website."
+  },
+  {
+   "id": "seneca-polytechnic",
+   "name": "Seneca Polytechnic",
+   "city": "Toronto",
+   "website": "https://www.senecapolytechnic.ca/",
+   "top10": false,
+   "profile": {},
+   "profile_source": "University directory record from Wikidata; verify institution status and programme details on the official website."
+  },
+  {
+   "id": "seven-generations-education-institute",
+   "name": "Seven Generations Education Institute",
+   "city": "See official website",
+   "website": "http://www.7generations.org/",
+   "top10": false,
+   "profile": {},
+   "profile_source": "University directory record from Wikidata; verify institution status and programme details on the official website."
+  },
+  {
+   "id": "shingwauk-kinoomaage-gamig",
+   "name": "Shingwauk Kinoomaage Gamig",
+   "city": "Sault Ste. Marie",
+   "website": "http://www.shingwauku.com/",
+   "top10": false,
+   "profile": {},
+   "profile_source": "University directory record from Wikidata; verify institution status and programme details on the official website."
+  },
+  {
+   "id": "simon-fraser-university",
+   "name": "Simon Fraser University",
+   "city": "Burnaby",
+   "website": "https://www.sfu.ca/",
+   "top10": false,
+   "profile": {},
+   "profile_source": "University directory record from Wikidata; verify institution status and programme details on the official website."
+  },
+  {
+   "id": "six-nations-polytechnic",
+   "name": "Six Nations Polytechnic",
+   "city": "Six Nations of the Grand River 40",
+   "website": "http://www.snpolytechnic.com/",
+   "top10": false,
+   "profile": {},
+   "profile_source": "University directory record from Wikidata; verify institution status and programme details on the official website."
+  },
+  {
+   "id": "southeast-college",
+   "name": "Southeast College",
+   "city": "See official website",
+   "website": "http://www.southeastcollege.org",
+   "top10": false,
+   "profile": {},
+   "profile_source": "University directory record from Wikidata; verify institution status and programme details on the official website."
+  },
+  {
+   "id": "southern-alberta-institute-of-technology",
+   "name": "Southern Alberta Institute of Technology",
+   "city": "Alberta",
+   "website": "http://www.sait.ca",
+   "top10": false,
+   "profile": {},
+   "profile_source": "University directory record from Wikidata; verify institution status and programme details on the official website."
+  },
+  {
+   "id": "sprott-shaw-college",
+   "name": "Sprott Shaw College",
+   "city": "See official website",
+   "website": "https://sprottshaw.com/",
+   "top10": false,
+   "profile": {},
+   "profile_source": "University directory record from Wikidata; verify institution status and programme details on the official website."
+  },
+  {
+   "id": "st-augustine-s-seminary",
+   "name": "St. Augustine's Seminary",
+   "city": "Toronto",
+   "website": "http://www.staugustines.on.ca",
+   "top10": false,
+   "profile": {},
+   "profile_source": "University directory record from Wikidata; verify institution status and programme details on the official website."
+  },
+  {
+   "id": "st-francis-xavier-university",
+   "name": "St. Francis Xavier University",
+   "city": "Antigonish",
+   "website": "http://www.stfx.ca/",
+   "top10": false,
+   "profile": {},
+   "profile_source": "University directory record from Wikidata; verify institution status and programme details on the official website."
+  },
+  {
+   "id": "st-jerome-s-university",
+   "name": "St. Jerome's University",
+   "city": "Waterloo",
+   "website": "http://www.sju.ca/",
+   "top10": false,
+   "profile": {},
+   "profile_source": "University directory record from Wikidata; verify institution status and programme details on the official website."
+  },
+  {
+   "id": "st-john-s-college-manitoba",
+   "name": "St. John's College, Manitoba",
+   "city": "Winnipeg",
+   "website": "http://www.umanitoba.ca/colleges/st_johns/anglican/index.html",
+   "top10": false,
+   "profile": {},
+   "profile_source": "University directory record from Wikidata; verify institution status and programme details on the official website."
+  },
+  {
+   "id": "st-lawrence-college",
+   "name": "St. Lawrence College",
+   "city": "Kingston",
+   "website": "http://www.stlawrencecollege.ca/",
+   "top10": false,
+   "profile": {},
+   "profile_source": "University directory record from Wikidata; verify institution status and programme details on the official website."
+  },
+  {
+   "id": "st-mark-s-college-vancouver",
+   "name": "St. Mark's College, Vancouver",
+   "city": "Vancouver",
+   "website": "http://stmarkscollege.ca/",
+   "top10": false,
+   "profile": {},
+   "profile_source": "University directory record from Wikidata; verify institution status and programme details on the official website."
+  },
+  {
+   "id": "st-mary-s-university",
+   "name": "St. Mary's University",
+   "city": "Calgary",
+   "website": "http://www.stmu.ca",
+   "top10": false,
+   "profile": {},
+   "profile_source": "University directory record from Wikidata; verify institution status and programme details on the official website."
+  },
+  {
+   "id": "st-phillips-seminary",
+   "name": "St. Phillips Seminary",
+   "city": "Toronto",
+   "website": "http://oratory-toronto.org",
+   "top10": false,
+   "profile": {},
+   "profile_source": "University directory record from Wikidata; verify institution status and programme details on the official website."
+  },
+  {
+   "id": "st-stephen-s-university",
+   "name": "St. Stephen's University",
+   "city": "St. Stephen",
+   "website": "http://www.ssu.ca",
+   "top10": false,
+   "profile": {},
+   "profile_source": "University directory record from Wikidata; verify institution status and programme details on the official website."
+  },
+  {
+   "id": "st-thomas-university",
+   "name": "St. Thomas University",
+   "city": "New Brunswick",
+   "website": "https://stu.ca/",
+   "top10": false,
+   "profile": {},
+   "profile_source": "University directory record from Wikidata; verify institution status and programme details on the official website."
+  },
+  {
+   "id": "steinbach-bible-college",
+   "name": "Steinbach Bible College",
+   "city": "Manitoba",
+   "website": "http://sbcollege.ca",
+   "top10": false,
+   "profile": {},
+   "profile_source": "University directory record from Wikidata; verify institution status and programme details on the official website."
+  },
+  {
+   "id": "summit-pacific-college",
+   "name": "Summit Pacific College",
+   "city": "Abbotsford",
+   "website": "https://www.summitpacific.ca/",
+   "top10": false,
+   "profile": {},
+   "profile_source": "University directory record from Wikidata; verify institution status and programme details on the official website."
+  },
+  {
+   "id": "seminaire-de-quebec",
+   "name": "Séminaire de Québec",
+   "city": "La Cité-Limoilou",
+   "website": "https://www.seminairedequebec.org/",
+   "top10": false,
+   "profile": {},
+   "profile_source": "University directory record from Wikidata; verify institution status and programme details on the official website."
+  },
+  {
+   "id": "king-s-university",
+   "name": "The King's University",
+   "city": "Alberta",
+   "website": "http://www.kingsu.ca/",
+   "top10": false,
+   "profile": {},
+   "profile_source": "University directory record from Wikidata; verify institution status and programme details on the official website."
+  },
+  {
+   "id": "thompson-rivers-university",
+   "name": "Thompson Rivers University",
+   "city": "Williams Lake",
+   "website": "https://www.tru.ca/",
+   "top10": false,
+   "profile": {},
+   "profile_source": "University directory record from Wikidata; verify institution status and programme details on the official website."
+  },
+  {
+   "id": "thompson-rivers-university-faculty-of-law",
+   "name": "Thompson Rivers University Faculty of Law",
+   "city": "Kamloops",
+   "website": "https://www.tru.ca/law.html",
+   "top10": false,
+   "profile": {},
+   "profile_source": "University directory record from Wikidata; verify institution status and programme details on the official website."
+  },
+  {
+   "id": "thompson-rivers-university-open-learning",
+   "name": "Thompson Rivers University, Open Learning",
+   "city": "Kamloops",
+   "website": "https://www.tru.ca/distance/",
+   "top10": false,
+   "profile": {},
+   "profile_source": "University directory record from Wikidata; verify institution status and programme details on the official website."
+  },
+  {
+   "id": "thorneloe-university",
+   "name": "Thorneloe University",
+   "city": "Ontario",
+   "website": "http://www.thorneloe.ca/",
+   "top10": false,
+   "profile": {},
+   "profile_source": "University directory record from Wikidata; verify institution status and programme details on the official website."
+  },
+  {
+   "id": "toronto-metropolitan-university",
+   "name": "Toronto Metropolitan University",
+   "city": "Toronto",
+   "website": "https://www.torontomu.ca/",
+   "top10": false,
+   "profile": {},
+   "profile_source": "University directory record from Wikidata; verify institution status and programme details on the official website."
+  },
+  {
+   "id": "trent-university",
+   "name": "Trent University",
+   "city": "Peterborough",
+   "website": "https://trentu.ca",
+   "top10": false,
+   "profile": {},
+   "profile_source": "University directory record from Wikidata; verify institution status and programme details on the official website."
+  },
+  {
+   "id": "trinity-college",
+   "name": "Trinity College",
+   "city": "Toronto",
+   "website": "https://www.trinity.utoronto.ca/",
+   "top10": false,
+   "profile": {},
+   "profile_source": "University directory record from Wikidata; verify institution status and programme details on the official website."
+  },
+  {
+   "id": "trinity-western-university",
+   "name": "Trinity Western University",
+   "city": "Langley",
+   "website": "https://www.twu.ca",
+   "top10": false,
+   "profile": {},
+   "profile_source": "University directory record from Wikidata; verify institution status and programme details on the official website."
+  },
+  {
+   "id": "united-college-waterloo",
+   "name": "United College, Waterloo",
+   "city": "Waterloo",
+   "website": "https://uwaterloo.ca/united-college",
+   "top10": false,
+   "profile": {},
+   "profile_source": "University directory record from Wikidata; verify institution status and programme details on the official website."
+  },
+  {
+   "id": "university-canada-west",
+   "name": "University Canada West",
+   "city": "Vancouver",
+   "website": "https://www.ucanwest.ca/",
+   "top10": false,
+   "profile": {},
+   "profile_source": "University directory record from Wikidata; verify institution status and programme details on the official website."
+  },
+  {
+   "id": "university-college-of-the-north",
+   "name": "University College of the North",
+   "city": "The Pas",
+   "website": "http://www.ucn.ca/",
+   "top10": false,
+   "profile": {},
+   "profile_source": "University directory record from Wikidata; verify institution status and programme details on the official website."
+  },
+  {
+   "id": "university-nuhelot-ine-thaiyots-i-nistameyimakanak-blue-quills",
+   "name": "University nuhelotʼįne thaiyotsʼį nistameyimâkanak Blue Quills",
+   "city": "Alberta",
+   "website": "http://www.bluequills.ca/",
+   "top10": false,
+   "profile": {},
+   "profile_source": "University directory record from Wikidata; verify institution status and programme details on the official website."
+  },
+  {
+   "id": "university-of-alberta",
+   "name": "University of Alberta",
+   "city": "Edmonton",
+   "website": "https://www.ualberta.ca",
+   "top10": false,
+   "profile": {},
+   "profile_source": "University directory record from Wikidata; verify institution status and programme details on the official website."
+  },
+  {
+   "id": "university-of-alberta-faculty-of-rehabilitation-medicine",
+   "name": "University of Alberta Faculty of Rehabilitation Medicine",
+   "city": "Edmonton",
+   "website": "https://www.ualberta.ca/rehabilitation/",
+   "top10": false,
+   "profile": {},
+   "profile_source": "University directory record from Wikidata; verify institution status and programme details on the official website."
+  },
+  {
+   "id": "university-of-british-columbia",
+   "name": "University of British Columbia",
+   "city": "Metro Vancouver A",
+   "website": "https://www.ubc.ca/",
+   "top10": false,
+   "profile": {},
+   "profile_source": "University directory record from Wikidata; verify institution status and programme details on the official website."
+  },
+  {
+   "id": "university-of-british-columbia-graduate-school-of-journalism",
+   "name": "University of British Columbia Graduate School of Journalism",
+   "city": "Vancouver",
+   "website": "http://www.journalism.ubc.ca/",
+   "top10": false,
+   "profile": {},
+   "profile_source": "University directory record from Wikidata; verify institution status and programme details on the official website."
+  },
+  {
+   "id": "university-of-calgary",
+   "name": "University of Calgary",
+   "city": "Calgary",
+   "website": "https://www.ucalgary.ca/",
+   "top10": false,
+   "profile": {},
+   "profile_source": "University directory record from Wikidata; verify institution status and programme details on the official website."
+  },
+  {
+   "id": "university-of-fredericton",
+   "name": "University of Fredericton",
+   "city": "New Brunswick",
+   "website": "http://www.UFred.ca",
+   "top10": false,
+   "profile": {},
+   "profile_source": "University directory record from Wikidata; verify institution status and programme details on the official website."
+  },
+  {
+   "id": "university-of-guelph",
+   "name": "University of Guelph",
+   "city": "Guelph",
+   "website": "https://www.uoguelph.ca/",
+   "top10": false,
+   "profile": {},
+   "profile_source": "University directory record from Wikidata; verify institution status and programme details on the official website."
+  },
+  {
+   "id": "university-of-king-s-college",
+   "name": "University of King's College",
+   "city": "Halifax",
+   "website": "https://www.ukings.ca/",
+   "top10": false,
+   "profile": {},
+   "profile_source": "University directory record from Wikidata; verify institution status and programme details on the official website."
+  },
+  {
+   "id": "university-of-lethbridge",
+   "name": "University of Lethbridge",
+   "city": "Lethbridge",
+   "website": "https://www.uleth.ca/",
+   "top10": false,
+   "profile": {},
+   "profile_source": "University directory record from Wikidata; verify institution status and programme details on the official website."
+  },
+  {
+   "id": "university-of-manitoba",
+   "name": "University of Manitoba",
+   "city": "Winnipeg",
+   "website": "https://umanitoba.ca/",
+   "top10": false,
+   "profile": {},
+   "profile_source": "University directory record from Wikidata; verify institution status and programme details on the official website."
+  },
+  {
+   "id": "university-of-new-brunswick",
+   "name": "University of New Brunswick",
+   "city": "New Brunswick",
+   "website": "https://www.unb.ca/",
+   "top10": false,
+   "profile": {},
+   "profile_source": "University directory record from Wikidata; verify institution status and programme details on the official website."
+  },
+  {
+   "id": "university-of-niagara-falls-canada",
+   "name": "University of Niagara Falls Canada",
+   "city": "Niagara Falls",
+   "website": "https://www.unfc.ca",
+   "top10": false,
+   "profile": {},
+   "profile_source": "University directory record from Wikidata; verify institution status and programme details on the official website."
+  },
+  {
+   "id": "university-of-northern-british-columbia",
+   "name": "University of Northern British Columbia",
+   "city": "Prince George",
+   "website": "https://www.unbc.ca/",
+   "top10": false,
+   "profile": {},
+   "profile_source": "University directory record from Wikidata; verify institution status and programme details on the official website."
+  },
+  {
+   "id": "university-of-ottawa",
+   "name": "University of Ottawa",
+   "city": "Ottawa",
+   "website": "https://www.uottawa.ca/en",
+   "top10": false,
+   "profile": {},
+   "profile_source": "University directory record from Wikidata; verify institution status and programme details on the official website."
+  },
+  {
+   "id": "university-of-prince-edward-island",
+   "name": "University of Prince Edward Island",
+   "city": "Charlottetown",
+   "website": "http://upei.ca/",
+   "top10": false,
+   "profile": {},
+   "profile_source": "University directory record from Wikidata; verify institution status and programme details on the official website."
+  },
+  {
+   "id": "university-of-regina",
+   "name": "University of Regina",
+   "city": "Regina",
+   "website": "https://www.uregina.ca/",
+   "top10": false,
+   "profile": {},
+   "profile_source": "University directory record from Wikidata; verify institution status and programme details on the official website."
+  },
+  {
+   "id": "university-of-saskatchewan",
+   "name": "University of Saskatchewan",
+   "city": "Saskatoon",
+   "website": "https://www.usask.ca/",
+   "top10": false,
+   "profile": {},
+   "profile_source": "University directory record from Wikidata; verify institution status and programme details on the official website."
+  },
+  {
+   "id": "university-of-sherbrooke",
+   "name": "University of Sherbrooke",
+   "city": "Sherbrooke",
+   "website": "https://www.usherbrooke.ca",
+   "top10": false,
+   "profile": {},
+   "profile_source": "University directory record from Wikidata; verify institution status and programme details on the official website."
+  },
+  {
+   "id": "university-of-st-michael-s-college",
+   "name": "University of St. Michael's College",
+   "city": "Toronto",
+   "website": "https://stmikes.utoronto.ca/",
+   "top10": false,
+   "profile": {},
+   "profile_source": "University directory record from Wikidata; verify institution status and programme details on the official website."
+  },
+  {
+   "id": "university-of-sudbury",
+   "name": "University of Sudbury",
+   "city": "Greater Sudbury",
+   "website": "https://usudbury.ca/en/welcome",
+   "top10": false,
+   "profile": {},
+   "profile_source": "University directory record from Wikidata; verify institution status and programme details on the official website."
+  },
+  {
+   "id": "university-of-toronto",
+   "name": "University of Toronto",
+   "city": "Mississauga",
+   "website": "https://www.utoronto.ca/",
+   "top10": false,
+   "profile": {},
+   "profile_source": "University directory record from Wikidata; verify institution status and programme details on the official website."
+  },
+  {
+   "id": "university-of-toronto-school-of-public-policy-and-governance",
+   "name": "University of Toronto School of Public Policy and Governance",
+   "city": "See official website",
+   "website": "http://www.publicpolicy.utoronto.ca/",
+   "top10": false,
+   "profile": {},
+   "profile_source": "University directory record from Wikidata; verify institution status and programme details on the official website."
+  },
+  {
+   "id": "university-of-victoria",
+   "name": "University of Victoria",
+   "city": "Oak Bay",
+   "website": "https://www.uvic.ca/",
+   "top10": false,
+   "profile": {},
+   "profile_source": "University directory record from Wikidata; verify institution status and programme details on the official website."
+  },
+  {
+   "id": "university-of-waterloo",
+   "name": "University of Waterloo",
+   "city": "Waterloo",
+   "website": "https://uwaterloo.ca",
+   "top10": false,
+   "profile": {},
+   "profile_source": "University directory record from Wikidata; verify institution status and programme details on the official website."
+  },
+  {
+   "id": "university-of-western-ontario",
+   "name": "University of Western Ontario",
+   "city": "London",
+   "website": "https://www.uwo.ca/",
+   "top10": false,
+   "profile": {},
+   "profile_source": "University directory record from Wikidata; verify institution status and programme details on the official website."
+  },
+  {
+   "id": "university-of-windsor",
+   "name": "University of Windsor",
+   "city": "Windsor",
+   "website": "https://www.uwindsor.ca/",
+   "top10": false,
+   "profile": {},
+   "profile_source": "University directory record from Wikidata; verify institution status and programme details on the official website."
+  },
+  {
+   "id": "university-of-winnipeg",
+   "name": "University of Winnipeg",
+   "city": "Winnipeg",
+   "website": "https://uwinnipeg.ca",
+   "top10": false,
+   "profile": {},
+   "profile_source": "University directory record from Wikidata; verify institution status and programme details on the official website."
+  },
+  {
+   "id": "university-of-york",
+   "name": "University of York",
+   "city": "Heslington",
+   "website": "https://york.ac.uk/",
+   "top10": false,
+   "profile": {},
+   "profile_source": "University directory record from Wikidata; verify institution status and programme details on the official website."
+  },
+  {
+   "id": "university-of-the-fraser-valley",
+   "name": "University of the Fraser Valley",
+   "city": "Hope",
+   "website": "https://www.ufv.ca/",
+   "top10": false,
+   "profile": {},
+   "profile_source": "University directory record from Wikidata; verify institution status and programme details on the official website."
+  },
+  {
+   "id": "universite-sainte-anne",
+   "name": "Université Sainte-Anne",
+   "city": "Church Point",
+   "website": "https://www.usainteanne.ca/",
+   "top10": false,
+   "profile": {},
+   "profile_source": "University directory record from Wikidata; verify institution status and programme details on the official website."
+  },
+  {
+   "id": "universite-teluq",
+   "name": "Université TÉLUQ",
+   "city": "Quebec City",
+   "website": "https://www.teluq.ca/",
+   "top10": false,
+   "profile": {},
+   "profile_source": "University directory record from Wikidata; verify institution status and programme details on the official website."
+  },
+  {
+   "id": "universite-de-hearst",
+   "name": "Université de Hearst",
+   "city": "Hearst",
+   "website": "https://uhearst.ca/",
+   "top10": false,
+   "profile": {},
+   "profile_source": "University directory record from Wikidata; verify institution status and programme details on the official website."
+  },
+  {
+   "id": "universite-de-moncton",
+   "name": "Université de Moncton",
+   "city": "New Brunswick",
+   "website": "http://www.umoncton.ca/",
+   "top10": false,
+   "profile": {},
+   "profile_source": "University directory record from Wikidata; verify institution status and programme details on the official website."
+  },
+  {
+   "id": "universite-de-montreal",
+   "name": "Université de Montréal",
+   "city": "Montreal",
+   "website": "https://www.umontreal.ca/",
+   "top10": false,
+   "profile": {},
+   "profile_source": "University directory record from Wikidata; verify institution status and programme details on the official website."
+  },
+  {
+   "id": "universite-de-saint-boniface",
+   "name": "Université de Saint-Boniface",
+   "city": "Winnipeg",
+   "website": "http://www.ustboniface.ca/",
+   "top10": false,
+   "profile": {},
+   "profile_source": "University directory record from Wikidata; verify institution status and programme details on the official website."
+  },
+  {
+   "id": "universite-de-l-ontario-francais",
+   "name": "Université de l'Ontario français",
+   "city": "Toronto",
+   "website": "https://uontario.ca",
+   "top10": false,
+   "profile": {},
+   "profile_source": "University directory record from Wikidata; verify institution status and programme details on the official website."
+  },
+  {
+   "id": "universite-du-quebec-en-abitibi-temiscamingue",
+   "name": "Université du Québec en Abitibi-Témiscamingue",
+   "city": "Quebec",
+   "website": "http://www.uqat.ca",
+   "top10": false,
+   "profile": {},
+   "profile_source": "University directory record from Wikidata; verify institution status and programme details on the official website."
+  },
+  {
+   "id": "universite-du-quebec-en-outaouais",
+   "name": "Université du Québec en Outaouais",
+   "city": "Gatineau",
+   "website": "http://www.uqo.ca",
+   "top10": false,
+   "profile": {},
+   "profile_source": "University directory record from Wikidata; verify institution status and programme details on the official website."
+  },
+  {
+   "id": "universite-du-quebec-a-chicoutimi",
+   "name": "Université du Québec à Chicoutimi",
+   "city": "Chicoutimi",
+   "website": "http://www.uqac.ca/",
+   "top10": false,
+   "profile": {},
+   "profile_source": "University directory record from Wikidata; verify institution status and programme details on the official website."
+  },
+  {
+   "id": "universite-du-quebec-a-montreal",
+   "name": "Université du Québec à Montréal",
+   "city": "Quebec",
+   "website": "https://uqam.ca/",
+   "top10": false,
+   "profile": {},
+   "profile_source": "University directory record from Wikidata; verify institution status and programme details on the official website."
+  },
+  {
+   "id": "universite-du-quebec-a-rimouski",
+   "name": "Université du Québec à Rimouski",
+   "city": "Rimouski",
+   "website": "http://www.uqar.ca",
+   "top10": false,
+   "profile": {},
+   "profile_source": "University directory record from Wikidata; verify institution status and programme details on the official website."
+  },
+  {
+   "id": "universite-du-quebec-a-trois-rivieres",
+   "name": "Université du Québec à Trois-Rivières",
+   "city": "Sorel‐Tracy",
+   "website": "https://www.uqtr.ca/",
+   "top10": false,
+   "profile": {},
+   "profile_source": "University directory record from Wikidata; verify institution status and programme details on the official website."
+  },
+  {
+   "id": "vanarts",
+   "name": "VanArts",
+   "city": "Vancouver",
+   "website": "http://www.vanarts.com/",
+   "top10": false,
+   "profile": {},
+   "profile_source": "University directory record from Wikidata; verify institution status and programme details on the official website."
+  },
+  {
+   "id": "vancouver-career-college",
+   "name": "Vancouver Career College",
+   "city": "Vancouver",
+   "website": "https://www.career.college/",
+   "top10": false,
+   "profile": {},
+   "profile_source": "University directory record from Wikidata; verify institution status and programme details on the official website."
+  },
+  {
+   "id": "vancouver-island-university",
+   "name": "Vancouver Island University",
+   "city": "Parksville",
+   "website": "https://www.viu.ca/",
+   "top10": false,
+   "profile": {},
+   "profile_source": "University directory record from Wikidata; verify institution status and programme details on the official website."
+  },
+  {
+   "id": "vanguard-college",
+   "name": "Vanguard College",
+   "city": "Edmonton",
+   "website": "http://www.vanguardcollege.com",
+   "top10": false,
+   "profile": {},
+   "profile_source": "University directory record from Wikidata; verify institution status and programme details on the official website."
+  },
+  {
+   "id": "victoria-university",
+   "name": "Victoria University",
+   "city": "Toronto",
+   "website": "https://vicu.utoronto.ca",
+   "top10": false,
+   "profile": {},
+   "profile_source": "University directory record from Wikidata; verify institution status and programme details on the official website."
+  },
+  {
+   "id": "westminster-abbey",
+   "name": "Westminster Abbey",
+   "city": "British Columbia",
+   "website": "http://www.westminsterabbey.ca/",
+   "top10": false,
+   "profile": {},
+   "profile_source": "University directory record from Wikidata; verify institution status and programme details on the official website."
+  },
+  {
+   "id": "wilfrid-laurier-university",
+   "name": "Wilfrid Laurier University",
+   "city": "Waterloo",
+   "website": "http://www.wlu.ca/",
+   "top10": false,
+   "profile": {},
+   "profile_source": "University directory record from Wikidata; verify institution status and programme details on the official website."
+  },
+  {
+   "id": "york-university",
+   "name": "York University",
+   "city": "Toronto",
+   "website": "https://www.yorku.ca/",
+   "top10": false,
+   "profile": {},
+   "profile_source": "University directory record from Wikidata; verify institution status and programme details on the official website."
+  },
+  {
+   "id": "york-university-markham-centre-campus",
+   "name": "York University Markham Centre Campus",
+   "city": "Markham",
+   "website": "https://www.yorku.ca/markham/",
+   "top10": false,
+   "profile": {},
+   "profile_source": "University directory record from Wikidata; verify institution status and programme details on the official website."
+  },
+  {
+   "id": "yorkville-university",
+   "name": "Yorkville University",
+   "city": "See official website",
+   "website": "https://www.yorkvilleu.ca/",
+   "top10": false,
+   "profile": {},
+   "profile_source": "University directory record from Wikidata; verify institution status and programme details on the official website."
+  },
+  {
+   "id": "yukon-university",
+   "name": "Yukon University",
+   "city": "Whitehorse",
+   "website": "http://www.yukoncollege.yk.ca/",
+   "top10": false,
+   "profile": {},
+   "profile_source": "University directory record from Wikidata; verify institution status and programme details on the official website."
+  },
+  {
+   "id": "ecole-de-theologie-evangelique-de-montreal",
+   "name": "École de Théologie Évangélique de Montréal",
+   "city": "Quebec",
+   "website": "http://www.etem.ca",
+   "top10": false,
+   "profile": {},
+   "profile_source": "University directory record from Wikidata; verify institution status and programme details on the official website."
+  },
+  {
+   "id": "ecole-de-technologie-superieure",
+   "name": "École de technologie supérieure",
+   "city": "Montreal",
+   "website": "https://www.etsmtl.ca/",
+   "top10": false,
+   "profile": {},
+   "profile_source": "University directory record from Wikidata; verify institution status and programme details on the official website."
+  },
+  {
+   "id": "ecole-nationale-d-administration-publique",
+   "name": "École nationale d'administration publique",
+   "city": "See official website",
+   "website": "http://www.enap.ca/",
+   "top10": false,
+   "profile": {},
+   "profile_source": "University directory record from Wikidata; verify institution status and programme details on the official website."
+  }
+ ]
+}
