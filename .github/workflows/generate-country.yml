@@ -1,8 +1,14 @@
 name: Generate country data
 
 on:
+  workflow_dispatch:
+    inputs:
+      country_code:
+        description: Two-letter ISO country code (for example CA)
+        required: true
+        type: string
   issues:
-    types: [opened]
+    types: [opened, edited]
 
 permissions:
   contents: write
@@ -10,7 +16,7 @@ permissions:
 
 jobs:
   generate:
-    if: github.event.issue.user.login == 'ItsMeRahat' && startsWith(github.event.issue.title, 'Country data request')
+    if: github.event_name == 'workflow_dispatch' || (github.event.issue.user.login == 'ItsMeRahat' && startsWith(github.event.issue.title, 'Country data request'))
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
@@ -21,14 +27,21 @@ jobs:
         id: country
         env:
           ISSUE_BODY: ${{ github.event.issue.body }}
+          INPUT_CODE: ${{ inputs.country_code }}
+          EVENT_NAME: ${{ github.event_name }}
         run: |
           python - <<'PY'
           import os, re
-          body = os.environ.get("ISSUE_BODY", "")
-          match = re.search(r"ISO code:\s*([A-Za-z]{2})", body)
-          if not match:
-              raise SystemExit("Issue body must include ISO code: XX")
-          code = match.group(1).upper()
+          if os.environ.get("EVENT_NAME") == "workflow_dispatch":
+              code = os.environ.get("INPUT_CODE", "").strip().upper()
+          else:
+              body = os.environ.get("ISSUE_BODY", "")
+              match = re.search(r"ISO code:\s*([A-Za-z]{2})", body)
+              if not match:
+                  raise SystemExit("Issue body must include ISO code: XX")
+              code = match.group(1).upper()
+          if not re.fullmatch(r"[A-Z]{2}", code):
+              raise SystemExit("Country code must be two letters.")
           with open(os.environ["GITHUB_OUTPUT"], "a") as f:
               f.write("code=" + code + "\\n")
           PY
