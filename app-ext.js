@@ -152,7 +152,7 @@
     var P = RK.providers[PROV];
     if (!P) return;
 
-    var scopeButtons = $$("#scope button");
+    var scopeButtons = qa("#scope button");
 
     if (scopeButtons.length) {
       scopeButtons[0].textContent = META.top_label;
@@ -163,7 +163,7 @@
       s1.nextElementSibling.textContent = META.top_label;
     }
 
-    $$("#prov button").forEach(function (b) {
+    qa("#prov button").forEach(function (b) {
       b.setAttribute("aria-pressed", b.dataset.p == PROV);
 
       b.onclick = function () {
@@ -414,7 +414,7 @@
         }).join("")
       : '<div class="note">No match, or already added.</div>';
 
-    $$("#clist button").forEach(function (b) {
+    qa("#clist button").forEach(function (b) {
       b.onclick = function () {
         PICK = CL.filter(function (c) {
           return c.cca2 == b.dataset.c;
@@ -454,7 +454,7 @@
         }).join("")
       : "";
 
-    $$("#cadded [data-r]").forEach(function (b) {
+    qa("#cadded [data-r]").forEach(function (b) {
       b.onclick = function () {
         var k = b.dataset.r;
 
