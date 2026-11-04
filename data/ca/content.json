@@ -1,132 +1,132 @@
 {
- "meta": {
-  "code": "ca",
-  "name": "Canada",
-  "flag": "🇨🇦",
-  "currency": "CAD",
-  "title": "Study in Canada: Applicant Guide",
-  "sub": "Bangladesh applicants · Universities, admission, costs, visa and scholarships.",
-  "portal": "University directory",
-  "portal_url": "https://www.wikidata.org/",
-  "top_label": "Ranked",
-  "uni_title": "Canada universities",
-  "prog_btn": "Official university website",
-  "list_note": "Directory records are sourced from Wikidata and may be incomplete. Confirm official recognition and programme availability.",
-  "rank_note": "Only ranks present in the maintained QS/THE dataset are displayed. No rank is inferred.",
-  "gen_note": "University directory data is automatically collected. Confirm every programme, fee and entry requirement on the official university website.",
-  "caution": "<b>Automatically generated country guide:</b> profile and university directory are collected from public datasets. All country-specific admission, immigration, financial and scholarship information must be verified from official sources before use."
- },
- "tabs": [
-  [
-   "overview",
-   "Overview"
-  ],
-  [
-   "unis",
-   "Universities"
-  ],
-  [
-   "apply",
-   "Apply"
-  ],
-  [
-   "eng",
-   "English & gap"
-  ],
-  [
-   "money",
-   "Money"
-  ],
-  [
-   "visa",
-   "Study permit"
-  ],
-  [
-   "after",
-   "After study"
-  ],
-  [
-   "schol",
-   "Scholarships"
-  ]
- ],
- "links": {},
- "req": {
-  "ug": [
-   [
-    "Academic qualification",
-    "Bangladesh HSC equivalency and subject prerequisites: Needs official university verification."
-   ],
-   [
-    "Grades",
-    "Minimum grades and selection method: Needs official university verification."
-   ],
-   [
-    "English",
-    "Accepted tests and scores vary by programme; verify with the institution."
-   ],
-   [
-    "Documents",
-    "Follow the target university’s current international applicant checklist."
-   ]
-  ],
-  "pg": [
-   [
-    "Academic qualification",
-    "Bachelor’s degree equivalency, duration and subject prerequisites: Needs official university verification."
-   ],
-   [
-    "Grades",
-    "Minimum GPA and grading conversion: Needs official university verification."
-   ],
-   [
-    "English",
-    "Accepted tests and scores vary by programme; verify with the institution."
-   ],
-   [
-    "Documents",
-    "Degree certificate, transcripts, CV, statement and references as required by the programme."
-   ]
-  ]
- },
- "steps": [
-  "Choose the degree level, subject, institution and intake.",
-  "Check the official programme page for Bangladesh academic equivalency and subject prerequisites.",
-  "Confirm English test, score, MOI waiver and validity rules directly with the institution.",
-  "Prepare certificates, transcripts, passport, references, CV, statement and certified translations if required.",
-  "Apply through the official university or national application portal before its published deadline.",
-  "Compare the written offer, tuition, deposit and refund policy; verify the institution is officially recognised.",
-  "Check the official immigration authority’s student permit requirements and financial evidence.",
-  "Submit the permit application, biometrics and medical documents if required; wait for the official decision before travel."
- ],
- "sections": {
-  "overview": {
-   "title": "Overview",
-   "html": "<div class=\"card\"><dl><dt>Capital</dt><dd>Ottawa</dd><dt>Region</dt><dd>North America</dd><dt>Languages</dt><dd>English, French</dd><dt>Population</dt><dd>0</dd><dt>Currency</dt><dd>CAD — Canadian dollar</dd><dt>Exchange rate</dt><dd>1 CAD = 88.9616 BDT (2026-11-04)</dd></dl></div><div class=\"note warn\"><b>Verification required:</b> This country profile and university directory are automatically collected. Admission rules, Bangladesh credential equivalency, English waivers, tuition, proof of funds, visa rules, work rights, post-study routes and scholarships are not assumed. Each must be checked against the current official government or university source before relying on it.</div><h3>Admission overview</h3><div class=\"card\"><p>Choose Bachelor’s or Master’s and check the official university programme page. Country-specific Bangladesh entry requirements have not yet been verified.</p><div class=\"seg\" id=\"lvl\"><button aria-pressed=\"true\" data-l=\"ug\">Bachelor’s (UG)</button><button aria-pressed=\"false\" data-l=\"pg\">Master’s (PG)</button></div><dl id=\"req\"></dl></div><p class=\"links\"><a href=\"https://www.wikidata.org/\" target=\"_blank\" rel=\"noopener\">University data source</a></p>"
+  "meta": {
+    "code": "ca",
+    "name": "Canada",
+    "flag": "🇨🇦",
+    "currency": "CAD",
+    "title": "Study in Canada: Applicant Guide",
+    "sub": "Bangladesh applicants · Universities, admission, costs, visa and scholarships.",
+    "portal": "University directory",
+    "portal_url": "https://www.wikidata.org/",
+    "top_label": "Ranked",
+    "uni_title": "Canada universities",
+    "prog_btn": "Official university website",
+    "list_note": "Directory records are sourced from Wikidata and may be incomplete. Confirm official recognition and programme availability.",
+    "rank_note": "Only ranks present in the maintained QS/THE dataset are displayed. No rank is inferred.",
+    "gen_note": "University directory data is automatically collected. Confirm every programme, fee and entry requirement on the official university website.",
+    "caution": "<b>Automatically generated country guide:</b> profile and university directory are collected from public datasets. All country-specific admission, immigration, financial and scholarship information must be verified from official sources before use."
   },
-  "apply": {
-   "title": "Application process",
-   "html": "<p>Application steps depend on the institution and programme. Use this checklist as a preparation guide, not as a country-specific deadline guarantee.</p><div class=\"bar\"><i id=\"pb\"></i></div><ol class=\"steps\" id=\"st\"></ol><div class=\"note warn\">Official application portal and country-specific deadlines: <b>Needs verification</b>.</div>"
+  "tabs": [
+    [
+      "overview",
+      "Overview"
+    ],
+    [
+      "unis",
+      "Universities"
+    ],
+    [
+      "apply",
+      "Apply"
+    ],
+    [
+      "eng",
+      "English & gap"
+    ],
+    [
+      "money",
+      "Money"
+    ],
+    [
+      "visa",
+      "Study permit"
+    ],
+    [
+      "after",
+      "After study"
+    ],
+    [
+      "schol",
+      "Scholarships"
+    ]
+  ],
+  "links": {},
+  "req": {
+    "ug": [
+      [
+        "Academic qualification",
+        "Bangladesh HSC equivalency and subject prerequisites: Needs official university verification."
+      ],
+      [
+        "Grades",
+        "Minimum grades and selection method: Needs official university verification."
+      ],
+      [
+        "English",
+        "Accepted tests and scores vary by programme; verify with the institution."
+      ],
+      [
+        "Documents",
+        "Follow the target university’s current international applicant checklist."
+      ]
+    ],
+    "pg": [
+      [
+        "Academic qualification",
+        "Bachelor’s degree equivalency, duration and subject prerequisites: Needs official university verification."
+      ],
+      [
+        "Grades",
+        "Minimum GPA and grading conversion: Needs official university verification."
+      ],
+      [
+        "English",
+        "Accepted tests and scores vary by programme; verify with the institution."
+      ],
+      [
+        "Documents",
+        "Degree certificate, transcripts, CV, statement and references as required by the programme."
+      ]
+    ]
   },
-  "eng": {
-   "title": "English and study gap",
-   "html": "<details open><summary>English language tests</summary><div><p>IELTS Academic, TOEFL iBT, PTE Academic and other accepted tests and scores vary by institution and programme. No national score or MOI waiver is assumed.</p></div></details><details><summary>Bangladesh study-gap and credential assessment</summary><div><p>Country-specific HSC, Bachelor’s equivalency, study-gap policy and MOI waiver rules: <b>Needs official verification</b>. Obtain written confirmation from the university.</p></div></details>"
-  },
-  "money": {
-   "title": "Tuition and living costs",
-   "html": "<details open><summary>Tuition and living costs</summary><div><p>Fees differ by institution, level, programme and intake. No country-wide tuition figure is assumed.</p></div></details><div class=\"card\"><h3>Budget conversion</h3><label for=\"mo\">Number of months</label><input id=\"mo\" type=\"number\" min=\"1\" max=\"48\" value=\"12\"><p id=\"tot\">Local currency amount: Needs verification</p><p id=\"bdt\">BDT conversion will use the available exchange rate.</p><small id=\"fxn\">Exchange rate is indicative and may change.</small></div><div class=\"note warn\">Official proof-of-funds amount and accepted evidence: <b>Needs verification</b>.</div>"
-  },
-  "visa": {
-   "title": "Student visa / residence permit",
-   "html": "<details open><summary>Student visa / residence permit</summary><div><p>Permit type, eligibility, application portal, fees, biometrics, medical checks, financial evidence and processing times must be verified on the country’s official immigration website.</p></div></details><div class=\"note warn\">Official immigration source: <b>Needs verification</b>. Do not rely on third-party guarantees.</div>"
-  },
-  "after": {
-   "title": "Work during and after study",
-   "html": "<details open><summary>Work during study</summary><div><p>Work-hour limits and eligibility depend on local law and permit conditions. <b>Needs official verification.</b></p></div></details><details><summary>Post-study work and residence</summary><div><p>Graduate work routes, eligible qualifications, duration and application windows: <b>Needs official verification.</b></p></div></details>"
-  },
-  "schol": {
-   "title": "Scholarships",
-   "html": "<details open><summary>Scholarships and funding</summary><div><p>University awards, government scholarships, eligibility, funding amount and deadlines must be checked on the official award provider’s website.</p></div></details>"
+  "steps": [
+    "Choose the degree level, subject, institution and intake.",
+    "Check the official programme page for Bangladesh academic equivalency and subject prerequisites.",
+    "Confirm English test, score, MOI waiver and validity rules directly with the institution.",
+    "Prepare certificates, transcripts, passport, references, CV, statement and certified translations if required.",
+    "Apply through the official university or national application portal before its published deadline.",
+    "Compare the written offer, tuition, deposit and refund policy; verify the institution is officially recognised.",
+    "Check the official immigration authority’s student permit requirements and financial evidence.",
+    "Submit the permit application, biometrics and medical documents if required; wait for the official decision before travel."
+  ],
+  "sections": {
+    "overview": {
+      "title": "Overview",
+      "html": "<div class=\"card\"><dl><dt>Capital</dt><dd>Ottawa</dd><dt>Region</dt><dd>North America</dd><dt>Languages</dt><dd>English, French</dd><dt>Population</dt><dd>41,651,653 (2025 estimate)</dd><dt>Currency</dt><dd>CAD — Canadian dollar</dd><dt>Exchange rate</dt><dd>1 CAD = 88.9616 BDT (2026-11-04)</dd></dl></div><div class=\"note warn\"><b>Verification required:</b> This country profile and university directory are automatically collected. Admission rules, Bangladesh credential equivalency, English waivers, tuition, proof of funds, visa rules, work rights, post-study routes and scholarships are not assumed. Each must be checked against the current official government or university source before relying on it.</div><h3>Admission overview</h3><div class=\"card\"><p>Choose Bachelor’s or Master’s and check the official university programme page. Country-specific Bangladesh entry requirements have not yet been verified.</p><div class=\"seg\" id=\"lvl\"><button aria-pressed=\"true\" data-l=\"ug\">Bachelor’s (UG)</button><button aria-pressed=\"false\" data-l=\"pg\">Master’s (PG)</button></div><dl id=\"req\"></dl></div><p class=\"links\"><a href=\"https://www.wikidata.org/\" target=\"_blank\" rel=\"noopener\">University data source</a></p>"
+    },
+    "apply": {
+      "title": "Application process",
+      "html": "<p>Application steps depend on the institution and programme. Use this checklist as a preparation guide, not as a country-specific deadline guarantee.</p><div class=\"bar\"><i id=\"pb\"></i></div><ol class=\"steps\" id=\"st\"></ol><div class=\"note warn\">Official application portal and country-specific deadlines: <b>Needs verification</b>.</div>"
+    },
+    "eng": {
+      "title": "English and study gap",
+      "html": "<details open><summary>English language tests</summary><div><p>IELTS Academic, TOEFL iBT, PTE Academic and other accepted tests and scores vary by institution and programme. No national score or MOI waiver is assumed.</p></div></details><details><summary>Bangladesh study-gap and credential assessment</summary><div><p>Country-specific HSC, Bachelor’s equivalency, study-gap policy and MOI waiver rules: <b>Needs official verification</b>. Obtain written confirmation from the university.</p></div></details>"
+    },
+    "money": {
+      "title": "Tuition and living costs",
+      "html": "<details open><summary>Tuition and living costs</summary><div><p>Fees differ by institution, level, programme and intake. No country-wide tuition figure is assumed.</p></div></details><div class=\"card\"><h3>Budget conversion</h3><label for=\"mo\">Number of months</label><input id=\"mo\" type=\"number\" min=\"1\" max=\"48\" value=\"12\"><p id=\"tot\">Local currency amount: Needs verification</p><p id=\"bdt\">BDT conversion will use the available exchange rate.</p><small id=\"fxn\">Exchange rate is indicative and may change.</small></div><div class=\"note warn\">Official proof-of-funds amount and accepted evidence: <b>Needs verification</b>.</div>"
+    },
+    "visa": {
+      "title": "Student visa / residence permit",
+      "html": "<details open><summary>Student visa / residence permit</summary><div><p>Permit type, eligibility, application portal, fees, biometrics, medical checks, financial evidence and processing times must be verified on the country’s official immigration website.</p></div></details><div class=\"note warn\">Official immigration source: <b>Needs verification</b>. Do not rely on third-party guarantees.</div>"
+    },
+    "after": {
+      "title": "Work during and after study",
+      "html": "<details open><summary>Work during study</summary><div><p>Work-hour limits and eligibility depend on local law and permit conditions. <b>Needs official verification.</b></p></div></details><details><summary>Post-study work and residence</summary><div><p>Graduate work routes, eligible qualifications, duration and application windows: <b>Needs official verification.</b></p></div></details>"
+    },
+    "schol": {
+      "title": "Scholarships",
+      "html": "<details open><summary>Scholarships and funding</summary><div><p>University awards, government scholarships, eligibility, funding amount and deadlines must be checked on the official award provider’s website.</p></div></details>"
+    }
   }
- }
 }
