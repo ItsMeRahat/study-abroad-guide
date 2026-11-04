@@ -89,7 +89,7 @@ $("#main").innerHTML=META.tabs.map(function(p){var h;if(p[0]=="unis"){h=unisHtml
 var f=d.facts;MON=f.maintenance.monthly||0;FX=(f.fx&&f.fx[CUR+"_BDT"])||13;FXN=f.fx?"Rate: 1 "+CUR+" = "+FX.toFixed(2)+" BDT (stored "+f.fx.date+", refreshed daily).":"";
 $("#caution").innerHTML=META.caution;
 $("#dstat").textContent="Data checked "+f.last_checked+" · Confirm with official links";
-wire();calc();liveFx(c);show(id||"overview",1)}).catch(function(e){console.error("Country guide load/render error:",e);$("#main").innerHTML='<div class="note warn">This country guide could not be opened. Please reload the page. If the problem continues, contact the site owner.</div>'})}
+wire();calc();liveFx(c);show(id||"overview",1)}).catch(function(e){console.error("Country guide load/render error:",e);$("#main").innerHTML='<div class="note warn"><b>This country guide could not be opened.</b><p>Diagnostic: <code>'+esc(e&&e.message?e.message:String(e))+'</code></p><p>Please send the site owner a screenshot of this message.</p></div>'})}
 function boot(cs){CC=cs;$("#cc").innerHTML=CC.map(function(x){return'<option value="'+esc(x.code)+'">'+esc(x.flag+" "+x.name)+"</option>"}).join("");
 $("#cc").onchange=function(){setCountry(this.value,"overview")};
 var h=location.hash.slice(1).split("-"),c=null,id=null;
