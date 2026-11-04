@@ -1,0 +1,52 @@
+name: Validate study abroad guide
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - "scripts/**"
+      - "data/**"
+      - "app.js"
+      - "app-ext.js"
+      - "index.html"
+  pull_request:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Check Python syntax
+        run: python -m compileall -q scripts
+      - name: Validate country JSON files
+        run: |
+          python - <<'PY'
+          import json, pathlib
+          files = list(pathlib.Path("data").rglob("*.json"))
+          for path in files:
+              json.loads(path.read_text(encoding="utf-8"))
+          countries = json.loads(pathlib.Path("data/countries.json").read_text(encoding="utf-8"))
+          for country in countries:
+              folder = pathlib.Path("data") / (country.get("dir") or country["code"])
+              for name in ("facts.json", "universities.json", "content.json"):
+                  path = folder / name
+                  if not path.exists():
+                      raise SystemExit(f"Missing {path}")
+              content = json.loads((folder / "content.json").read_text(encoding="utf-8"))
+              for tab, _label in content.get("tabs", []):
+                  if tab != "unis" and tab not in content.get("sections", {}):
+                      raise SystemExit(f"{country['name']}: missing section {tab}")
+          print(f"Validated {len(files)} JSON files and {len(countries)} country entries.")
+          PY
+      - name: Check JavaScript syntax
+        run: |
+          node --check app.js
+          node --check app-ext.js
