@@ -26,34 +26,6 @@ def country_record(cc):
             return c
     raise SystemExit("Unknown ISO-3166 alpha-2 country code: " + cc.upper())
 
-def world_bank_population(cc):
-    url = "https://api.worldbank.org/v2/country/%s/indicator/SP.POP.TOTL" % cc.upper()
-    try:
-        payload = get_json(url, {"format": "json", "per_page": 70})
-        rows = payload[1] if isinstance(payload, list) and len(payload) > 1 else []
-        valid = [x for x in rows if x.get("value") is not None]
-        if not valid:
-            return None, None
-        latest = max(valid, key=lambda x: int(x.get("date", 0)))
-        return int(latest["value"]), latest["date"]
-    except Exception as exc:
-        print("WARNING: World Bank population lookup failed:", exc)
-        return None, None
-
-def world_bank_population(cc):
-    url = "https://api.worldbank.org/v2/country/%s/indicator/SP.POP.TOTL" % cc.upper()
-    try:
-        payload = get_json(url, {"format": "json", "per_page": 70})
-        rows = payload[1] if isinstance(payload, list) and len(payload) > 1 else []
-        valid = [x for x in rows if x.get("value") is not None]
-        if not valid:
-            return None, None
-        latest = max(valid, key=lambda x: int(x.get("date", 0)))
-        return int(latest["value"]), latest["date"]
-    except Exception as exc:
-        print("WARNING: World Bank population lookup failed:", exc)
-        return None, None
-
 def universities(cc):
     params = {"format": "json", "query": SPARQL % cc.upper()}
     endpoints = ["https://qlever.dev/api/wikidata", "https://query.wikidata.org/sparql"]
@@ -102,7 +74,7 @@ def build(cc):
         rate = round(fx_to_bdt(cur), 4)
     except Exception as exc:
         print("WARNING: exchange rate unavailable:", exc)
-    population = c.get("population") or None\n    population_year = None\n    if not population:\n        population, population_year = world_bank_population(cc)\n    population = c.get("population") or None
+    population = c.get("population") or None
     population_year = None
     if not population:
         population, population_year = world_bank_population(cc)
@@ -113,7 +85,7 @@ def build(cc):
         "data_status": "needs_official_verification",
         "population": population,
         "population_year": population_year,
-        "population_source": "https://api.worldbank.org/v2/country/%s/indicator/SP.POP.TOTL" % cc.upper(),\n        "population": population,\n        "population_year": population_year,\n        "population_source": "https://api.worldbank.org/v2/country/%s/indicator/SP.POP.TOTL" % cc.upper(),
+        "population_source": "https://api.worldbank.org/v2/country/%s/indicator/SP.POP.TOTL" % cc.upper(),
         "intake": "Varies by institution and programme; verify official deadlines.",
         "dates": {"source": "", "rows": [
             {"date": "Verify with institution", "event": "Application opening and deadline vary by university, programme and intake."},
@@ -190,6 +162,42 @@ def build(cc):
             "schol": section("Scholarships", schol)
         }
     }
+    if cc == "ca":
+        facts.update({
+            "data_status": "official_sources_added_review_institution_specific",
+            "maintenance": {"monthly": 1954, "annual": 23448, "source": "IRCC financial support requirement; applies from 2026-09-01 outside Quebec, excluding tuition and travel."},
+            "work_hours_per_week": 24,
+            "fees": {"international_undergraduate_average": 41746, "international_graduate_average": 24028, "academic_year": "2025/2026", "source": "Statistics Canada"},
+            "links": {
+                "study_permit": "https://www.canada.ca/en/immigration-refugees-citizenship/services/study-canada/study-permit/apply.html",
+                "dli_list": "https://www.canada.ca/en/immigration-refugees-citizenship/services/study-canada/study-permit/prepare/designated-learning-institutions-list.html",
+                "funds": "https://www.canada.ca/en/immigration-refugees-citizenship/services/study-canada/study-permit/get-documents/financial-support.html",
+                "pal_tal": "https://www.canada.ca/en/immigration-refugees-citizenship/services/study-canada/study-permit/get-documents/provincial-attestation-letter.html",
+                "work": "https://www.canada.ca/en/immigration-refugees-citizenship/services/study-canada/work/work-off-campus.html",
+                "pgwp": "https://www.canada.ca/en/immigration-refugees-citizenship/services/study-canada/work/after-graduation/eligibility.html",
+                "scholarships": "https://www.educanada.ca/scholarships-bourses/searchAll-rechercheTous.aspx?lang=eng"
+            }
+        })
+        content["meta"].update({
+            "portal": "EduCanada · Government of Canada",
+            "portal_url": "https://www.educanada.ca/",
+            "caution": "<b>Canada guide · checked 2026-11-04:</b> government policy links are provided below. Tuition, admission, English scores, study-gap decisions and scholarship awards vary by institution/programme. Recheck IRCC and university pages before applying."
+        })
+        content["sections"]["apply"] = section("Application process", """<ol>
+<li>Choose a programme and intake; compare entry prerequisites, total tuition, campus and co-op structure.</li>
+<li>Check that the institution is on IRCC’s <a href="https://www.canada.ca/en/immigration-refugees-citizenship/services/study-canada/study-permit/prepare/designated-learning-institutions-list.html" target="_blank" rel="noopener">Designated Learning Institution (DLI) list</a>. Confirm the exact programme is PGWP-eligible separately if that matters to your plan.</li>
+<li>Read the university’s Bangladesh-specific entry requirements. For undergraduate admission, ask how it assesses HSC subjects and grades; for graduate admission, confirm bachelor’s degree length, discipline and GPA conversion.</li>
+<li>Meet the programme’s English-language requirement and submit any required test score. Accepted tests, minimum scores and possible waivers are institution- and programme-specific.</li>
+<li>Submit the university application with transcripts, certificates, passport, references, statement of purpose, CV/portfolio and translations where required.</li>
+<li>Review the written offer, tuition deposit, refund/deferment policy and any conditions. Ask the institution to issue and validate the Letter of Acceptance (LOA).</li>
+<li>Check whether a PAL/TAL or Quebec CAQ is required for your case. Do not assume an exemption; follow the current IRCC decision guide.</li>
+<li>Prepare proof of funds, study plan and supporting documents, then submit the study permit application online. Complete biometrics/medical steps if requested.</li>
+</ol><p><b>Timing:</b> IRCC recommends applying well before the programme begins. University deadlines differ by institution, programme and intake; there is no single national deadline.</p><p class="links"><a href="https://www.canada.ca/en/immigration-refugees-citizenship/services/study-canada/study-permit/apply.html" target="_blank" rel="noopener">Official study permit application guide</a> · <a href="https://www.canada.ca/en/immigration-refugees-citizenship/services/study-canada/study-permit/get-documents.html" target="_blank" rel="noopener">Required documents</a></p>""")
+        content["sections"]["eng"] = section("English and Bangladesh study-gap guidance", """<h3>English proficiency</h3><p>There is no single IELTS/TOEFL score that applies to every Canadian institution. Each university and programme sets its accepted tests, minimum overall score, component scores and test-validity period. Confirm the exact rule on the programme page before booking a test.</p><p>An MOI (Medium of Instruction) letter is not a nationwide automatic IELTS waiver. Some institutions or programmes may consider it under their own policy; obtain written confirmation from admissions.</p><h3>Bangladesh qualifications and study gap</h3><p>HSC subject prerequisites, grade conversion, foundation/pathway requirements and bachelor’s degree equivalency are assessed by the receiving institution. Canada has no single universal study-gap limit for all universities. Explain any gap honestly with dated employment, training, caregiving or other supporting evidence where relevant; the institution and visa officer assess the complete case.</p><p><b>Action:</b> email international admissions with your exact board, qualification, passing year, subjects, grades and intended programme, and request a written assessment.</p>""")
+        content["sections"]["money"] = section("Tuition, living costs and budget", """<h3>Published national tuition averages (2025/2026)</h3><p>Statistics Canada reported average international tuition of <b>CAD 41,746/year for undergraduate</b> and <b>CAD 24,028/year for graduate</b> students. These are national averages, not an offer or a price quote; actual fees vary substantially by province, institution and programme.</p><p><a href="https://www150.statcan.gc.ca/n1/daily-quotidien/250910/dq250910d-eng.htm" target="_blank" rel="noopener">Statistics Canada: Tuition in Canada, 2025/2026</a></p><h3>IRCC living-funds minimum</h3><p>For study-permit applications made on or after <b>1 September 2026</b>, a single applicant studying outside Quebec must show <b>CAD 23,448</b> for one year of living expenses, in addition to first-year tuition and transportation. The required amount changes with family size and Quebec has separate rules. This is an immigration minimum, not a realistic full budget for every city.</p><p><a href="https://www.canada.ca/en/immigration-refugees-citizenship/services/study-canada/study-permit/get-documents/financial-support.html" target="_blank" rel="noopener">IRCC proof of financial support and family-size table</a></p><div class="card"><h3>Living-funds conversion (outside Quebec, one applicant)</h3><p>CAD 23,448 per year · CAD 1,954 per month (simple 12-month equivalent). Tuition and travel are additional.</p><label for="mo">Number of months</label><input id="mo" type="number" min="1" max="12" value="12"><p id="tot">CAD 23,448</p><p id="bdt">BDT estimate uses the indicative exchange rate.</p><small id="fxn">Bank rates and transfer costs differ.</small></div><p>IRCC expects funds for the first year and a credible plan for the remaining study period. Do not rely on expected part-time work to meet the proof-of-funds requirement.</p>""")
+        content["sections"]["visa"] = section("Canada study permit", """<ol><li>Obtain a valid Letter of Acceptance from a DLI.</li><li>Check the current PAL/TAL requirement. From 1 January 2026, certain master’s and doctoral students at public DLIs are exempt; other categories and exceptions have separate rules. Quebec applicants may need a CAQ.</li><li>Prepare proof of tuition payment/tuition funds, living expenses, travel costs and the source/accessibility of funds.</li><li>Prepare passport, LOA, required attestation/CAQ, study plan/letter of explanation and any country-specific checklist documents.</li><li>Apply online, pay the applicable fees and complete biometrics and medical examination if requested.</li><li>Wait for the decision and follow the letter/port-of-entry instructions. A study permit is not itself a visa or eTA for travel.</li></ol><p>Approval is not guaranteed. Processing time varies and should be checked using IRCC’s live tool; no fixed processing duration is promised here.</p><p class="links"><a href="https://www.canada.ca/en/immigration-refugees-citizenship/services/study-canada/study-permit/apply.html" target="_blank" rel="noopener">Apply for a study permit</a> · <a href="https://www.canada.ca/en/immigration-refugees-citizenship/services/study-canada/study-permit/get-documents/provincial-attestation-letter.html" target="_blank" rel="noopener">PAL/TAL rules</a> · <a href="https://www.canada.ca/en/immigration-refugees-citizenship/services/application/check-processing-times.html" target="_blank" rel="noopener">Check processing times</a></p>""")
+        content["sections"]["after"] = section("Work during study and after graduation", """<h3>Work while studying</h3><p>Eligible international students may work off campus up to <b>24 hours per week</b> during regular academic sessions. During regularly scheduled breaks, eligible students may work unlimited hours. You must meet all study-permit conditions; some students/programmes are not eligible. Working more than the permitted limit can affect status.</p><p><a href="https://www.canada.ca/en/immigration-refugees-citizenship/services/study-canada/work/work-off-campus.html" target="_blank" rel="noopener">IRCC: Work off campus as an international student</a></p><h3>Post-Graduation Work Permit (PGWP)</h3><p>Graduation from a DLI does not automatically make a student PGWP-eligible. The exact institution and programme must qualify. General requirements include an eligible programme of at least 8 months (Quebec programme rules can differ), maintaining required full-time status, and applying within 180 days of confirmation of completion.</p><p>Many applicants must also meet language requirements; eligible non-degree programmes may have field-of-study rules. Requirements depend on credential type and the date of the study-permit application. Check the current IRCC eligibility page before choosing a programme or relying on a post-study work route.</p><p><a href="https://www.canada.ca/en/immigration-refugees-citizenship/services/study-canada/work/after-graduation/eligibility.html" target="_blank" rel="noopener">IRCC: PGWP eligibility</a></p>""")
+        content["sections"]["schol"] = section("Scholarships and funding", """<p>Search the official Government of Canada EduCanada scholarship database and each university’s own international-student awards page. Funding may be merit-based, need-based, programme-specific or research-supervisor-funded. Eligibility, country restrictions, award value and deadlines differ; many awards require a separate application.</p><ul><li>Check entrance scholarships automatically considered with admission and awards requiring a separate form.</li><li>For research master’s/PhD programmes, contact prospective supervisors and departments about assistantships, grants and funded positions.</li><li>Confirm whether an award covers tuition only or also living costs, travel and insurance.</li><li>Never pay an agent or third party to “guarantee” a scholarship or visa.</li></ul><p><a href="https://www.educanada.ca/scholarships-bourses/searchAll-rechercheTous.aspx?lang=eng" target="_blank" rel="noopener">EduCanada official scholarship search</a> · <a href="https://www.educanada.ca/scholarships-bourses/index.aspx?lang=eng" target="_blank" rel="noopener">International scholarships overview</a></p>""")
     return meta, facts, {"source": "https://www.wikidata.org/", "ranking_note": "Ranks are added only from data/rankings.json.", "universities": unis}, content
 
 if __name__ == "__main__":
