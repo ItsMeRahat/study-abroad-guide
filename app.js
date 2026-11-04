@@ -42,7 +42,9 @@ links()}
 function unisHtml(){return'<h2>'+esc(META.uni_title)+'</h2><div class="stats"><div class="stat"><b id="s1">0</b><span>'+esc(META.top_label)+'</span></div><div class="stat"><b id="s2">0</b><span>Others</span></div><div class="stat"><b id="s3">0</b><span>Total</span></div></div><div class="seg" id="scope"><button aria-pressed="true" data-s="top">'+esc(META.top_label)+'</button><button aria-pressed="false" data-s="rest">Others <span id="nall">0</span></button></div><div class="tools"><input type="search" id="q" placeholder="Search name, city or subject" aria-label="Search universities"><select id="so" aria-label="Sort"><option value="rank">Ranked order</option><option value="az">A to Z</option><option value="city">By city</option></select></div><div class="chips" id="chips" hidden></div><div class="bar2"><span id="cnt"></span><button class="ghost" id="exp">Open all</button></div><div id="ul"></div><div class="note" id="unote"></div>'}
 function wireUnis(){var L=D.universities.universities,f=D.facts,nt=L.filter(function(u){return u.top10}).length;
 $("#s1").textContent=nt;$("#s2").textContent=L.length-nt;$("#s3").textContent=L.length;$("#nall").textContent=L.length-nt;
-scope="top";city="all";
+scope=nt?"top":"rest";city="all";
+$("#scope button").forEach(function(b){b.setAttribute("aria-pressed",b.dataset.s==scope)});
+$("#so").value=nt?"rank":"az";
 $("#unote").innerHTML=esc(META.list_note||("The official list names "+L.length+" institutions."))+(f.institutions&&f.institutions.stated_on_page&&f.institutions.stated_on_page!=L.length?" (its introduction says "+f.institutions.stated_on_page+")":"")+" "+esc(META.rank_note||"")+' Source: <a href="'+esc(META.portal_url)+'" target="_blank" rel="noopener">'+esc(META.portal)+"</a>.";
 $$("#scope button").forEach(function(b){b.onclick=function(){scope=b.dataset.s;city="all";$("#so").value=scope=="top"?"rank":"az";$$("#scope button").forEach(function(x){x.setAttribute("aria-pressed",x==b)});draw()}});
 $("#q").oninput=draw;$("#so").onchange=draw;
@@ -83,7 +85,7 @@ try{localStorage.setItem("cc",c)}catch(e){}
 $("#cc").value=c;document.title=META.title;
 $("#ht").textContent=META.title;$("#hs").textContent=META.sub;
 $("#tabs").innerHTML="";META.tabs.forEach(function(p){var b=document.createElement("button");b.textContent=p[1];b.setAttribute("role","tab");b.dataset.t=p[0];b.onclick=function(){show(p[0],1)};$("#tabs").appendChild(b)});
-$("#main").innerHTML=META.tabs.map(function(p){var h=p[0]=="unis"?unisHtml():"<h2>"+C.sections[p[0]].title+"</h2>"+C.sections[p[0]].html;return'<section id="'+p[0]+'">'+h+"</section>"}).join("");
+$("#main").innerHTML=META.tabs.map(function(p){var h;if(p[0]=="unis"){h=unisHtml()}else{var body=C.sections[p[0]].html;if(p[0]=="overview"){var pop=d.facts.population?Number(d.facts.population).toLocaleString("en-US")+(d.facts.population_year?" ("+d.facts.population_year+" estimate)":""):"Unavailable";body=body.replace(/(<dt>Population<\\/dt>\\s*<dd>)[\\s\\S]*?(<\\/dd>)/i,"$1"+esc(pop)+"$2")}h="<h2>"+C.sections[p[0]].title+"</h2>"+body}return'<section id="'+p[0]+'">'+h+"</section>"}).join("");
 var f=d.facts;MON=f.maintenance.monthly||0;FX=(f.fx&&f.fx[CUR+"_BDT"])||13;FXN=f.fx?"Rate: 1 "+CUR+" = "+FX.toFixed(2)+" BDT (stored "+f.fx.date+", refreshed daily).":"";
 $("#caution").innerHTML=META.caution;
 $("#dstat").textContent="Data checked "+f.last_checked+" · Confirm with official links";
