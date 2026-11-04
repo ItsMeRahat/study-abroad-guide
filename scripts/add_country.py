@@ -26,6 +26,20 @@ def country_record(cc):
             return c
     raise SystemExit("Unknown ISO-3166 alpha-2 country code: " + cc.upper())
 
+def world_bank_population(cc):
+    url = "https://api.worldbank.org/v2/country/%s/indicator/SP.POP.TOTL" % cc.upper()
+    try:
+        payload = get_json(url, {"format": "json", "per_page": 70})
+        rows = payload[1] if isinstance(payload, list) and len(payload) > 1 else []
+        valid = [x for x in rows if x.get("value") is not None]
+        if not valid:
+            return None, None
+        latest = max(valid, key=lambda x: int(x.get("date", 0)))
+        return int(latest["value"]), latest["date"]
+    except Exception as exc:
+        print("WARNING: World Bank population lookup failed:", exc)
+        return None, None
+
 def universities(cc):
     params = {"format": "json", "query": SPARQL % cc.upper()}
     endpoints = ["https://qlever.dev/api/wikidata", "https://query.wikidata.org/sparql"]
@@ -74,11 +88,11 @@ def build(cc):
         rate = round(fx_to_bdt(cur), 4)
     except Exception as exc:
         print("WARNING: exchange rate unavailable:", exc)
-    unis, uni_source = universities(cc)
+    population = c.get("population") or None\n    population_year = None\n    if not population:\n        population, population_year = world_bank_population(cc)\n    unis, uni_source = universities(cc)
 
     facts = {
         "last_checked": today(),
-        "data_status": "needs_official_verification",
+        "data_status": "needs_official_verification",\n        "population": population,\n        "population_year": population_year,\n        "population_source": "https://api.worldbank.org/v2/country/%s/indicator/SP.POP.TOTL" % cc.upper(),
         "intake": "Varies by institution and programme; verify official deadlines.",
         "dates": {"source": "", "rows": [
             {"date": "Verify with institution", "event": "Application opening and deadline vary by university, programme and intake."},
@@ -103,7 +117,7 @@ def build(cc):
         ("Capital", ", ".join(capitals) or "Not listed"),
         ("Region", c.get("subregion") or c.get("region") or "Not listed"),
         ("Languages", ", ".join(langs) or "Not listed"),
-        ("Population", "{:,}".format(c.get("population", 0))),
+        ("Population", ("{:,}".format(population) + ((" (" + str(population_year) + " estimate)") if population_year else "")) if population else "Unavailable"),
         ("Currency", cur + " — " + currency_name),
         ("Exchange rate", ("1 %s = %.4f BDT (%s)" % (cur, rate, today())) if rate else "Currently unavailable")
     ]
