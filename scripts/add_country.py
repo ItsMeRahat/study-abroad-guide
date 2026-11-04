@@ -224,10 +224,10 @@ def build(cc):
             "Complete biometrics/medical steps if requested and wait for IRCC’s decision before travel."
         ]
         content["meta"].update({
-            "portal": "EduCanada · Government of Canada",
-            "portal_url": "https://www.educanada.ca/",
+            "portal": "EduCanada · Canadian universities",
+            "portal_url": "https://www.educanada.ca/study-plan-etudes/university-universite.aspx?lang=eng",
             "uni_title": "Canada universities & colleges",
-            "list_note": "Public-data directory candidates (including some colleges and affiliated schools), not a verified or exhaustive university list. Check the exact institution and programme in IRCC’s DLI list and on its official website.",
+            "list_note": "Public-data directory candidates (including colleges and affiliated schools), not an official or exhaustive university list. Cross-check recognition in CICIC’s Directory of Educational Institutions and international-student eligibility in IRCC’s DLI list.",
             "top_label": "QS/THE ranked",
             "caution": "<b>Canada guide · official-source review 2026-11-04:</b> government rules and public tuition averages are linked in the relevant sections. University admission, Bangladesh credential assessment, English waivers, study-gap decisions and scholarships remain institution/programme-specific. Recheck all live rules before applying."
         })
