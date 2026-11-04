@@ -177,6 +177,9 @@ def build(cc):
     }
     if cc == "ca":
         facts.update({
+            "population": 41798407,
+            "population_year": 2026,
+            "population_source": "https://www150.statcan.gc.ca/n1/daily-quotidien/260923/dq260923a-eng.pdf",
             "data_status": "official_sources_added_review_institution_specific",
             "maintenance": {"monthly": 1954, "annual": 23448, "source": "IRCC financial support requirement; applies from 2026-09-01 outside Quebec, excluding tuition and travel."},
             "work_hours_per_week": 24,
@@ -223,6 +226,10 @@ def build(cc):
             "Prepare proof of funds, study plan and supporting documents; submit the online study-permit application.",
             "Complete biometrics/medical steps if requested and wait for IRCC’s decision before travel."
         ]
+        content["sections"]["overview"]["html"] = content["sections"]["overview"]["html"].replace(
+            content["sections"]["overview"]["html"].split("<dt>Population</dt><dd>")[1].split("</dd>")[0],
+            "41,798,407 (1 July 2026 estimate)"
+        )
         content["meta"].update({
             "portal": "EduCanada · Canadian universities",
             "portal_url": "https://www.educanada.ca/study-plan-etudes/university-universite.aspx?lang=eng",
