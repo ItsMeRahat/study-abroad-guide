@@ -1,4 +1,4 @@
-var $=function(s){return document.querySelector(s)},$=function(s){return[].slice.call(document.querySelectorAll(s))},DATA_VERSION="20261104b";
+var $=function(s){return document.querySelector(s)},$=function(s){return[].slice.call(document.querySelectorAll(s))},DATA_VERSION="20261104c";
 var CC=[],CACHE={},D=null,code="se",U={},S=[],R={},META={},CUR="SEK",FX=13,FXN="",MON=0,scope="top",city="all",all=false,done={};
 function esc(t){return String(t==null?"":t).replace(/&/g,"&amp;").replace(/</g,"&lt;")}
 function lookup(o,p){return p.split(".").reduce(function(a,k){return a&&a[k]},o)}
