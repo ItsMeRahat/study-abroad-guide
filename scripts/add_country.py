@@ -178,13 +178,45 @@ def build(cc):
                 "scholarships": "https://www.educanada.ca/scholarships-bourses/searchAll-rechercheTous.aspx?lang=eng"
             }
         })
+        facts["intake"] = "Common entry terms include Fall (September), Winter (January) and Spring/Summer (May) where offered. Availability and deadlines vary by institution and programme."
+        facts["dates"] = {"source": "Individual university admissions calendars", "rows": [
+            {"date": "Fall · usually September", "event": "A common major intake. Programme availability and deadlines vary; competitive programmes may close many months in advance."},
+            {"date": "Winter · usually January", "event": "Offered by some institutions and programmes; confirm availability and deadline on the official programme page."},
+            {"date": "Spring/Summer · often May", "event": "Limited or programme-specific availability; do not assume every university offers this intake."},
+            {"date": "After receiving an offer", "event": "Meet the offer acceptance, deposit, document and enrolment deadlines shown in your official letter."}
+        ]}
+        content["req"] = {
+            "ug": [
+                ["Academic qualification", "Canadian universities assess Bangladesh HSC or equivalent qualifications individually. Confirm the accepted board/credential, required HSC subjects and whether a foundation/pathway year is needed for your chosen programme."],
+                ["Grades and prerequisites", "Minimum grades and subject prerequisites are programme-specific. Engineering, science, business and health programmes may require particular HSC subjects or grades; ask admissions for written confirmation."],
+                ["English", "IELTS Academic, TOEFL iBT, PTE Academic and other accepted tests/scores vary by university and programme. Confirm overall and component minimums, validity and any MOI waiver directly with admissions."],
+                ["Documents", "Usually prepare SSC/HSC certificates and transcripts, passport, English test result if required, references/portfolio where applicable, and certified translations if documents are not in English or French."]
+            ],
+            "pg": [
+                ["Academic qualification", "A recognised bachelor’s degree is generally required, but the required degree length, discipline and equivalency are decided by each graduate programme. Confirm whether your Bangladesh degree meets the specific programme’s entry standard."],
+                ["Grades and prerequisites", "Minimum GPA, grading conversion, prerequisite courses and relevant experience differ by department. Research/thesis programmes may require a supervisor, research proposal or writing sample."],
+                ["English", "Accepted tests, score thresholds, component minimums and possible exemptions are programme-specific. Obtain written confirmation of any MOI waiver before relying on it."],
+                ["Documents", "Prepare bachelor’s certificate and transcripts, grading scale, CV, statement of purpose, references, and research proposal/writing sample or portfolio where required."]
+            ]
+        }
+        content["steps"] = [
+            "Choose programme, level, province and intake; compare total cost and entry requirements.",
+            "Verify the institution on IRCC’s DLI list and check programme-specific PGWP eligibility.",
+            "Get written assessment of Bangladesh HSC/Bachelor’s equivalency and subject prerequisites.",
+            "Confirm English test, scores, MOI policy and study-gap evidence directly with admissions.",
+            "Submit the official university application and all required supporting documents.",
+            "Review offer conditions, deposit, refund policy and obtain a valid Letter of Acceptance.",
+            "Check PAL/TAL or Quebec CAQ requirements for your exact case.",
+            "Prepare proof of funds, study plan and supporting documents; submit the online study-permit application.",
+            "Complete biometrics/medical steps if requested and wait for IRCC’s decision before travel."
+        ]
         content["meta"].update({
             "portal": "EduCanada · Government of Canada",
             "portal_url": "https://www.educanada.ca/",
             "uni_title": "Canada universities & colleges",
             "list_note": "Public-data directory candidates (including some colleges and affiliated schools), not a verified or exhaustive university list. Check the exact institution and programme in IRCC’s DLI list and on its official website.",
             "top_label": "QS/THE ranked",
-            "caution": "<b>Canada guide · checked 2026-11-04:</b> government policy links are provided below. Tuition, admission, English scores, study-gap decisions and scholarship awards vary by institution/programme. Recheck IRCC and university pages before applying."
+            "caution": "<b>Canada guide · official-source review 2026-11-04:</b> government rules and public tuition averages are linked in the relevant sections. University admission, Bangladesh credential assessment, English waivers, study-gap decisions and scholarships remain institution/programme-specific. Recheck all live rules before applying."
         })
         content["sections"]["apply"] = section("Application process", """<ol>
 <li>Choose a programme and intake; compare entry prerequisites, total tuition, campus and co-op structure.</li>
