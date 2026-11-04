@@ -726,10 +726,11 @@
               listed: list.length
             },
             links: {},
-            fx: {
-              date: day,
-              source: "exchange-rate service"
-            }
+            fx: Object.fromEntries([
+              [cur + "_BDT", rate],
+              ["date", day],
+              ["source", "exchange-rate service"]
+            ])
           },
 
           universities: {
