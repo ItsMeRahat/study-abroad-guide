@@ -1,0 +1,153 @@
+{
+  "sections": {
+    "overview": {
+      "title": "Overview",
+      "html": "<div class=\"card\"><h3 style=\"margin-top:0\"><span data-f=\"intake\">Autumn 2027</span>: first international round</h3>\n<ul class=\"tl\" id=\"tl\"></ul>\n<p class=\"links\"><a data-u=\"dates\">Autumn semester dates</a></p>\n<div class=\"note\">Dates come from the official page. Always recheck the live dates.</div></div>\n\n<h3>General entry requirements</h3>\n<div class=\"seg\" id=\"lvl\"><button aria-pressed=\"true\" data-l=\"ug\">Bachelor’s (UG)</button><button aria-pressed=\"false\" data-l=\"pg\">Master’s (PG)</button></div>\n<div class=\"card\"><dl id=\"req\"></dl></div>\n<div class=\"note\"><b>English score guide:</b> IELTS Academic 6.5 overall, often with no band below 5.5, is a common route to English 6. This is not universal; verify the exact accepted test and component scores for each programme.</div>\n<div class=\"note warn\"><b>Bangladesh PG note:</b> A three-year general Bachelor’s without Honours does not normally meet the general Master’s requirement. Certain three-year Honours qualifications in selected Social Science/Humanities subjects may be assessed under the official country instructions.</div>\n<p class=\"links\"><b>Official country instructions:</b> <a data-u=\"ug\">UG Bangladesh</a> <a data-u=\"pg\">PG Bangladesh</a> <a data-u=\"eng1\">English requirements</a></p>"
+    },
+    "apply": {
+      "title": "Application steps",
+      "html": "<p>Apply through UniversityAdmissions.se. Tick each step as you finish it; your progress is saved on this device.</p>\n<div class=\"bar\"><i id=\"pb\"></i></div>\n<ol class=\"steps\" id=\"st\"></ol>\n<div class=\"card\"><b>Choices allowed:</b> the first international round generally permits up to <b>8 Bachelor’s</b> or <b>4 Master’s</b> selections. Master’s ranking is especially important.</div>\n<div class=\"card\"><b>Application fee:</b> SEK <span data-f=\"fees.application_sek\">900</span>, one fee per semester, not per university or programme.</div>\n<p class=\"links\"><a data-u=\"dates\">Autumn semester dates</a> <a data-u=\"abach\">Apply to Bachelor’s</a> <a data-u=\"amast\">Apply to Master’s</a></p>"
+    },
+    "eng": {
+      "title": "English and study gap",
+      "html": "<details open><summary>English requirement</summary><div>\n<p>The general requirement for most Bachelor’s and Master’s programmes is Swedish <b>English 6 / English Level 2</b>. Some programmes require a different level, so the programme page always takes priority.</p>\n<ul class=\"b\">\n<li><b>IELTS Academic:</b> overall 6.5 with no section below 5.5. IELTS General Training and IELTS Indicator are not accepted. University Admissions verifies the score electronically.</li>\n<li><b>TOEFL iBT:</b> the scale changed from 21 January 2026. For tests on/after that date, English 6 needs total 4.5 on the new 1–6 scale, no section below 4.0. For tests on/before 20 January 2026, the old requirement is total 90 with written score 20. Check the official page for test version and reporting rules.</li>\n<li><b>MOI / Medium of Instruction:</b> Bangladesh HSC English does not meet the Swedish English requirement. A simple MOI letter from a Bangladeshi institution is not an automatic waiver. Certain prior university studies may satisfy English 6 under specific country and study conditions; get confirmation from University Admissions or the university before advising a waiver.</li></ul></div></details>\n<details><summary>Study gap</summary><div>\n<p>There is no single Sweden-wide rule that automatically rejects an applicant for a particular number of gap years. The university assesses academic eligibility and programme fit.</p>\n<p>Be ready to explain the gap truthfully, with evidence where relevant: employment letters, business records, training certificates, internships, family responsibilities or other verifiable activities.</p>\n<div class=\"note\">A gap explanation does not replace academic or English requirements.</div></div></details>\n<p class=\"links\"><a data-u=\"eng2\">English language requirements</a> <a data-u=\"ug\">Bangladesh UG instructions</a> <a data-u=\"pg2\">Bangladesh Master’s instructions</a></p>"
+    },
+    "money": {
+      "title": "Money matters",
+      "html": "<details open><summary>Tuition payment and transfer</summary><div>\n<p>A non-EU/EEA fee-paying student must pay the <b>first tuition instalment</b> before applying for a higher-education residence permit. The whole multi-year amount is not normally due upfront. The university confirms payment to the Swedish Migration Agency; the instalment amount and due date come from the university invoice.</p>\n<h3>Sending tuition from Bangladesh</h3>\n<ul class=\"b\">\n<li>Wait for the official tuition invoice and payment instructions after admission.</li>\n<li>Ask the university which channels it supports: international bank transfer/SWIFT, its nominated payment provider (if any), or card. Methods and account details differ by university.</li>\n<li>Visit a Bangladeshi authorised dealer (AD) bank and ask about outward remittance for overseas education under current Bangladesh Bank foreign-exchange rules. The bank may open or use a student file and ask for the admission letter, tuition invoice, passport, educational documents and other compliance papers.</li>\n<li>Transfer only to the beneficiary account or payment provider named in the university’s official invoice. Include the student’s name, application/student ID and invoice reference exactly as instructed.</li>\n<li>Pay bank/intermediary charges as instructed so the university receives the correct net amount. Keep the SWIFT/remittance receipt and get the university’s payment confirmation.</li></ul>\n<div class=\"note warn\">“Student file” is a Bangladeshi bank/remittance process, not a Swedish university payment method. There is no single Swedish recipient account. Never use an agent’s personal account or an unofficial beneficiary. Ask the university’s finance office to confirm any changed bank details independently.</div>\n<p><b>Separate fee:</b> UniversityAdmissions.se charges SEK <span data-f=\"fees.application_sek\">900</span> per semester for the application. It is separate from tuition and can be paid online by Visa/Mastercard or by bank transfer using the applicant-specific reference number in the account.</p>\n<p class=\"links\"><a data-u=\"fee\">Pay application fee</a> <a data-u=\"tuition\">Paying tuition fees</a></p></div></details>\n\n<details><summary>Bank statement and proof of funds</summary><div>\n<div class=\"card\" style=\"background:var(--accbg)\"><b>Maintenance calculator</b> (<span data-f=\"maintenance.year\">2026</span> rate: SEK <span data-f=\"maintenance.monthly\">10,656</span> per month)\n<div class=\"row\"><input type=\"number\" id=\"mo\" min=\"1\" max=\"48\" value=\"12\" aria-label=\"Months of study permit\" style=\"width:90px\"><span>months</span></div>\n<div class=\"big\" id=\"tot\">SEK 127,872</div><div class=\"big\" id=\"bdt\" style=\"font-size:1.35rem;color:var(--ink)\"></div><p id=\"fxn\" style=\"color:var(--mute);font-size:.88rem;margin:6px 0 0\"></p></div>\n<p>The amount is updated over time; an application submitted in 2027 must use the amount then in force. Funds must cover the entire permit period requested, subject to the Migration Agency’s rules.</p>\n<ul class=\"b\">\n<li><b>Personal bank statement:</b> issued no more than four months before the requested permit start date, showing account holder(s), bank name, date of issue, balance and currency. The money must be accessible for living costs. Include any central-bank permission required to take funds out of Bangladesh.</li>\n<li><b>Account access:</b> funds must be in an account belonging to the applicant, from which only the applicant (and accompanying partner, where applicable) can withdraw. If relatives provide money, it must be transferred into an account in the student’s name and accessible to the student. A private relative is not accepted as a formal “sponsor” under the Migration Agency’s sponsor category.</li>\n<li><b>Holding period:</b> the published rule specifies the statement’s issue date and accessibility of funds; it sets no universal 3-month or 6-month seasoning period. Banks may still ask for source-of-funds evidence, and sudden unexplained deposits can invite questions. Keep evidence of the genuine source of funds.</li>\n<li><b>Alternatives:</b> a qualifying scholarship, approved student grant/loan or eligible sponsor can count if the official documentation states provider, recipient, amount, payment dates, period and amount available for living costs. Locked deposits unavailable during the permit period, shares/funds and credit facilities are not accepted as personal bank assets.</li></ul></div></details>\n\n<details><summary>Solvency certificate and legal attestation</summary><div>\n<p>A lawyer-attested solvency certificate, or a bank letter merely stating that a family has financial capacity, <b>does not replace</b> proof of money actually available to the student. Migrationsverket asks for evidence matching its maintenance rules.</p>\n<ul class=\"b\"><li>Provide the student’s qualifying bank statement with the required details and accessible balance.</li>\n<li>If a parent or relative provides the money, transfer it to the student’s own accessible account and keep the transfer/source evidence.</li>\n<li>A lawyer’s attestation cannot convert an inaccessible balance or a third-party account into the student’s personal bank assets.</li></ul></div></details>"
+    },
+    "visa": {
+      "title": "Residence permit",
+      "html": "<div class=\"card\">Bangladeshi citizens normally need a residence permit for higher-education studies lasting more than three months. Apply after final admission and payment of the first tuition instalment.</div>\n<details open><summary>How to apply</summary><div><ul class=\"b\">\n<li>Prepare a valid passport and clear copies of the pages requested by Migrationsverket.</li>\n<li>Prepare the final admission decision showing full-time, on-campus study; proof of paid tuition (the university normally reports this); maintenance-fund evidence; and comprehensive health insurance if the total study period is under one year and the student is not covered through Swedish registration/institutional arrangements.</li>\n<li>Open the Swedish Migration Agency’s online e-service for higher-education studies. Enter personal, passport, university/programme details and intended permit period.</li>\n<li>Choose the embassy/consulate location requested in the application, in case the Agency needs an interview or passport presentation. Not every Swedish mission handles migration cases.</li>\n<li>Upload legible supporting documents, pay the fee and submit.</li>\n<li>Wait for Migrationsverket to contact you. Attend passport verification, interview, photograph and fingerprint/biometric steps only when instructed or according to the relevant mission’s published procedure.</li>\n<li>Wait for the decision. Do not travel to Sweden until the permit has been granted and the required permit card/entry arrangements are in place.</li></ul>\n<p class=\"links\"><a data-u=\"mig\">Swedish Migration Agency — Higher education</a></p></div></details>\n<details><summary>Fee, embassy and biometrics</summary><div>\n<p>First-time higher-education permit fee: <b>SEK <span data-f=\"fees.permit_adult_sek\">1,500</span></b> for an adult (children under 18: SEK <span data-f=\"fees.permit_child_sek\">750</span>). For an online application, pay in the Migrationsverket e-service by Visa or Mastercard. It is separate from the SEK <span data-f=\"fees.application_sek\">900</span> University Admissions fee and is normally non-refundable if refused.</p>\n<p><b>Embassy of Sweden, Dhaka</b> has a Migration Section. Select the relevant mission in the online application and follow the exact instruction you receive. Do not assume every applicant needs an interview, or book a trip to New Delhi independently. New Delhi is not the default for someone resident in Bangladesh; attend another mission only if the Migration Agency specifically directs you.</p>\n<p>If passport verification, interview or biometrics are required, follow the appointment instructions from the Migration Agency/Embassy and bring the passport and requested originals. The Embassy states that visits are by pre-booked appointment.</p>\n<p>Email: <a href=\"mailto:migration.dhaka@gov.se\">migration.dhaka@gov.se</a><br>Phone: <a href=\"tel:+880255668525\">+880 255 668 525</a> (Sunday, Tuesday and Thursday, 15:00–16:00)</p>\n<p class=\"links\"><a data-u=\"mig\">Migrationsverket — fees and application</a> <a data-u=\"emb\">Embassy of Sweden, Dhaka — contact</a></p></div></details>\n<details><summary>Decision and processing time</summary><div>\n<p>The Migration Agency reviews the application, documents, tuition confirmation and financial evidence. It may request more documents, a passport presentation or an interview. If you applied online, Migrationsverket emails you when a decision is made; the decision is sent to your selected embassy or representative, and you may need an appointment to collect the permit card. The Embassy does not decide the case; Migrationsverket does.</p>\n<div class=\"card\" style=\"background:var(--accbg)\"><span class=\"big\"><span data-f=\"permit_wait.percent\">75</span>%</span> of recently decided first-time higher-education cases were decided within <b><span data-f=\"permit_wait.months\">3</span> months</b>.</div>\n<p>This is a statistical guide, not a guaranteed service standard or a Bangladesh-specific promise. Incomplete applications or extra checks can take longer. Apply immediately after the first tuition payment and submit a complete file.</p>\n<p class=\"links\"><a data-u=\"wait\">Waiting-time statistics</a> <a data-u=\"first\">First-time study application process</a></p></div></details>"
+    },
+    "after": {
+      "title": "After you graduate",
+      "html": "<details open><summary>Post-study work</summary><div>\n<p>A student who completed a programme of at least two semesters may apply, <b>before the study permit expires</b>, for a permit to look for work or explore starting a business, for up to <b>12 months</b>. You must have completed the programme and passed all courses, have sufficient funds for the period, and meet insurance/passport requirements.</p>\n<p><b>If you find a job:</b> you may apply for a work permit from inside Sweden if the legal conditions are met, including a signed employment contract, appropriate terms and employer insurance. Apply before the current permit expires. Check current salary and work-permit rules at the time of application.</p>\n<p class=\"links\"><a data-u=\"jobs\">Post-study job-search permit</a> <a data-u=\"workp\">Work permit after studies</a></p></div></details>\n<details><summary>Permanent residence (PR)</summary><div>\n<p>A Bachelor’s or Master’s student permit is generally temporary and does not itself count toward the ordinary work-permit residence period for PR. A common route is to move to a qualifying work permit and later meet the requirement of at least <b>four years</b> holding and complying with a work permit during the previous seven years, plus sustainable self-support and good-conduct requirements.</p>\n<div class=\"note warn\">Exact rules depend on the permit category and legislation in force when applying. Do not promise PR as an automatic result of graduation or employment.</div>\n<p class=\"links\"><a data-u=\"pr\">Permanent residence — work permit route</a></p></div></details>\n<details><summary>Working while studying <span class=\"tag\">rule update</span></summary><div>\n<p>For higher-education study permits granted on or after <b>11 June 2026</b>, the Migration Agency currently states a maximum of <b><span data-f=\"work_hours_per_week\">15</span> hours of work per week</b> during studies, subject to exceptions (for example, work integrated with the programme and certain summer periods). Check the current rule for the student’s permit date.</p></div></details>"
+    },
+    "schol": {
+      "title": "Scholarships",
+      "html": "<details open><summary>Swedish Institute (SI) Scholarship for Global Professionals</summary><div>\n<p>Bangladesh is among the eligible countries in the 2026/27 SI programme information. The award is for eligible full-time Master’s programmes and is highly competitive.</p>\n<ul class=\"b\"><li>Applicants normally need relevant work experience and demonstrated leadership experience.</li>\n<li>Apply to an eligible Master’s programme through UniversityAdmissions.se first.</li>\n<li>The SI application is separate, within SI’s published scholarship window.</li>\n<li>Eligibility, programmes, work-hour evidence, leadership criteria and deadlines can change each cycle; use the current SI call and programme list, not a previous year’s rules.</li></ul>\n<p class=\"links\"><a data-u=\"si\">Swedish Institute scholarships</a> <a data-u=\"siglob\">SI Scholarship for Global Professionals</a></p></div></details>\n<details><summary>University scholarships</summary><div>\n<p>Examples: Lund University Global Scholarship, KTH Scholarship, Uppsala University Global Scholarship, Stockholm University Scholarship Scheme, University of Gothenburg Axel Adler Scholarship, Chalmers IPOET, Linköping University International Scholarship, Umeå University scholarships and Karolinska Institutet Global Master’s Scholarship.</p>\n<p>These are competitive and usually tuition-fee waivers or reductions; living costs are not automatically covered. Some universities require a separate scholarship application, while others consider eligible applicants automatically.</p>\n<p class=\"links\"><a data-u=\"uascho\">University Admissions — scholarships</a></p></div></details>\n<details open><summary>Practical sequence</summary><div><ol class=\"b\">\n<li>Identify an eligible programme.</li><li>Apply by the first international round.</li><li>Rank programmes correctly.</li><li>Submit the university application and required documents.</li><li>Submit the separate scholarship application if required.</li></ol>\n<p>Prepare academic records, CV, motivation statement, work-experience evidence and leadership references according to the scholarship’s own checklist.</p></div></details>"
+    }
+  },
+  "links": {
+    "ug": "https://www.universityadmissions.se/en/apply-to-bachelors/provide-application-documents-bachelors/country-instructions/bangladesh/",
+    "pg": "https://www.universityadmissions.se/en/apply-to-masters/provide-application-documents-masters/country-instructions/bangladesh/",
+    "pg2": "https://www.universityadmissions.se/en/apply-to-masters/provide-application-documents-masters/country-instructions/bangladesh",
+    "eng1": "https://www.universityadmissions.se/en/entry-requirements/english-language-requirements/",
+    "eng2": "https://www.universityadmissions.se/en/entry-requirements/english-language-requirements",
+    "dates": "https://www.universityadmissions.se/en/key-dates-and-deadlines/autumn-semester-dates",
+    "abach": "https://www.universityadmissions.se/en/apply-to-bachelors/",
+    "amast": "https://www.universityadmissions.se/en/apply-to-masters/",
+    "fee": "https://www.universityadmissions.se/en/fees-scholarships-residence-permit/pay-your-application-fee/",
+    "tuition": "https://www.universityadmissions.se/en/fees-scholarships-residence-permit/paying-your-tuition-fees/",
+    "mig": "https://www.migrationsverket.se/en/you-want-to-apply/study/higher-education",
+    "emb": "https://www.swedenabroad.se/en/embassies/bangladesh-dhaka/contact/",
+    "wait": "https://www.migrationsverket.se/en/contact-us/waiting-times.html",
+    "first": "https://www.migrationsverket.se/en/you-are-waiting-for-a-decision/study/you-have-applied-for-the-first-time---studies.html",
+    "jobs": "https://www.migrationsverket.se/en/you-want-to-extend/study/look-for-work-after-completing-your-studies-in-sweden.html",
+    "workp": "https://www.migrationsverket.se/en/you-want-to-apply/work/employee-or-self-employed/students-who-have-found-work.html",
+    "pr": "https://www.migrationsverket.se/en/you-want-to-extend/work/employee-or-self-employed/employees.html",
+    "si": "https://si.se/en/apply/scholarships/",
+    "siglob": "https://si.se/en/apply/scholarships/swedish-institute-scholarships-for-global-professionals/",
+    "uascho": "https://www.universityadmissions.se/en/fees-scholarships-residence-permit/scholarships/"
+  },
+  "req": {
+    "ug": [
+      [
+        "Academic qualification",
+        "HSC or an accepted equivalent qualification. Programme-specific subject requirements and grades may apply."
+      ],
+      [
+        "Mathematics",
+        "For Bangladesh HSC qualifications after 2009, passing Mathematics is required for general eligibility. Check the official country instructions for SSC Mathematics provisions."
+      ],
+      [
+        "English",
+        "HSC English alone does not automatically meet Sweden’s English requirement. Accepted test results or other approved evidence are needed."
+      ],
+      [
+        "Documents",
+        "Board-issued SSC and HSC certificates and marksheets, following the Bangladesh country instructions."
+      ]
+    ],
+    "pg": [
+      [
+        "Academic qualification",
+        "Normally a 4-year Bachelor’s degree, or Bachelor’s + Master’s totalling 4 years. Limited subject-specific exceptions may apply under Bangladesh country instructions."
+      ],
+      [
+        "Mathematics",
+        "Depends on the programme and the student’s previous academic background."
+      ],
+      [
+        "English",
+        "English 6 / English Level 2 equivalent. Accepted tests and score requirements must be checked."
+      ],
+      [
+        "Documents",
+        "University-issued degree certificate and transcript. Follow the Bangladesh country instructions for certification and submission."
+      ]
+    ]
+  },
+  "steps": [
+    "Choose the level and intake: Bachelor’s (UG) or Master’s (PG). Search English-taught programmes at UniversityAdmissions.se and each university’s programme page.",
+    "Check eligibility before applying: Bangladesh country-specific academic rules, subject prerequisites, degree level, English 6 equivalence and any programme-specific requirements.",
+    "Create the applicant’s own account using their personal email and correct identity details. The student should control the account and password.",
+    "Select and rank programmes carefully (up to 8 Bachelor’s or 4 Master’s in the first international round).",
+    "Submit the application and upload certificates, transcripts, passport/identity documents and English test evidence by the supporting-document deadline.",
+    "Pay the SEK <span data-f='fees.application_sek'>900</span> application fee by the deadline if required.",
+    "Monitor the account and email for document requests and results. If admitted as a fee-paying student, follow the university’s tuition invoice and pay the first instalment.",
+    "After the university registers the tuition payment, apply online for the residence permit through Migrationsverket. Arrange housing, insurance where required and travel only after the permit is granted."
+  ],
+  "tabs": [
+    [
+      "overview",
+      "Overview"
+    ],
+    [
+      "unis",
+      "Universities"
+    ],
+    [
+      "apply",
+      "Apply"
+    ],
+    [
+      "eng",
+      "English & gap"
+    ],
+    [
+      "money",
+      "Money"
+    ],
+    [
+      "visa",
+      "Visa"
+    ],
+    [
+      "after",
+      "After study"
+    ],
+    [
+      "schol",
+      "Scholarships"
+    ]
+  ],
+  "meta": {
+    "code": "se",
+    "name": "Sweden",
+    "flag": "🇸🇪",
+    "currency": "SEK",
+    "title": "Study in Sweden: Applicant Guide",
+    "sub": "Bangladesh applicants · Universities, rankings, application, visa and money.",
+    "portal": "UniversityAdmissions.se",
+    "portal_url": "https://www.universityadmissions.se/en/find-out-more/swedish-universities/",
+    "top_label": "Top 10",
+    "rank_note": "Only the Top 10 have full counselling profiles; the other institutions are listed separately.",
+    "gen_note": "Entry requirements, tuition fees and scholarships differ by programme. Use the button below to see this university’s programmes, then open a programme to read its fee and requirements.",
+    "uni_title": "Swedish universities",
+    "prog_btn": "Programmes and fees",
+    "list_note": "The official University Admissions list names institutions.",
+    "caution": "<b>Counsellor caution:</b> Always verify the current intake, exact programme, fee invoice, scholarship call, maintenance amount, permit fee and embassy instructions immediately before advising a student. Bank rules in Bangladesh and Swedish immigration rules can change. No agent, counsellor or university can guarantee admission, scholarship or a residence-permit decision."
+  }
+}
