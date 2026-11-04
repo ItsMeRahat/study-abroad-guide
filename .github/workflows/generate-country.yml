@@ -25,7 +25,7 @@ jobs:
           python - <<'PY'
           import os, re
           body = os.environ.get("ISSUE_BODY", "")
-          match = re.search(r"ISO code:\\s*([A-Za-z]{2})", body)
+          match = re.search(r"ISO code:\s*([A-Za-z]{2})", body)
           if not match:
               raise SystemExit("Issue body must include ISO code: XX")
           code = match.group(1).upper()
