@@ -1,0 +1,506 @@
+{
+ "source": "https://www.universityadmissions.se/en/find-out-more/swedish-universities/",
+ "source_page_last_updated": "2025-10-14",
+ "universities": [
+  {
+   "id": "karolinska-institutet",
+   "name": "Karolinska Institutet",
+   "city": "Stockholm (Solna)",
+   "focus": "Medicine and health sciences",
+   "website": "https://education.ki.se/",
+   "admissions_email": "admissions@ki.se",
+   "phone": "+46 8 524 86250",
+   "top10": true,
+   "top10_rank": 1,
+   "profile": {
+    "ug_entry": "HSC/equivalent plus required science subjects; English UG options are limited.",
+    "pg_entry": "Relevant Bachelor’s degree; biomedical/health-related or other specified credits may be required.",
+    "english": "English 6 equivalent; IELTS 6.5 is a common route. Check exact programme score and bands.",
+    "courses": "UG: Biomedicine. PG: Biomedicine, Global Health, Public Health Sciences, Health Informatics, Health Economics, Nutrition Science.",
+    "fees": "UG Biomedicine: about SEK 540,000 total for 3 years. PG fees vary by programme.",
+    "scholarship": "KI Global Master’s Scholarship: competitive tuition support for selected Master’s students; Swedish Institute awards may apply to eligible applicants."
+   },
+   "profile_source": "Counselling notes, checked 4 November 2026. Confirm fees and scholarships on the official programme page."
+  },
+  {
+   "id": "lund-university",
+   "name": "Lund University",
+   "city": "Lund",
+   "focus": "Broad research university",
+   "website": "https://www.lunduniversity.lu.se/",
+   "admissions_email": "lant@stu.lu.se",
+   "phone": "+46 46 222 00 00",
+   "top10": true,
+   "top10_rank": 2,
+   "profile": {
+    "ug_entry": "HSC/equivalent and programme-specific subject requirements; English-taught Bachelor’s choices are fewer than Master’s.",
+    "pg_entry": "Relevant Bachelor’s degree equivalent to at least 180 ECTS, plus programme prerequisites.",
+    "english": "Usually English 6 equivalent; IELTS 6.5 is a common route. Verify exact rules.",
+    "courses": "UG: Selected options such as Development Studies (check intake). PG: Business, Economics, Engineering, Computer Science, Environment, Public Health, Social Sciences and Humanities.",
+    "fees": "Programme-dependent; indicative many programmes SEK 135,000–270,000 per year. Verify exact fee.",
+    "scholarship": "Lund University Global Scholarship: merit-based partial or full tuition support for selected students; other awards may apply."
+   },
+   "profile_source": "Counselling notes, checked 4 November 2026. Confirm fees and scholarships on the official programme page."
+  },
+  {
+   "id": "kth-royal-institute-of-technology",
+   "name": "KTH Royal Institute of Technology",
+   "city": "Stockholm",
+   "focus": "Engineering, technology, architecture",
+   "website": "https://www.kth.se/en",
+   "admissions_email": "info@kth.se",
+   "phone": "+46 8 790 60 00",
+   "top10": true,
+   "top10_rank": 3,
+   "profile": {
+    "ug_entry": "HSC/equivalent with Mathematics and relevant science prerequisites; many UG courses are not taught in English.",
+    "pg_entry": "Relevant Bachelor’s degree with programme-specific engineering, science or computing credits.",
+    "english": "English 6 equivalent; IELTS 6.5 is commonly accepted for Master’s. Check component requirements.",
+    "courses": "UG: Information and Communication Technology (verify current language/intake). PG: Computer Science, Data Science, Cybersecurity, Electrical and Mechanical Engineering, Architecture, Sustainable Technology.",
+    "fees": "Most two-year Master’s programmes: about SEK 385,000 total; programme-dependent.",
+    "scholarship": "KTH Scholarship: competitive tuition-fee coverage for selected Master’s students; other eligible awards may apply."
+   },
+   "profile_source": "Counselling notes, checked 4 November 2026. Confirm fees and scholarships on the official programme page."
+  },
+  {
+   "id": "uppsala-university",
+   "name": "Uppsala University",
+   "city": "Uppsala",
+   "focus": "Broad research university",
+   "website": "https://www.uu.se/en",
+   "admissions_email": "masterprogrammes@uu.se",
+   "phone": "+46 18 471 00 00",
+   "top10": true,
+   "top10_rank": 4,
+   "profile": {
+    "ug_entry": "HSC/equivalent and programme-specific subject requirements; Mathematics may be required.",
+    "pg_entry": "Relevant Bachelor’s degree. Bangladesh applicants generally need a four-year Bachelor’s or qualifying combined degree.",
+    "english": "English 6 equivalent; IELTS 6.5 overall with no band below 5.5 is one accepted route. Verify current rules.",
+    "courses": "UG: Selected programmes such as Game Design (check intake). PG: Business, Economics, Computer Science, Engineering, Biology, Chemistry, Public Health and International Relations.",
+    "fees": "Programme-specific; indicative range around SEK 99,000–180,000 per year. Verify exact fee.",
+    "scholarship": "Uppsala University Global Scholarship: competitive tuition-fee support for selected Master’s students."
+   },
+   "profile_source": "Counselling notes, checked 4 November 2026. Confirm fees and scholarships on the official programme page."
+  },
+  {
+   "id": "chalmers-university-of-technology",
+   "name": "Chalmers University of Technology",
+   "city": "Gothenburg",
+   "focus": "Engineering, science, architecture",
+   "website": "https://www.chalmers.se/en/",
+   "admissions_email": "admissions@chalmers.se",
+   "phone": "+46 31 772 25 90",
+   "top10": true,
+   "top10_rank": 5,
+   "profile": {
+    "ug_entry": "HSC/equivalent with Mathematics and relevant science subjects; many Bachelor’s programmes are taught in Swedish.",
+    "pg_entry": "Relevant Bachelor’s degree in Engineering, Science, Architecture or a related field.",
+    "english": "English 6 equivalent for English-taught programmes.",
+    "courses": "UG: Limited English-taught Bachelor’s options; verify current catalogue. PG: Computer Science, Data Science, Automotive, Electrical and Mechanical Engineering, Architecture, Industrial Design and Sustainable Energy.",
+    "fees": "Indicative 2026/27: many Master’s programmes around SEK 160,000 per year; selected design/architecture programmes may be around SEK 210,000 per year.",
+    "scholarship": "IPOET Scholarship: competitive tuition-fee reduction for selected fee-paying Master’s students."
+   },
+   "profile_source": "Counselling notes, checked 4 November 2026. Confirm fees and scholarships on the official programme page."
+  },
+  {
+   "id": "link-ping-university",
+   "name": "Linköping University",
+   "city": "Linköping",
+   "focus": "Engineering, science, medicine, social sciences",
+   "website": "https://liu.se/en",
+   "admissions_email": "international.student@liu.se",
+   "phone": "+46 13 28 10 00",
+   "top10": true,
+   "top10_rank": 6,
+   "profile": {
+    "ug_entry": "HSC/equivalent with Mathematics and programme-specific subject requirements; check language of instruction.",
+    "pg_entry": "Relevant Bachelor’s degree equivalent to Swedish Bachelor’s level; subject-specific credits may be required.",
+    "english": "English 6 equivalent; check programme for exact accepted tests and scores.",
+    "courses": "UG: Selected options, including Experimental and Industrial Biomedicine (check intake). PG: Computer Science, Cybersecurity, Statistics and Machine Learning, Industrial Engineering, Biomedical Engineering, International Relations and Sustainability.",
+    "fees": "Programme-dependent; verify the current fee on the official programme page.",
+    "scholarship": "LiU International Scholarship: typically a 50% tuition-fee reduction for selected eligible Master’s applicants."
+   },
+   "profile_source": "Counselling notes, checked 4 November 2026. Confirm fees and scholarships on the official programme page."
+  },
+  {
+   "id": "stockholm-university",
+   "name": "Stockholm University",
+   "city": "Stockholm",
+   "focus": "Broad research university",
+   "website": "https://www.su.se/english",
+   "admissions_email": "study@su.se",
+   "phone": "+46 8 16 20 00",
+   "top10": true,
+   "top10_rank": 7,
+   "profile": {
+    "ug_entry": "HSC/equivalent, English proficiency and programme-specific subject requirements; English-taught Bachelor’s options are limited.",
+    "pg_entry": "Relevant Bachelor’s degree from a recognised institution, plus programme-specific requirements.",
+    "english": "Usually English 6 equivalent for English-taught programmes.",
+    "courses": "UG: Selected options, including International Business and Politics (check intake). PG: Business, Economics, Computer Science, Data Science, Law, Environmental Science, International Relations and Social Sciences.",
+    "fees": "Indicative: some humanities/social-science programmes around SEK 90,000 per year and some science programmes around SEK 140,000 per year. Exact fees vary.",
+    "scholarship": "Stockholm University Scholarship Scheme: competitive tuition-fee coverage for selected Master’s students."
+   },
+   "profile_source": "Counselling notes, checked 4 November 2026. Confirm fees and scholarships on the official programme page."
+  },
+  {
+   "id": "university-of-gothenburg",
+   "name": "University of Gothenburg",
+   "city": "Gothenburg",
+   "focus": "Broad research university",
+   "website": "https://www.gu.se/en",
+   "admissions_email": "info@gu.se",
+   "phone": "+46 31 786 00 00",
+   "top10": true,
+   "top10_rank": 8,
+   "profile": {
+    "ug_entry": "HSC/equivalent, English proficiency and programme-specific subject prerequisites; check language of instruction.",
+    "pg_entry": "Relevant Bachelor’s degree; subject and credit requirements vary by programme.",
+    "english": "Normally English 6 equivalent.",
+    "courses": "UG: Selected English-taught options, including International Relations and Software Engineering (verify intake). PG: Business, Economics, Public Health, Global Studies, Computer Science, Education, Social Sciences and Environmental Studies.",
+    "fees": "Programme-specific; check the exact programme fee.",
+    "scholarship": "Axel Adler Scholarship: tuition-fee scholarship for selected international students; other faculty/external awards may be available."
+   },
+   "profile_source": "Counselling notes, checked 4 November 2026. Confirm fees and scholarships on the official programme page."
+  },
+  {
+   "id": "swedish-university-of-agricultural-sciences-slu",
+   "name": "Swedish University of Agricultural Sciences (SLU)",
+   "city": "Uppsala (main campus)",
+   "focus": "Agriculture, forestry, environment, veterinary",
+   "website": "https://www.slu.se/en/",
+   "admissions_email": "admissions@slu.se",
+   "phone": "+46 18 67 10 00",
+   "top10": true,
+   "top10_rank": 9,
+   "profile": {
+    "ug_entry": "HSC/equivalent and programme-specific science or subject prerequisites; confirm current UG availability and language.",
+    "pg_entry": "Relevant Bachelor’s degree; some programmes require agriculture, biology, environmental science or related subjects.",
+    "english": "Programme-specific; verify accepted English evidence.",
+    "courses": "UG: Forest and Landscape (verify current programme and language). PG: Agricultural Economics, Agroecology, Animal Science, Environmental Science, Sustainable Development, Wildlife and Conservation.",
+    "fees": "Programme-specific; consult the current programme fee.",
+    "scholarship": "SLU scholarships may be available for selected fee-paying students; check whether the award covers tuition only."
+   },
+   "profile_source": "Counselling notes, checked 4 November 2026. Confirm fees and scholarships on the official programme page."
+  },
+  {
+   "id": "ume-university",
+   "name": "Umeå University",
+   "city": "Umeå",
+   "focus": "Broad research university",
+   "website": "https://www.umu.se/en/",
+   "admissions_email": "",
+   "phone": "+46 90 786 50 00",
+   "top10": true,
+   "top10_rank": 10,
+   "profile": {
+    "ug_entry": "HSC/equivalent, English proficiency, Mathematics where required and programme-specific prerequisites.",
+    "pg_entry": "Relevant Bachelor’s degree equivalent to Swedish Bachelor’s level; subject-specific requirements vary.",
+    "english": "Usually English 6 equivalent for English-taught programmes.",
+    "courses": "UG: Selected English-taught programmes, including International Business Management (verify intake). PG: Public Health, Business, Computer Science, Environmental Science, Molecular Biology, Engineering and Design.",
+    "fees": "Programme-dependent; fees vary by subject. Check the exact programme fee.",
+    "scholarship": "Umeå University Scholarship: full or partial tuition-fee waiver for selected high-achieving students; eligibility conditions apply."
+   },
+   "profile_source": "Counselling notes, checked 4 November 2026. Confirm fees and scholarships on the official programme page."
+  },
+  {
+   "id": "blekinge-institute-of-technology",
+   "name": "Blekinge Institute of Technology",
+   "city": "Karlskrona",
+   "focus": "Technology, engineering, IT and management",
+   "website": "https://www.bth.se/english",
+   "admissions_email": "admissions@bth.se",
+   "phone": "+46 455 38 50 00",
+   "top10": false
+  },
+  {
+   "id": "dalarna-university",
+   "name": "Dalarna University",
+   "city": "Falun",
+   "focus": "Multidisciplinary university college",
+   "website": "http://www.du.se/en",
+   "admissions_email": "support@du.se",
+   "phone": "+46 23 77 80 00",
+   "top10": false
+  },
+  {
+   "id": "halmstad-university",
+   "name": "Halmstad University",
+   "city": "Halmstad",
+   "focus": "IT, engineering, health, business",
+   "website": "http://www.hh.se/english",
+   "admissions_email": "fdia@hh.se",
+   "phone": "+46 35 16 71 00",
+   "top10": false
+  },
+  {
+   "id": "johannelund-school-of-theology",
+   "name": "Johannelund School of Theology",
+   "city": "Uppsala",
+   "focus": "Theology",
+   "website": "https://www.johannelund.nu/johannelund-school-of-theology/",
+   "admissions_email": "info@johannelund.nu",
+   "phone": "+46 18 16 99 00",
+   "top10": false
+  },
+  {
+   "id": "j-nk-ping-university",
+   "name": "Jönköping University",
+   "city": "Jönköping",
+   "focus": "Business, engineering, health, communication",
+   "website": "https://ju.se/en.html",
+   "admissions_email": "admissions.office@ju.se",
+   "phone": "+46 36 10 10 00",
+   "top10": false
+  },
+  {
+   "id": "karlstad-university",
+   "name": "Karlstad University",
+   "city": "Karlstad",
+   "focus": "Multidisciplinary university",
+   "website": "http://www.kau.se/en/",
+   "admissions_email": "admission@kau.se",
+   "phone": "+46 54 700 10 00",
+   "top10": false
+  },
+  {
+   "id": "konstfack-university-of-arts-crafts-and-design",
+   "name": "Konstfack, University of Arts, Crafts and Design",
+   "city": "Stockholm",
+   "focus": "Art, craft and design",
+   "website": "http://www.konstfack.se/en",
+   "admissions_email": "Admissions@konstfack.se",
+   "phone": "+46 8 450 4177",
+   "top10": false
+  },
+  {
+   "id": "kristianstad-university",
+   "name": "Kristianstad University",
+   "city": "Kristianstad",
+   "focus": "Multidisciplinary university college",
+   "website": "https://www.hkr.se/en/",
+   "admissions_email": "info@hkr.se",
+   "phone": "044-250 30 00",
+   "top10": false
+  },
+  {
+   "id": "linnaeus-university",
+   "name": "Linnaeus University",
+   "city": "Växjö",
+   "focus": "Multidisciplinary university (Växjö and Kalmar)",
+   "website": "https://lnu.se/en/",
+   "admissions_email": "admission@lnu.se",
+   "phone": "+46 772 28 80 00",
+   "top10": false
+  },
+  {
+   "id": "lule-university-of-technology",
+   "name": "Luleå University of Technology",
+   "city": "Luleå",
+   "focus": "Technology and engineering",
+   "website": "http://www.ltu.se/?l=en",
+   "admissions_email": "universitetet@ltu.se",
+   "phone": "+46 920 49 10 00",
+   "top10": false
+  },
+  {
+   "id": "malm-university",
+   "name": "Malmö University",
+   "city": "Malmö",
+   "focus": "Multidisciplinary university",
+   "website": "https://mau.se/en/",
+   "admissions_email": "info@mau.se",
+   "phone": "+46 40 665 75 00",
+   "top10": false
+  },
+  {
+   "id": "marie-cederschi-ld-university",
+   "name": "Marie Cederschiöld University",
+   "city": "Stockholm",
+   "focus": "Health and social care",
+   "website": "https://www.mchs.se/engelska/marie-cederschiold-university.html",
+   "admissions_email": "utbildningsstod@mchs.se",
+   "phone": "+46 8 555 050 00",
+   "top10": false
+  },
+  {
+   "id": "mid-sweden-university",
+   "name": "Mid Sweden University",
+   "city": "Sundsvall",
+   "focus": "Multidisciplinary university (Sundsvall and Östersund)",
+   "website": "http://www.miun.se/en",
+   "admissions_email": "kontakt@miun.se",
+   "phone": "+46 10 142 80 00",
+   "top10": false
+  },
+  {
+   "id": "m-lardalen-university",
+   "name": "Mälardalen University",
+   "city": "Västerås",
+   "focus": "Technology, health, business (Västerås and Eskilstuna)",
+   "website": "https://www.mdu.se/en/malardalen-university",
+   "admissions_email": "info@mdh.se",
+   "phone": "+46 21 10 13 00",
+   "top10": false
+  },
+  {
+   "id": "royal-college-of-music",
+   "name": "Royal College of Music",
+   "city": "Stockholm",
+   "focus": "Music",
+   "website": "https://www.kmh.se/in-english.html",
+   "admissions_email": "antagning@kmh.se",
+   "phone": "+46 8 572 10 000",
+   "top10": false
+  },
+  {
+   "id": "royal-institute-of-art",
+   "name": "Royal Institute of Art",
+   "city": "Stockholm",
+   "focus": "Fine art",
+   "website": "https://kkh.se/en/",
+   "admissions_email": "info@kkh.se",
+   "phone": "+46 8 614 40 00",
+   "top10": false
+  },
+  {
+   "id": "sophiahemmet-university",
+   "name": "Sophiahemmet University",
+   "city": "Stockholm",
+   "focus": "Nursing and health sciences",
+   "website": "https://www.shh.se/en/",
+   "admissions_email": "info@shh.se",
+   "phone": "+46 8 406 20 00",
+   "top10": false
+  },
+  {
+   "id": "stockholm-school-of-economics",
+   "name": "Stockholm School of Economics",
+   "city": "Stockholm",
+   "focus": "Business and economics",
+   "website": "http://www.hhs.se/",
+   "admissions_email": "info@hhs.se",
+   "phone": "+46 8 736 90 00",
+   "top10": false
+  },
+  {
+   "id": "stockholm-university-of-the-arts",
+   "name": "Stockholm University of the Arts",
+   "city": "Stockholm",
+   "focus": "Arts",
+   "website": "https://www.uniarts.se/english",
+   "admissions_email": "info@uniarts.se",
+   "phone": "+46 8 49 400 000",
+   "top10": false
+  },
+  {
+   "id": "swedish-defence-university",
+   "name": "Swedish Defence University",
+   "city": "Stockholm",
+   "focus": "Defence and security studies",
+   "website": "https://www.fhs.se/en/",
+   "admissions_email": "masterprogramme@fhs.se",
+   "phone": "+46 8 553 425 00",
+   "top10": false
+  },
+  {
+   "id": "swedish-red-cross-university",
+   "name": "Swedish Red Cross University",
+   "city": "Huddinge",
+   "focus": "Nursing and humanitarian studies",
+   "website": "https://www.rkh.se/en/",
+   "admissions_email": "info@rkh.se",
+   "phone": "+46 8 587 516 00",
+   "top10": false
+  },
+  {
+   "id": "s-dert-rn-university-in-stockholm",
+   "name": "Södertörn University in Stockholm",
+   "city": "Huddinge",
+   "focus": "Humanities and social sciences",
+   "website": "https://www.sh.se/english/sodertorn-university",
+   "admissions_email": "info@sh.se",
+   "phone": "+46 8 608 40 00",
+   "top10": false
+  },
+  {
+   "id": "the-newman-institute",
+   "name": "The Newman Institute",
+   "city": "Uppsala",
+   "focus": "Theology and philosophy",
+   "website": "https://newman.se/in-english/",
+   "admissions_email": "",
+   "phone": "+46 18 580 07 00",
+   "top10": false
+  },
+  {
+   "id": "the-swedish-school-of-sport-and-health-sciences",
+   "name": "The Swedish School of Sport and Health Sciences",
+   "city": "Stockholm",
+   "focus": "Sport and health sciences",
+   "website": "https://www.gih.se/in-english/",
+   "admissions_email": "international@gih.se",
+   "phone": "+46 8 120 537 00",
+   "top10": false
+  },
+  {
+   "id": "university-college-stockholm",
+   "name": "University College Stockholm",
+   "city": "Stockholm (Bromma)",
+   "focus": "Private university college",
+   "website": "https://ehs.se/en/",
+   "admissions_email": "info@ehs.se",
+   "phone": "+46 8 564 357 00",
+   "top10": false
+  },
+  {
+   "id": "university-west",
+   "name": "University West",
+   "city": "Trollhättan",
+   "focus": "Technology, health, business",
+   "website": "http://www.hv.se/en",
+   "admissions_email": "admission@hv.se",
+   "phone": "+46 520 22 30 00",
+   "top10": false
+  },
+  {
+   "id": "university-of-bor-s",
+   "name": "University of Borås",
+   "city": "Borås",
+   "focus": "Textiles, library and information, engineering, health",
+   "website": "http://www.hb.se/en/",
+   "admissions_email": "admissions@hb.se",
+   "phone": "+46 33 435 40 00",
+   "top10": false
+  },
+  {
+   "id": "university-of-g-vle",
+   "name": "University of Gävle",
+   "city": "Gävle",
+   "focus": "Multidisciplinary university",
+   "website": "https://www.hig.se/engelska/university-of-gavle",
+   "admissions_email": "registrator@hig.se",
+   "phone": "+46 26 64 85 00",
+   "top10": false
+  },
+  {
+   "id": "university-of-sk-vde",
+   "name": "University of Skövde",
+   "city": "Skövde",
+   "focus": "IT, engineering, health, business",
+   "website": "http://www.his.se/english",
+   "admissions_email": "admission@his.se",
+   "phone": "+46 500 44 80 00",
+   "top10": false
+  },
+  {
+   "id": "rebro-university",
+   "name": "Örebro University",
+   "city": "Örebro",
+   "focus": "Multidisciplinary university",
+   "website": "http://www.oru.se/English/",
+   "admissions_email": "freemover@oru.se",
+   "phone": "+46 19 30 30 00",
+   "top10": false
+  }
+ ]
+}

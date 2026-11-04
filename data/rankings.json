@@ -1,0 +1,139 @@
+{
+ "updated": "2026-11-04",
+ "providers": {
+  "qs": {
+   "name": "QS World University Rankings",
+   "short": "QS",
+   "edition": "2027",
+   "url": "https://www.topuniversities.com/world-university-rankings"
+  },
+  "the": {
+   "name": "Times Higher Education World University Rankings",
+   "short": "THE",
+   "edition": "2027",
+   "url": "https://www.timeshighereducation.com/world-university-rankings"
+  }
+ },
+ "ranks": {
+  "qs": {
+   "lund university": {
+    "name": "Lund University",
+    "r": "72",
+    "n": 72,
+    "src": "https://www.topuniversities.com/student-info/choosing-university/worlds-top-100-universities"
+   },
+   "kth royal institute of technology": {
+    "name": "KTH Royal Institute of Technology",
+    "r": "=82",
+    "n": 82,
+    "src": "https://www.kth.se/en/om/nyheter/centrala-nyheter/kth-ranked-second-in-sweden-82nd-in-world-1.1481148"
+   },
+   "uppsala university": {
+    "name": "Uppsala University",
+    "r": "87",
+    "n": 87,
+    "src": "https://www.uu.se/en/department/physics-and-astronomy/about-us/rankings",
+    "note": "Uppsala reports 87; QS's top-100 page lists =90. Confirm on topuniversities.com."
+   },
+   "stockholm university": {
+    "name": "Stockholm University",
+    "r": "167",
+    "n": 167,
+    "src": "https://www.su.se/english/news/articles/2026-06-22-stockholm-university-ranks-167-in-the-qs-ranking"
+   },
+   "karolinska institutet": {
+    "name": "Karolinska Institutet",
+    "r": null,
+    "n": null,
+    "src": "https://en.wikipedia.org/wiki/Karolinska_Institute",
+    "note": "Not in QS's overall table (QS lists multi-faculty universities); QS ranks it by subject instead."
+   },
+   "university of oslo": {
+    "name": "University of Oslo",
+    "r": "=131",
+    "n": 131,
+    "src": "https://www.topuniversities.com/world-university-rankings"
+   },
+   "norwegian university of science and technology": {
+    "name": "Norwegian University of Science and Technology (NTNU)",
+    "r": "264",
+    "n": 264,
+    "src": "https://www.topuniversities.com/world-university-rankings"
+   },
+   "university of bergen": {
+    "name": "University of Bergen (UiB)",
+    "r": "283",
+    "n": 283,
+    "src": "https://www.topuniversities.com/world-university-rankings"
+   },
+   "uit the arctic university of norway": {
+    "name": "UiT The Arctic University of Norway",
+    "r": "629",
+    "n": 629,
+    "src": "https://www.topuniversities.com/world-university-rankings"
+   },
+   "norwegian university of life sciences": {
+    "name": "Norwegian University of Life Sciences (NMBU)",
+    "r": "761",
+    "n": 761,
+    "src": "https://www.topuniversities.com/world-university-rankings"
+   },
+   "university of stavanger": {
+    "name": "University of Stavanger (UiS)",
+    "r": "851",
+    "n": 851,
+    "src": "https://www.topuniversities.com/world-university-rankings"
+   },
+   "university of agder": {
+    "name": "University of Agder (UiA)",
+    "r": "1001+",
+    "n": 1001,
+    "src": "https://www.topuniversities.com/world-university-rankings"
+   },
+   "oslomet oslo metropolitan university": {
+    "name": "OsloMet – Oslo Metropolitan University",
+    "r": "1201+",
+    "n": 1201,
+    "src": "https://www.topuniversities.com/world-university-rankings"
+   }
+  },
+  "the": {
+   "karolinska institutet": {
+    "name": "Karolinska Institutet",
+    "r": "55",
+    "n": 55,
+    "src": "https://www.uu.se/en/staff/news/2026/2026-10-01-competition-growing-in-thes-world-rankings"
+   },
+   "lund university": {
+    "name": "Lund University",
+    "r": "=104",
+    "n": 104,
+    "src": "https://www.timeshighereducation.com/student/where-to-study/study-in-sweden"
+   },
+   "kth royal institute of technology": {
+    "name": "KTH Royal Institute of Technology",
+    "r": "=106",
+    "n": 106,
+    "src": "https://www.timeshighereducation.com/student/where-to-study/study-in-sweden"
+   },
+   "uppsala university": {
+    "name": "Uppsala University",
+    "r": "=133",
+    "n": 133,
+    "src": "https://www.uu.se/en/staff/news/2026/2026-10-01-competition-growing-in-thes-world-rankings"
+   },
+   "university of gothenburg": {
+    "name": "University of Gothenburg",
+    "r": "=219",
+    "n": 219,
+    "src": "https://www.timeshighereducation.com/student/where-to-study/study-in-sweden"
+   },
+   "university of oslo": {
+    "name": "University of Oslo",
+    "r": "=118",
+    "n": 118,
+    "src": "https://www.timeshighereducation.com/world-university-rankings/world-university-rankings-2027-gathering-momentum"
+   }
+  }
+ }
+}

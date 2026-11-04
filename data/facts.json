@@ -1,0 +1,63 @@
+{
+ "last_checked": "2026-11-04",
+ "intake": "Autumn 2027",
+ "dates": {
+  "source": "https://www.universityadmissions.se/en/key-dates-and-deadlines/autumn-semester-dates/",
+  "rows": [
+   {
+    "date": "16 Oct 2026",
+    "event": "Applications open"
+   },
+   {
+    "date": "15 Jan 2027",
+    "event": "Application deadline and last day to rank your programmes"
+   },
+   {
+    "date": "1 Feb 2027",
+    "event": "Application fee, fee-exempt status and supporting documents deadlines"
+   },
+   {
+    "date": "1 Apr 2027",
+    "event": "Master’s results published"
+   },
+   {
+    "date": "8 Apr 2027",
+    "event": "Bachelor’s results published"
+   },
+   {
+    "date": "Aug/Sep 2027",
+    "event": "Autumn semester starts"
+   }
+  ]
+ },
+ "maintenance": {
+  "monthly": 10656,
+  "year": 2026,
+  "spouse": 4440,
+  "child": 2664,
+  "source": "https://www.migrationsverket.se/en/you-want-to-extend/study/look-for-work-after-completing-your-studies-in-sweden.html"
+ },
+ "fees": {
+  "application_sek": 900,
+  "permit_adult_sek": 1500,
+  "permit_child_sek": 750
+ },
+ "work_hours_per_week": 15,
+ "permit_wait": {
+  "percent": 75,
+  "months": 3
+ },
+ "institutions": {
+  "listed": 40,
+  "stated_on_page": 39
+ },
+ "fx": {
+  "SEK_BDT": 13.0,
+  "date": "2026-11-04",
+  "source": "approximate seed; replaced by scripts/update_rate.py"
+ },
+ "links": {
+  "programme_search": "https://www.universityadmissions.se/intl/search?freeText={name}",
+  "note": "UniversityAdmissions.se search with the university name pre-filled (freeText is the site's own search parameter). A university can set programmes_url in universities.json to override."
+ }
+}

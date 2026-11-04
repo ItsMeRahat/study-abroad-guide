@@ -1,0 +1,16 @@
+[
+ {
+  "code": "se",
+  "name": "Sweden",
+  "flag": "🇸🇪",
+  "dir": "",
+  "currency": "SEK"
+ },
+ {
+  "code": "no",
+  "name": "Norway",
+  "flag": "🇳🇴",
+  "dir": "no",
+  "currency": "NOK"
+ }
+]
