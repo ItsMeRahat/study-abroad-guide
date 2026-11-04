@@ -51,11 +51,11 @@ $("#q").oninput=draw;$("#so").onchange=draw;
 $("#exp").onclick=function(){all=!all;$$("#ul details").forEach(function(d){d.open=all});this.textContent=all?"Close all":"Open all"};
 draw()}
 function req(l){$("#req").innerHTML=R[l].map(function(r){return"<dt>"+r[0]+"</dt><dd>"+r[1]+"</dd>"}).join("");$$("#lvl button").forEach(function(b){b.setAttribute("aria-pressed",b.dataset.l==l)})}
-function calc(){var el=$("#mo");if(!el)return;var M=D.facts.maintenance||{},yr=!!M.annual,n=Math.max(1,Math.min(yr?6:48,+el.value||1)),per=yr?M.annual:(M.monthly||0),t=yr?n*M.annual:n*per;
-if(!per){$("#tot").textContent="Cost data not verified";$("#bdt").textContent="BDT estimate unavailable";$("#fxn").textContent="Add official tuition and living-cost sources before using this estimate.";return}
+function calc(){var el=$("#mo");if(!el)return;var M=D.facts.maintenance||{},per=+(M.monthly||0);if(!per&&M.annual)per=+M.annual/12;var n=Math.max(1,Math.min(48,+el.value||1)),t=n*per;
+if(!per){$("#tot").textContent="Cost data not verified";$("#bdt").textContent="BDT estimate unavailable";$("#fxn").textContent="Add an official monthly or annual living-cost figure before using this estimate.";return}
 $("#tot").textContent=CUR+" "+t.toLocaleString("en-US");
 $("#bdt").textContent="≈ BDT "+Math.round(t*FX).toLocaleString("en-US");
-$("#fxn").textContent=(yr?"Per academic year ≈ BDT ":"Per month ≈ BDT ")+Math.round(per*FX).toLocaleString("en-US")+". "+FXN+" This is the mid-market rate; your bank’s rate will differ."}
+$("#fxn").textContent="Per month ≈ BDT "+Math.round(per*FX).toLocaleString("en-US")+". "+FXN+" This is the mid-market rate; your bank’s rate will differ."}
 function liveFx(c){var c1=c,u=["https://open.er-api.com/v6/latest/"+CUR,"https://cdn.jsdelivr.net/npm/@fawazahmed0/currency-api@latest/v1/currencies/"+CUR.toLowerCase()+".json"],k=CUR.toLowerCase();
 function ok(r){return r&&r>5&&r<30}
 fetch(u[0]).then(function(r){return r.json()}).then(function(j){var r=j.rates&&j.rates.BDT;if(!ok(r))throw 0;return r}).catch(function(){return fetch(u[1]).then(function(r){return r.json()}).then(function(j){var r=j[k]&&j[k].bdt;if(!ok(r))throw 0;return r})}).then(function(r){if(code!=c1)return;FX=r;FXN="Live rate today: 1 "+CUR+" = "+r.toFixed(2)+" BDT.";calc()}).catch(function(){})}
