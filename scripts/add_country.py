@@ -179,6 +179,7 @@ def build(cc):
         facts.update({
             "population": 41798407,
             "population_year": 2026,
+            "population_reference_date": "1 July 2026",
             "population_source": "https://www150.statcan.gc.ca/n1/daily-quotidien/260923/dq260923a-eng.pdf",
             "data_status": "official_sources_added_review_institution_specific",
             "maintenance": {"monthly": 1954, "annual": 23448, "source": "IRCC financial support requirement; applies from 2026-09-01 outside Quebec, excluding tuition and travel."},
