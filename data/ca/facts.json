@@ -1,46 +1,49 @@
 {
- "last_checked": "2026-11-04",
- "data_status": "needs_official_verification",
- "intake": "Varies by institution and programme; verify official deadlines.",
- "dates": {
-  "source": "",
-  "rows": [
-   {
-    "date": "Verify with institution",
-    "event": "Application opening and deadline vary by university, programme and intake."
-   },
-   {
-    "date": "After admission",
-    "event": "Check the official offer acceptance, deposit and enrolment deadlines."
-   }
-  ]
- },
- "maintenance": {
-  "monthly": 0,
-  "annual": 0,
-  "source": ""
- },
- "institutions": {
-  "listed": 229,
-  "source": "https://www.wikidata.org/"
- },
- "fees": {},
- "work_hours_per_week": null,
- "permit_wait": {
-  "note": "Not yet verified. Check the official immigration authority."
- },
- "fx": {
-  "CAD_BDT": 88.9616,
-  "date": "2026-11-04",
-  "source": "open.er-api.com"
- },
- "links": {
-  "programme_search": "",
-  "note": "Add official national study portal and immigration links after verification."
- },
- "sources": {
-  "country_profile": "https://cdn.jsdelivr.net/gh/mledoze/countries@master/countries.json",
-  "universities": "https://query.wikidata.org/sparql",
-  "exchange_rate": "https://open.er-api.com/"
- }
+  "last_checked": "2026-11-04",
+  "data_status": "needs_official_verification",
+  "intake": "Varies by institution and programme; verify official deadlines.",
+  "dates": {
+    "source": "",
+    "rows": [
+      {
+        "date": "Verify with institution",
+        "event": "Application opening and deadline vary by university, programme and intake."
+      },
+      {
+        "date": "After admission",
+        "event": "Check the official offer acceptance, deposit and enrolment deadlines."
+      }
+    ]
+  },
+  "maintenance": {
+    "monthly": 0,
+    "annual": 0,
+    "source": ""
+  },
+  "institutions": {
+    "listed": 229,
+    "source": "https://www.wikidata.org/"
+  },
+  "fees": {},
+  "work_hours_per_week": null,
+  "permit_wait": {
+    "note": "Not yet verified. Check the official immigration authority."
+  },
+  "fx": {
+    "CAD_BDT": 88.9616,
+    "date": "2026-11-04",
+    "source": "open.er-api.com"
+  },
+  "links": {
+    "programme_search": "",
+    "note": "Add official national study portal and immigration links after verification."
+  },
+  "sources": {
+    "country_profile": "https://cdn.jsdelivr.net/gh/mledoze/countries@master/countries.json",
+    "universities": "https://query.wikidata.org/sparql",
+    "exchange_rate": "https://open.er-api.com/"
+  },
+  "population": 41651653,
+  "population_year": 2025,
+  "population_source": "https://data.worldbank.org/indicator/SP.POP.TOTL?locations=CA"
 }
