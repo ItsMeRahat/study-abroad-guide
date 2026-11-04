@@ -14,7 +14,7 @@
     "list_note": "Public-data directory candidates (including some colleges and affiliated schools), not a verified or exhaustive university list. Check the exact institution and programme in IRCC’s DLI list and on its official website.",
     "rank_note": "No QS/THE rank is shown unless a matching entry exists in the maintained ranking dataset.",
     "gen_note": "Confirm programme eligibility, admission, tuition and English requirements on the official institution website and IRCC DLI list.",
-    "caution": "<b>Canada guide · checked 2026-11-04:</b> official government links are provided in each section. Admission, tuition, English scores, study-gap decisions and scholarships vary by institution/programme. Recheck IRCC and university pages before applying.",
+    "caution": "<b>Canada guide · official-source review 2026-11-04:</b> Government rules and public tuition averages are linked in the relevant sections. University admission, Bangladesh credential assessment, English waivers, study-gap decisions and scholarships remain institution/programme-specific. Recheck all live rules before applying.",
     "last_content_review": "2026-11-04"
   },
   "tabs": [
@@ -56,37 +56,37 @@
     "ug": [
       [
         "Academic qualification",
-        "Bangladesh HSC equivalency and subject prerequisites: Needs official university verification."
+        "Canadian universities assess Bangladesh HSC or equivalent qualifications individually. Confirm the accepted board/credential, required HSC subjects and whether a foundation/pathway year is needed for your chosen programme."
       ],
       [
-        "Grades",
-        "Minimum grades and selection method: Needs official university verification."
+        "Grades and prerequisites",
+        "Minimum grades and subject prerequisites are programme-specific. Engineering, science, business and health programmes may require particular HSC subjects or grades; ask admissions for written confirmation."
       ],
       [
         "English",
-        "Accepted tests and scores vary by programme; verify with the institution."
+        "IELTS Academic, TOEFL iBT, PTE Academic and other accepted tests/scores vary by university and programme. Confirm overall and component minimums, validity and any MOI waiver directly with admissions."
       ],
       [
         "Documents",
-        "Follow the target university’s current international applicant checklist."
+        "Usually prepare SSC/HSC certificates and transcripts, passport, English test result if required, references/portfolio where applicable, and certified translations if documents are not in English or French."
       ]
     ],
     "pg": [
       [
         "Academic qualification",
-        "Bachelor’s degree equivalency, duration and subject prerequisites: Needs official university verification."
+        "A recognised bachelor’s degree is generally required, but the required degree length, discipline and equivalency are decided by each graduate programme. Confirm whether your Bangladesh degree meets the specific programme’s entry standard."
       ],
       [
-        "Grades",
-        "Minimum GPA and grading conversion: Needs official university verification."
+        "Grades and prerequisites",
+        "Minimum GPA, grading conversion, prerequisite courses and relevant experience differ by department. Research/thesis programmes may require a supervisor, research proposal or writing sample."
       ],
       [
         "English",
-        "Accepted tests and scores vary by programme; verify with the institution."
+        "Accepted tests, score thresholds, component minimums and possible exemptions are programme-specific. Obtain written confirmation of any MOI waiver before relying on it."
       ],
       [
         "Documents",
-        "Degree certificate, transcripts, CV, statement and references as required by the programme."
+        "Prepare bachelor’s certificate and transcripts, grading scale, CV, statement of purpose, references, and research proposal/writing sample or portfolio where required."
       ]
     ]
   },
