@@ -6,15 +6,16 @@
     "currency": "CAD",
     "title": "Study in Canada: Applicant Guide",
     "sub": "Bangladesh applicants · Universities, admission, costs, visa and scholarships.",
-    "portal": "University directory",
-    "portal_url": "https://www.wikidata.org/",
+    "portal": "EduCanada · Government of Canada",
+    "portal_url": "https://www.educanada.ca/",
     "top_label": "Ranked",
     "uni_title": "Canada universities",
     "prog_btn": "Official university website",
-    "list_note": "Directory records are sourced from Wikidata and may be incomplete. Confirm official recognition and programme availability.",
+    "list_note": "This is a public-data directory, not a verified list of PGWP-eligible programmes. Check each institution and exact programme in IRCC’s DLI list.",
     "rank_note": "Only ranks present in the maintained QS/THE dataset are displayed. No rank is inferred.",
-    "gen_note": "University directory data is automatically collected. Confirm every programme, fee and entry requirement on the official university website.",
-    "caution": "<b>Automatically generated country guide:</b> profile and university directory are collected from public datasets. All country-specific admission, immigration, financial and scholarship information must be verified from official sources before use."
+    "gen_note": "Confirm programme eligibility, admission, tuition and English requirements on the official institution website and IRCC DLI list.",
+    "caution": "<b>Canada guide · checked 2026-11-04:</b> official government links are provided in each section. Admission, tuition, English scores, study-gap decisions and scholarships vary by institution/programme. Recheck IRCC and university pages before applying.",
+    "last_content_review": "2026-11-04"
   },
   "tabs": [
     [
@@ -90,14 +91,15 @@
     ]
   },
   "steps": [
-    "Choose the degree level, subject, institution and intake.",
-    "Check the official programme page for Bangladesh academic equivalency and subject prerequisites.",
-    "Confirm English test, score, MOI waiver and validity rules directly with the institution.",
-    "Prepare certificates, transcripts, passport, references, CV, statement and certified translations if required.",
-    "Apply through the official university or national application portal before its published deadline.",
-    "Compare the written offer, tuition, deposit and refund policy; verify the institution is officially recognised.",
-    "Check the official immigration authority’s student permit requirements and financial evidence.",
-    "Submit the permit application, biometrics and medical documents if required; wait for the official decision before travel."
+    "Choose programme, level, province and intake; compare total cost and entry requirements.",
+    "Verify the institution on IRCC’s DLI list and check programme-specific PGWP eligibility.",
+    "Get written assessment of Bangladesh HSC/Bachelor’s equivalency and subject prerequisites.",
+    "Confirm English test, scores, MOI policy and study-gap evidence directly with admissions.",
+    "Submit the official university application and all required supporting documents.",
+    "Review offer conditions, deposit, refund policy and obtain a valid Letter of Acceptance.",
+    "Check PAL/TAL or Quebec CAQ requirements for your exact case.",
+    "Prepare proof of funds, study plan and supporting documents; submit the online study-permit application.",
+    "Complete biometrics/medical steps if requested and wait for IRCC’s decision before travel."
   ],
   "sections": {
     "overview": {
@@ -106,27 +108,27 @@
     },
     "apply": {
       "title": "Application process",
-      "html": "<p>Application steps depend on the institution and programme. Use this checklist as a preparation guide, not as a country-specific deadline guarantee.</p><div class=\"bar\"><i id=\"pb\"></i></div><ol class=\"steps\" id=\"st\"></ol><div class=\"note warn\">Official application portal and country-specific deadlines: <b>Needs verification</b>.</div>"
+      "html": "<ol>\n<li>Choose your programme, level, province and intake. Compare entry requirements, total tuition, campus and co-op structure.</li>\n<li>Check that the institution is on IRCC’s <a href=\"https://www.canada.ca/en/immigration-refugees-citizenship/services/study-canada/study-permit/prepare/designated-learning-institutions-list.html\" target=\"_blank\" rel=\"noopener\">Designated Learning Institution (DLI) list</a>. Confirm the exact programme’s PGWP eligibility separately if that matters to your plan.</li>\n<li>Ask the university to assess your Bangladesh qualification. For UG, confirm HSC subjects and grades; for PG, confirm bachelor’s degree length, discipline and GPA conversion.</li>\n<li>Confirm the programme’s English test, minimum overall and component scores, validity period and any possible MOI waiver directly with admissions.</li>\n<li>Apply through the university’s official portal with transcripts, certificates, passport, references, statement, CV/portfolio and translations if required.</li>\n<li>Review the written offer, tuition deposit, refund/deferment policy and conditions. Obtain a valid Letter of Acceptance (LOA).</li>\n<li>Check whether you need a PAL/TAL or Quebec CAQ. Do not assume an exemption; check the current IRCC rules for your exact programme and institution.</li>\n<li>Prepare proof of funds, study plan and supporting documents. Submit the study-permit application online and complete biometrics/medical steps if requested.</li>\n</ol><p><b>Timing:</b> Deadlines differ by institution, programme and intake. IRCC recommends applying well before the programme starts; there is no single national university deadline.</p><p class=\"links\"><a href=\"https://www.canada.ca/en/immigration-refugees-citizenship/services/study-canada/study-permit/apply.html\" target=\"_blank\" rel=\"noopener\">Official study-permit application guide</a> · <a href=\"https://www.canada.ca/en/immigration-refugees-citizenship/services/study-canada/study-permit/get-documents.html\" target=\"_blank\" rel=\"noopener\">Required documents</a></p>"
     },
     "eng": {
-      "title": "English and study gap",
-      "html": "<details open><summary>English language tests</summary><div><p>IELTS Academic, TOEFL iBT, PTE Academic and other accepted tests and scores vary by institution and programme. No national score or MOI waiver is assumed.</p></div></details><details><summary>Bangladesh study-gap and credential assessment</summary><div><p>Country-specific HSC, Bachelor’s equivalency, study-gap policy and MOI waiver rules: <b>Needs official verification</b>. Obtain written confirmation from the university.</p></div></details>"
+      "title": "English proficiency and Bangladesh study gap",
+      "html": "<h3>English proficiency</h3><p>Canada has no single IELTS/TOEFL score that applies to every university. Each institution and programme sets accepted tests, minimum overall score, component scores and test validity. Confirm the exact requirement on the programme page before booking a test.</p><p>An MOI (Medium of Instruction) letter is not a nationwide automatic IELTS waiver. Some institutions or programmes may consider it under their own policy; obtain written confirmation from admissions.</p><h3>Bangladesh qualifications and study gap</h3><p>HSC subject prerequisites, grade conversion, foundation/pathway requirements and bachelor’s degree equivalency are assessed by the receiving institution. There is no single universal study-gap limit for all Canadian universities. Explain any gap honestly with dated employment, training, caregiving or other supporting evidence where relevant; the institution and visa officer assess the complete case.</p><p><b>Action:</b> email international admissions with your board, qualification, passing year, subjects, grades and intended programme, and request a written assessment.</p>"
     },
     "money": {
-      "title": "Tuition and living costs",
-      "html": "<details open><summary>Tuition and living costs</summary><div><p>Fees differ by institution, level, programme and intake. No country-wide tuition figure is assumed.</p></div></details><div class=\"card\"><h3>Budget conversion</h3><label for=\"mo\">Number of months</label><input id=\"mo\" type=\"number\" min=\"1\" max=\"48\" value=\"12\"><p id=\"tot\">Local currency amount: Needs verification</p><p id=\"bdt\">BDT conversion will use the available exchange rate.</p><small id=\"fxn\">Exchange rate is indicative and may change.</small></div><div class=\"note warn\">Official proof-of-funds amount and accepted evidence: <b>Needs verification</b>.</div>"
+      "title": "Tuition, living costs and budget",
+      "html": "<h3>Published national tuition averages (2025/2026)</h3><p>Statistics Canada reported average international tuition of <b>CAD 41,746/year for undergraduate</b> and <b>CAD 24,028/year for graduate</b> students. These are national averages, not a university quote; actual fees vary by province, institution and programme.</p><p><a href=\"https://www150.statcan.gc.ca/n1/daily-quotidien/250910/dq250910d-eng.htm\" target=\"_blank\" rel=\"noopener\">Statistics Canada: Tuition in Canada, 2025/2026</a></p><h3>IRCC living-funds minimum</h3><p>For study-permit applications made on or after <b>1 September 2026</b>, a single applicant studying outside Quebec must show <b>CAD 23,448</b> for one year of living expenses, in addition to first-year tuition and transportation. The amount changes with family size; Quebec has separate rules. This is an immigration minimum, not a complete budget for every city.</p><p><a href=\"https://www.canada.ca/en/immigration-refugees-citizenship/services/study-canada/study-permit/get-documents/financial-support.html\" target=\"_blank\" rel=\"noopener\">IRCC proof of financial support and family-size table</a></p><div class=\"card\"><h3>Living-funds conversion · outside Quebec · one applicant</h3><p>CAD 23,448/year · CAD 1,954/month (12-month equivalent). Tuition and travel are additional.</p><label for=\"mo\">Number of months</label><input id=\"mo\" type=\"number\" min=\"1\" max=\"12\" value=\"12\"><p id=\"tot\">CAD 23,448</p><p id=\"bdt\">BDT estimate uses the indicative exchange rate.</p><small id=\"fxn\">Bank rates and transfer costs differ.</small></div><p>IRCC expects funds for the first year and a credible plan for the remaining study period. Do not rely on expected part-time work to meet the proof-of-funds requirement.</p>"
     },
     "visa": {
-      "title": "Student visa / residence permit",
-      "html": "<details open><summary>Student visa / residence permit</summary><div><p>Permit type, eligibility, application portal, fees, biometrics, medical checks, financial evidence and processing times must be verified on the country’s official immigration website.</p></div></details><div class=\"note warn\">Official immigration source: <b>Needs verification</b>. Do not rely on third-party guarantees.</div>"
+      "title": "Canada study permit",
+      "html": "<ol><li>Obtain a valid Letter of Acceptance from a DLI.</li><li>Check the current PAL/TAL requirement. From 1 January 2026, certain master’s and doctoral students at public DLIs are exempt; other categories and exceptions have separate rules. Quebec applicants may need a CAQ.</li><li>Prepare evidence for tuition, living expenses, travel costs and the source/accessibility of funds.</li><li>Prepare passport, LOA, required attestation/CAQ, study plan/letter of explanation and any country-specific checklist documents.</li><li>Apply online, pay applicable fees and complete biometrics and medical examination if requested.</li><li>Wait for the decision and follow the letter/port-of-entry instructions. A study permit is not itself a visa or eTA for travel.</li></ol><p>Approval is not guaranteed. Processing time varies; check IRCC’s live tool rather than relying on a fixed estimate.</p><p class=\"links\"><a href=\"https://www.canada.ca/en/immigration-refugees-citizenship/services/study-canada/study-permit/apply.html\" target=\"_blank\" rel=\"noopener\">Apply for a study permit</a> · <a href=\"https://www.canada.ca/en/immigration-refugees-citizenship/services/study-canada/study-permit/get-documents/provincial-attestation-letter.html\" target=\"_blank\" rel=\"noopener\">PAL/TAL rules</a> · <a href=\"https://www.canada.ca/en/immigration-refugees-citizenship/services/application/check-processing-times.html\" target=\"_blank\" rel=\"noopener\">Check processing times</a></p>"
     },
     "after": {
-      "title": "Work during and after study",
-      "html": "<details open><summary>Work during study</summary><div><p>Work-hour limits and eligibility depend on local law and permit conditions. <b>Needs official verification.</b></p></div></details><details><summary>Post-study work and residence</summary><div><p>Graduate work routes, eligible qualifications, duration and application windows: <b>Needs official verification.</b></p></div></details>"
+      "title": "Work during study and after graduation",
+      "html": "<h3>Work while studying</h3><p>Eligible international students may work off campus up to <b>24 hours per week</b> during regular academic sessions. During regularly scheduled breaks, eligible students may work unlimited hours. You must meet all study-permit conditions; some students/programmes are not eligible. Exceeding the permitted limit can affect your status.</p><p><a href=\"https://www.canada.ca/en/immigration-refugees-citizenship/services/study-canada/work/work-off-campus.html\" target=\"_blank\" rel=\"noopener\">IRCC: Work off campus as an international student</a></p><h3>Post-Graduation Work Permit (PGWP)</h3><p>Graduation from a DLI does not automatically make a student PGWP-eligible. The exact institution and programme must qualify. General requirements include an eligible programme of at least 8 months (Quebec programme rules can differ), maintaining required full-time status, and applying within 180 days of confirmation of completion.</p><p>Many applicants must also meet language requirements; eligible non-degree programmes may have field-of-study rules. Requirements depend on credential type and the date of the study-permit application. Check the current IRCC eligibility page before choosing a programme or relying on a post-study work route.</p><p><a href=\"https://www.canada.ca/en/immigration-refugees-citizenship/services/study-canada/work/after-graduation/eligibility.html\" target=\"_blank\" rel=\"noopener\">IRCC: PGWP eligibility</a></p>"
     },
     "schol": {
-      "title": "Scholarships",
-      "html": "<details open><summary>Scholarships and funding</summary><div><p>University awards, government scholarships, eligibility, funding amount and deadlines must be checked on the official award provider’s website.</p></div></details>"
+      "title": "Scholarships and funding",
+      "html": "<p>Search the official Government of Canada EduCanada scholarship database and each university’s international-student awards page. Funding may be merit-based, need-based, programme-specific or research-supervisor-funded. Eligibility, country restrictions, award value and deadlines differ; many awards require a separate application.</p><ul><li>Check entrance scholarships automatically considered with admission and awards requiring a separate form.</li><li>For research master’s/PhD programmes, contact prospective supervisors and departments about assistantships, grants and funded positions.</li><li>Confirm whether an award covers tuition only or also living costs, travel and insurance.</li><li>Never pay an agent or third party to “guarantee” a scholarship or visa.</li></ul><p><a href=\"https://www.educanada.ca/scholarships-bourses/searchAll-rechercheTous.aspx?lang=eng\" target=\"_blank\" rel=\"noopener\">EduCanada official scholarship search</a> · <a href=\"https://www.educanada.ca/scholarships-bourses/index.aspx?lang=eng\" target=\"_blank\" rel=\"noopener\">International scholarships overview</a></p>"
     }
   }
 }
