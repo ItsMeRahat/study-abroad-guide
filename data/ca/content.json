@@ -6,12 +6,12 @@
     "currency": "CAD",
     "title": "Study in Canada: Applicant Guide",
     "sub": "Bangladesh applicants · Universities, admission, costs, visa and scholarships.",
-    "portal": "EduCanada · Government of Canada",
-    "portal_url": "https://www.educanada.ca/",
+    "portal": "EduCanada · Canadian universities",
+    "portal_url": "https://www.educanada.ca/study-plan-etudes/university-universite.aspx?lang=eng",
     "top_label": "QS/THE ranked",
     "uni_title": "Canada universities & colleges",
     "prog_btn": "Official university website",
-    "list_note": "Public-data directory candidates (including some colleges and affiliated schools), not a verified or exhaustive university list. Check the exact institution and programme in IRCC’s DLI list and on its official website.",
+    "list_note": "Public-data directory candidates (including colleges and affiliated schools), not an official or exhaustive university list. Cross-check recognition in CICIC’s Directory of Educational Institutions and international-student eligibility in IRCC’s DLI list.",
     "rank_note": "No QS/THE rank is shown unless a matching entry exists in the maintained ranking dataset.",
     "gen_note": "Confirm programme eligibility, admission, tuition and English requirements on the official institution website and IRCC DLI list.",
     "caution": "<b>Canada guide · official-source review 2026-11-04:</b> Government rules and public tuition averages are linked in the relevant sections. University admission, Bangladesh credential assessment, English waivers, study-gap decisions and scholarships remain institution/programme-specific. Recheck all live rules before applying.",
@@ -104,7 +104,7 @@
   "sections": {
     "overview": {
       "title": "Overview",
-      "html": "<div class=\"card\"><dl><dt>Capital</dt><dd>Ottawa</dd><dt>Region</dt><dd>North America</dd><dt>Languages</dt><dd>English, French</dd><dt>Population</dt><dd>41,651,653 (2025 estimate)</dd><dt>Currency</dt><dd>CAD — Canadian dollar</dd><dt>Exchange rate</dt><dd>1 CAD = 88.9616 BDT (2026-11-04)</dd></dl></div><div class=\"note warn\"><b>Verification required:</b> This country profile and university directory are automatically collected. Admission rules, Bangladesh credential equivalency, English waivers, tuition, proof of funds, visa rules, work rights, post-study routes and scholarships are not assumed. Each must be checked against the current official government or university source before relying on it.</div><h3>Admission overview</h3><div class=\"card\"><p>Choose Bachelor’s or Master’s and check the official university programme page. Country-specific Bangladesh entry requirements have not yet been verified.</p><div class=\"seg\" id=\"lvl\"><button aria-pressed=\"true\" data-l=\"ug\">Bachelor’s (UG)</button><button aria-pressed=\"false\" data-l=\"pg\">Master’s (PG)</button></div><dl id=\"req\"></dl></div><p class=\"links\"><a href=\"https://www.wikidata.org/\" target=\"_blank\" rel=\"noopener\">University data source</a></p>"
+      "html": "<div class=\"card\"><dl><dt>Capital</dt><dd>Ottawa</dd><dt>Region</dt><dd>North America</dd><dt>Languages</dt><dd>English, French</dd><dt>Population</dt><dd>41,651,653 (2025 estimate)</dd><dt>Currency</dt><dd>CAD — Canadian dollar</dd><dt>Exchange rate</dt><dd>1 CAD = 88.9616 BDT (2026-11-04)</dd></dl></div><div class=\"note warn\"><b>Verification required:</b> This country profile and university directory are automatically collected. Admission rules, Bangladesh credential equivalency, English waivers, tuition, proof of funds, visa rules, work rights, post-study routes and scholarships are not assumed. Each must be checked against the current official government or university source before relying on it.</div><h3>Admission overview</h3><div class=\"card\"><p>Choose Bachelor’s or Master’s and check the official university programme page. Country-specific Bangladesh entry requirements have not yet been verified.</p><div class=\"seg\" id=\"lvl\"><button aria-pressed=\"true\" data-l=\"ug\">Bachelor’s (UG)</button><button aria-pressed=\"false\" data-l=\"pg\">Master’s (PG)</button></div><dl id=\"req\"></dl></div><p class=\"links\"><a href=\"https://www.cicic.ca/868/search_the_directory_of_educational_institutions_in_canada.canada\" target=\"_blank\" rel=\"noopener\">CICIC · recognized educational institutions directory</a> · <a href=\"https://www.canada.ca/en/immigration-refugees-citizenship/services/study-canada/study-permit/prepare/designated-learning-institutions-list.html\" target=\"_blank\" rel=\"noopener\">IRCC · Designated Learning Institutions (DLI)</a></p>"
     },
     "apply": {
       "title": "Application process",
