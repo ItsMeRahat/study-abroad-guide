@@ -1,9 +1,9 @@
-var $=function(s){return document.querySelector(s)},$=function(s){return[].slice.call(document.querySelectorAll(s))},DATA_VERSION="20261104c";
+var $=function(s){return document.querySelector(s)},qa=function(s){return[].slice.call(document.querySelectorAll(s))},DATA_VERSION="20261104c";
 var CC=[],CACHE={},D=null,code="se",U={},S=[],R={},META={},CUR="SEK",FX=13,FXN="",MON=0,scope="top",city="all",all=false,done={};
 function esc(t){return String(t==null?"":t).replace(/&/g,"&amp;").replace(/</g,"&lt;")}
 function lookup(o,p){return p.split(".").reduce(function(a,k){return a&&a[k]},o)}
-function fill(){if(!D)return;$$("[data-f]").forEach(function(e){var v=lookup(D.facts,e.dataset.f);if(v==null)return;e.textContent=typeof v=="number"&&!/year/.test(e.dataset.f)?v.toLocaleString("en-US"):v})}
-function links(){$$("a[data-u]").forEach(function(a){if(U[a.dataset.u]){a.href=U[a.dataset.u];a.target="_blank";a.rel="noopener"}})}
+function fill(){if(!D)return;qa("[data-f]").forEach(function(e){var v=lookup(D.facts,e.dataset.f);if(v==null)return;e.textContent=typeof v=="number"&&!/year/.test(e.dataset.f)?v.toLocaleString("en-US"):v})}
+function links(){qa("a[data-u]").forEach(function(a){if(U[a.dataset.u]){a.href=U[a.dataset.u];a.target="_blank";a.rel="noopener"}})}
 var LB={ug_entry:"Entry: UG",pg_entry:"Entry: PG",english:"English (UG | PG)",courses:"Courses (UG | PG)",apply:"Application window",fees:"Tuition fees (UG | PG)",funds:"Funds transfer",scholarship:"Scholarships (UG | PG)"};
 function sname(u){return u.name.replace(/\s*\(.*?\)/g,"").replace(/^The /,"")}
 function plink(u){var L=(D.facts.links)||{};if(u.programmes_url)return u.programmes_url;return(L.programme_search||u.website).replace("{name}",encodeURIComponent(sname(u)))}
@@ -27,7 +27,7 @@ var ks=Object.keys(m).sort(function(a,b){return m[b]-m[a]||a.localeCompare(b,"sv
 if(city!="all"&&!m[city])city="all";
 el.innerHTML='<button data-c="all">All<em>'+pool().length+"</em></button>"+ks.map(function(k){return'<button data-c="'+esc(k)+'">'+esc(k)+"<em>"+m[k]+"</em></button>"}).join("");
 el.hidden=false;
-$$("#chips button").forEach(function(b){b.onclick=function(){city=b.dataset.c;draw()}})}
+qa("#chips button").forEach(function(b){b.onclick=function(){city=b.dataset.c;draw()}})}
 function draw(){var q=$("#q").value.trim().toLowerCase(),so=$("#so").value;
 chips();
 var L=pool().filter(function(u){return(scope=="top"||city=="all"||cbase(u)==city)&&(!q||hay(u).indexOf(q)>-1)});
@@ -37,7 +37,7 @@ else if(scope=="top")L.sort(function(a,b){return a.top10_rank-b.top10_rank});
 $("#ul").innerHTML=L.length?L.map(card).join(""):'<div class="empty">No universities match your search.</div>';
 $("#cnt").textContent=L.length+" of "+pool().length+" shown";
 all=false;$("#exp").textContent="Open all";$("#exp").hidden=!L.length;
-$$("#chips button").forEach(function(b){b.setAttribute("aria-pressed",b.dataset.c==city)});
+qa("#chips button").forEach(function(b){b.setAttribute("aria-pressed",b.dataset.c==city)});
 links()}
 function unisHtml(){return'<h2>'+esc(META.uni_title)+'</h2><div class="stats"><div class="stat"><b id="s1">0</b><span>'+esc(META.top_label)+'</span></div><div class="stat"><b id="s2">0</b><span>Others</span></div><div class="stat"><b id="s3">0</b><span>Total</span></div></div><div class="seg" id="scope"><button aria-pressed="true" data-s="top">'+esc(META.top_label)+'</button><button aria-pressed="false" data-s="rest">Others <span id="nall">0</span></button></div><div class="tools"><input type="search" id="q" placeholder="Search name, city or subject" aria-label="Search universities"><select id="so" aria-label="Sort"><option value="rank">Ranked order</option><option value="az">A to Z</option><option value="city">By city</option></select></div><div class="chips" id="chips" hidden></div><div class="bar2"><span id="cnt"></span><button class="ghost" id="exp">Open all</button></div><div id="ul"></div><div class="note" id="unote"></div>'}
 function wireUnis(){var L=D.universities.universities,f=D.facts,nt=L.filter(function(u){return u.top10}).length;
@@ -46,11 +46,11 @@ scope=nt?"top":"rest";city="all";
 $("#scope button").forEach(function(b){b.setAttribute("aria-pressed",b.dataset.s==scope)});
 $("#so").value=nt?"rank":"az";
 $("#unote").innerHTML=esc(META.list_note||("The official list names "+L.length+" institutions."))+(f.institutions&&f.institutions.stated_on_page&&f.institutions.stated_on_page!=L.length?" (its introduction says "+f.institutions.stated_on_page+")":"")+" "+esc(META.rank_note||"")+' Source: <a href="'+esc(META.portal_url)+'" target="_blank" rel="noopener">'+esc(META.portal)+"</a>.";
-$$("#scope button").forEach(function(b){b.onclick=function(){scope=b.dataset.s;city="all";$("#so").value=scope=="top"?"rank":"az";$$("#scope button").forEach(function(x){x.setAttribute("aria-pressed",x==b)});draw()}});
+qa("#scope button").forEach(function(b){b.onclick=function(){scope=b.dataset.s;city="all";$("#so").value=scope=="top"?"rank":"az";qa("#scope button").forEach(function(x){x.setAttribute("aria-pressed",x==b)});draw()}});
 $("#q").oninput=draw;$("#so").onchange=draw;
-$("#exp").onclick=function(){all=!all;$$("#ul details").forEach(function(d){d.open=all});this.textContent=all?"Close all":"Open all"};
+$("#exp").onclick=function(){all=!all;qa("#ul details").forEach(function(d){d.open=all});this.textContent=all?"Close all":"Open all"};
 draw()}
-function req(l){$("#req").innerHTML=R[l].map(function(r){return"<dt>"+r[0]+"</dt><dd>"+r[1]+"</dd>"}).join("");$$("#lvl button").forEach(function(b){b.setAttribute("aria-pressed",b.dataset.l==l)})}
+function req(l){$("#req").innerHTML=R[l].map(function(r){return"<dt>"+r[0]+"</dt><dd>"+r[1]+"</dd>"}).join("");qa("#lvl button").forEach(function(b){b.setAttribute("aria-pressed",b.dataset.l==l)})}
 function calc(){var el=$("#mo");if(!el)return;var M=D.facts.maintenance||{},per=+(M.monthly||0);if(!per&&M.annual)per=+M.annual/12;var n=Math.max(1,Math.min(48,+el.value||1)),t=n*per;
 if(!per){$("#tot").textContent="Cost data not verified";$("#bdt").textContent="BDT estimate unavailable";$("#fxn").textContent="Add an official monthly or annual living-cost figure before using this estimate.";return}
 $("#tot").textContent=CUR+" "+t.toLocaleString("en-US");
@@ -62,17 +62,17 @@ fetch(u[0]).then(function(r){return r.json()}).then(function(j){var r=j.rates&&j
 function steps(){var el=$("#st");if(!el)return;
 try{done=JSON.parse(localStorage.getItem("steps-"+code)||"{}")}catch(e){done={}}
 el.innerHTML=S.map(function(s,i){return'<li><label><input type="checkbox" data-i="'+i+'"'+(done[i]?" checked":"")+'><span>'+s+"</span></label></li>"}).join("");
-function prog(){$("#pb").style.width=$$("#st input:checked").length/S.length*100+"%"}
-$$("#st input").forEach(function(c){c.onchange=function(){done[c.dataset.i]=c.checked;try{localStorage.setItem("steps-"+code,JSON.stringify(done))}catch(e){}prog()}});prog()}
+function prog(){$("#pb").style.width=qa("#st input:checked").length/S.length*100+"%"}
+qa("#st input").forEach(function(c){c.onchange=function(){done[c.dataset.i]=c.checked;try{localStorage.setItem("steps-"+code,JSON.stringify(done))}catch(e){}prog()}});prog()}
 function wire(){
-if($("#lvl")){$$("#lvl button").forEach(function(b){b.onclick=function(){req(b.dataset.l)}});req("ug")}
+if($("#lvl")){qa("#lvl button").forEach(function(b){b.onclick=function(){req(b.dataset.l)}});req("ug")}
 if($("#tl"))$("#tl").innerHTML=D.facts.dates.rows.map(function(r){return"<li><time>"+esc(r.date)+"</time><span>"+esc(r.event)+"</span></li>"}).join("");
 steps();
 if($("#mo"))$("#mo").oninput=calc;
 fill();links();wireUnis()}
 function show(id,push){var P=META.tabs;if(!P.some(function(p){return p[0]==id}))id="overview";
-$$("main>section").forEach(function(s){s.classList.toggle("on",s.id==id)});
-$$("#tabs button").forEach(function(b){var on=b.dataset.t==id;b.setAttribute("aria-selected",on);if(on&&b.scrollIntoView)b.scrollIntoView({inline:"center",block:"nearest"})});
+qa("main>section").forEach(function(s){s.classList.toggle("on",s.id==id)});
+qa("#tabs button").forEach(function(b){var on=b.dataset.t==id;b.setAttribute("aria-selected",on);if(on&&b.scrollIntoView)b.scrollIntoView({inline:"center",block:"nearest"})});
 if(push)try{history.replaceState(null,"","#"+code+"-"+id)}catch(e){location.hash=code+"-"+id}
 window.scrollTo(0,0)}
 function load(c){if(CACHE[c])return Promise.resolve(CACHE[c]);
