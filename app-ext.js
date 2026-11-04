@@ -521,50 +521,85 @@
       'OPTIONAL { ?u wdt:P131 ?ci. ?ci rdfs:label ?cl. FILTER(LANG(?cl)="en") } ' +
       '} GROUP BY ?u LIMIT 400';
 
-    return fetch(
-      "https://query.wikidata.org/sparql?format=json&query=" +
-      encodeURIComponent(q),
-      {
-        headers: {
-          Accept: "application/sparql-results+json"
+    function request(endpoint) {
+      var controller =
+        typeof AbortController !== "undefined"
+          ? new AbortController()
+          : null;
+
+      var timer = controller
+        ? setTimeout(function () {
+            controller.abort();
+          }, 25000)
+        : null;
+
+      return fetch(
+        endpoint +
+          (endpoint.indexOf("?") >= 0 ? "&" : "?") +
+          "format=json&query=" + encodeURIComponent(q),
+        {
+          headers: {
+            Accept: "application/sparql-results+json"
+          },
+          signal: controller ? controller.signal : undefined
         }
-      }
-    )
-      .then(function (r) {
-        if (!r.ok) throw new Error("Wikidata unavailable");
-        return r.json();
-      })
-      .then(function (j) {
-        var seen = {};
-        var out = [];
+      )
+        .then(function (r) {
+          if (!r.ok) throw new Error("University source unavailable");
+          return r.json();
+        })
+        .then(function (j) {
+          var bindings =
+            j.results && j.results.bindings
+              ? j.results.bindings
+              : [];
 
-        var bindings =
-          j.results && j.results.bindings
-            ? j.results.bindings
-            : [];
+          var seen = {};
+          var out = [];
 
-        bindings.forEach(function (b) {
-          if (!b.n || !b.n.value || !b.web || !b.web.value) return;
+          bindings.forEach(function (b) {
+            if (!b.n || !b.n.value || !b.web || !b.web.value) return;
 
-          var n = b.n.value;
-          var k = norm(n);
+            var n = b.n.value;
+            var k = norm(n);
 
-          if (/^Q\d+$/.test(n) || seen[k]) return;
+            if (/^Q\\d+$/.test(n) || seen[k]) return;
 
-          seen[k] = 1;
+            seen[k] = 1;
 
-          out.push({
-            id: k.replace(/ /g, "-"),
-            name: n,
-            city: b.city ? b.city.value : "See website",
-            website: b.web.value,
-            top10: false
+            out.push({
+              id: k.replace(/ /g, "-"),
+              name: n,
+              city: b.city ? b.city.value : "See website",
+              website: b.web.value,
+              top10: false
+            });
           });
-        });
 
-        return out.sort(function (a, b) {
-          return a.name.localeCompare(b.name);
-        });
+          return out.sort(function (a, b) {
+            return a.name.localeCompare(b.name);
+          });
+        })
+        .then(
+          function (result) {
+            if (timer) clearTimeout(timer);
+            return result;
+          },
+          function (error) {
+            if (timer) clearTimeout(timer);
+            throw error;
+          }
+        );
+    }
+
+    return request("https://qlever.dev/api/wikidata")
+      .catch(function () {
+        return request("https://query.wikidata.org/sparql");
+      })
+      .catch(function () {
+        var empty = [];
+        empty.unavailable = true;
+        return empty;
       });
   }
 
@@ -612,11 +647,19 @@
         }),
 
         unis(c.cca2).then(function (u) {
-          step(
-            2,
-            "ok",
-            u.length + " institutions with an official website"
-          );
+          if (u.unavailable) {
+            step(
+              2,
+              "er",
+              "university source unavailable; adding country profile anyway"
+            );
+          } else {
+            step(
+              2,
+              "ok",
+              u.length + " institutions with an official website"
+            );
+          }
 
           return u;
         })
