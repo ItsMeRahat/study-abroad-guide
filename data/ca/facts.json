@@ -1,17 +1,25 @@
 {
   "last_checked": "2026-11-04",
   "data_status": "official_sources_added_review_institution_specific",
-  "intake": "Varies by institution and programme; verify official deadlines.",
+  "intake": "Common entry terms include Fall (September), Winter (January) and Spring/Summer (May) where offered. Availability and deadlines vary by institution and programme.",
   "dates": {
-    "source": "",
+    "source": "Individual university admissions calendars",
     "rows": [
       {
-        "date": "Verify with institution",
-        "event": "Application opening and deadline vary by university, programme and intake."
+        "date": "Fall · usually September",
+        "event": "A common major intake. Programme availability and application deadlines vary; some competitive programmes close many months in advance."
       },
       {
-        "date": "After admission",
-        "event": "Check the official offer acceptance, deposit and enrolment deadlines."
+        "date": "Winter · usually January",
+        "event": "Offered by some institutions and programmes; confirm availability and deadline on the official programme page."
+      },
+      {
+        "date": "Spring/Summer · often May",
+        "event": "Limited or programme-specific availability; do not assume every university offers this intake."
+      },
+      {
+        "date": "After receiving an offer",
+        "event": "Meet the offer acceptance, deposit, document and enrolment deadlines shown in your official letter."
       }
     ]
   },
