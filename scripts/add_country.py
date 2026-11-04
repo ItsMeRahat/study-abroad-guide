@@ -181,6 +181,9 @@ def build(cc):
         content["meta"].update({
             "portal": "EduCanada · Government of Canada",
             "portal_url": "https://www.educanada.ca/",
+            "uni_title": "Canada universities & colleges",
+            "list_note": "Public-data directory candidates (including some colleges and affiliated schools), not a verified or exhaustive university list. Check the exact institution and programme in IRCC’s DLI list and on its official website.",
+            "top_label": "QS/THE ranked",
             "caution": "<b>Canada guide · checked 2026-11-04:</b> government policy links are provided below. Tuition, admission, English scores, study-gap decisions and scholarship awards vary by institution/programme. Recheck IRCC and university pages before applying."
         })
         content["sections"]["apply"] = section("Application process", """<ol>
