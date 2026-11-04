@@ -85,7 +85,7 @@ try{localStorage.setItem("cc",c)}catch(e){}
 $("#cc").value=c;document.title=META.title;
 $("#ht").textContent=META.title;$("#hs").textContent=META.sub;
 $("#tabs").innerHTML="";META.tabs.forEach(function(p){var b=document.createElement("button");b.textContent=p[1];b.setAttribute("role","tab");b.dataset.t=p[0];b.onclick=function(){show(p[0],1)};$("#tabs").appendChild(b)});
-$("#main").innerHTML=META.tabs.map(function(p){var h;if(p[0]=="unis"){h=unisHtml()}else{var body=C.sections[p[0]].html;if(p[0]=="overview"){var pop=d.facts.population?Number(d.facts.population).toLocaleString("en-US")+(d.facts.population_year?" ("+d.facts.population_year+" estimate)":""):"Unavailable";body=body.replace(/(<dt>Population<\\/dt>\\s*<dd>)[\\s\\S]*?(<\\/dd>)/i,"$1"+esc(pop)+"$2")}h="<h2>"+C.sections[p[0]].title+"</h2>"+body}return'<section id="'+p[0]+'">'+h+"</section>"}).join("");
+$("#main").innerHTML=META.tabs.map(function(p){var h;if(p[0]=="unis"){h=unisHtml()}else{var body=C.sections[p[0]].html;if(p[0]=="overview"){var pop=d.facts.population?Number(d.facts.population).toLocaleString("en-US")+(d.facts.population_year?" ("+d.facts.population_year+" estimate)":""):"Unavailable";body=body.replace(/<dt>Population<\/dt>\s*<dd>[\s\S]*?<\/dd>/i,"<dt>Population</dt><dd>"+esc(pop)+"</dd>")}h="<h2>"+C.sections[p[0]].title+"</h2>"+body}return'<section id="'+p[0]+'">'+h+"</section>"}).join("");
 var f=d.facts;MON=f.maintenance.monthly||0;FX=(f.fx&&f.fx[CUR+"_BDT"])||13;FXN=f.fx?"Rate: 1 "+CUR+" = "+FX.toFixed(2)+" BDT (stored "+f.fx.date+", refreshed daily).":"";
 $("#caution").innerHTML=META.caution;
 $("#dstat").textContent="Data checked "+f.last_checked+" · Confirm with official links";
