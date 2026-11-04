@@ -140,7 +140,7 @@
   {
    "id": "british-columbia-institute-of-technology",
    "name": "British Columbia Institute of Technology",
-   "city": "North Vancouver",
+   "city": "Burnaby",
    "website": "https://www.bcit.ca/",
    "top10": false,
    "profile": {},
@@ -257,7 +257,7 @@
   {
    "id": "capilano-university",
    "name": "Capilano University",
-   "city": "North Vancouver",
+   "city": "Squamish",
    "website": "https://www.capilanou.ca/",
    "top10": false,
    "profile": {},
@@ -338,7 +338,7 @@
   {
    "id": "dalhousie-university",
    "name": "Dalhousie University",
-   "city": "Halifax",
+   "city": "Nova Scotia",
    "website": "https://www.dal.ca/",
    "top10": false,
    "profile": {},
@@ -959,7 +959,7 @@
   {
    "id": "northern-lights-college",
    "name": "Northern Lights College",
-   "city": "Northern Rockies Regional Municipality",
+   "city": "Tumbler Ridge",
    "website": "https://www.nlc.bc.ca/",
    "top10": false,
    "profile": {},
@@ -1283,7 +1283,7 @@
   {
    "id": "simon-fraser-university",
    "name": "Simon Fraser University",
-   "city": "Burnaby",
+   "city": "Surrey",
    "website": "https://www.sfu.ca/",
    "top10": false,
    "profile": {},
@@ -1814,7 +1814,7 @@
   {
    "id": "university-of-the-fraser-valley",
    "name": "University of the Fraser Valley",
-   "city": "Hope",
+   "city": "Chilliwack",
    "website": "https://www.ufv.ca/",
    "top10": false,
    "profile": {},
@@ -1958,8 +1958,8 @@
   {
    "id": "vancouver-island-university",
    "name": "Vancouver Island University",
-   "city": "Parksville",
-   "website": "https://www.viu.ca/",
+   "city": "Duncan",
+   "website": "https://www.viu.ca",
    "top10": false,
    "profile": {},
    "profile_source": "University directory record from Wikidata; verify institution status and programme details on the official website."
