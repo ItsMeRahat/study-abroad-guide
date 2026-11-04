@@ -1,0 +1,45 @@
+name: Generate country data
+
+on:
+  issues:
+    types: [opened]
+
+permissions:
+  contents: write
+  issues: read
+
+jobs:
+  generate:
+    if: github.event.issue.user.login == 'ItsMeRahat' && contains(github.event.issue.labels.*.name, 'country-request')
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Read and validate country code
+        id: country
+        env:
+          ISSUE_BODY: ${{ github.event.issue.body }}
+        run: |
+          python - <<'PY'
+          import os, re
+          body = os.environ.get("ISSUE_BODY", "")
+          match = re.search(r"ISO code:\\s*([A-Za-z]{2})", body)
+          if not match:
+              raise SystemExit("Issue body must include ISO code: XX")
+          code = match.group(1).upper()
+          with open(os.environ["GITHUB_OUTPUT"], "a") as f:
+              f.write("code=" + code + "\\n")
+          PY
+      - name: Generate country guide data
+        run: python scripts/add_country.py "${{ steps.country.outputs.code }}"
+      - name: Build standalone guide
+        run: python scripts/build_standalone.py
+      - name: Commit generated data
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/ standalone.html
+          git diff --cached --quiet || git commit -m "Generate country guide data: ${{ steps.country.outputs.code }}"
+          git push
