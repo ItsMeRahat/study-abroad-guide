@@ -266,14 +266,14 @@
     '<dialog id="dlg" aria-labelledby="dt">' +
       '<div class="dl">' +
         '<h2 id="dt">Add a country</h2>' +
-        "<p>Choose a country. Add to this browser for a temporary preview, or generate permanent country data in the public website repository (owner only).</p>" +
+        "<p>Choose a country. Add a temporary preview in this browser, or request permanent country data for the public website (site owner only).</p>" +
         '<input type="search" id="cq" placeholder="Search countries" aria-label="Search countries">' +
         '<div id="clist" role="listbox"></div>' +
         '<p id="cpick"></p>' +
         '<ol id="clog"></ol>' +
         '<div class="acts">' +
-          '<button class="btn sm" id="cgo" disabled>Add to this browser</button>' +
-          '<button class="btn alt sm" id="cperm" type="button">Generate permanent data</button>' +
+          '<button class="btn sm" id="cgo" disabled>Add temporary preview</button>' +
+          '<button class="btn alt sm" id="cperm" type="button">Request permanent country data</button>' +
           '<button class="btn alt sm" id="cx">Close</button>' +
         '</div>' +
         '<div id="cadded"></div>' +
