@@ -40,6 +40,20 @@ def world_bank_population(cc):
         print("WARNING: World Bank population lookup failed:", exc)
         return None, None
 
+def world_bank_population(cc):
+    url = "https://api.worldbank.org/v2/country/%s/indicator/SP.POP.TOTL" % cc.upper()
+    try:
+        payload = get_json(url, {"format": "json", "per_page": 70})
+        rows = payload[1] if isinstance(payload, list) and len(payload) > 1 else []
+        valid = [x for x in rows if x.get("value") is not None]
+        if not valid:
+            return None, None
+        latest = max(valid, key=lambda x: int(x.get("date", 0)))
+        return int(latest["value"]), latest["date"]
+    except Exception as exc:
+        print("WARNING: World Bank population lookup failed:", exc)
+        return None, None
+
 def universities(cc):
     params = {"format": "json", "query": SPARQL % cc.upper()}
     endpoints = ["https://qlever.dev/api/wikidata", "https://query.wikidata.org/sparql"]
@@ -88,11 +102,18 @@ def build(cc):
         rate = round(fx_to_bdt(cur), 4)
     except Exception as exc:
         print("WARNING: exchange rate unavailable:", exc)
-    population = c.get("population") or None\n    population_year = None\n    if not population:\n        population, population_year = world_bank_population(cc)\n    unis, uni_source = universities(cc)
+    population = c.get("population") or None\n    population_year = None\n    if not population:\n        population, population_year = world_bank_population(cc)\n    population = c.get("population") or None
+    population_year = None
+    if not population:
+        population, population_year = world_bank_population(cc)
+    unis, uni_source = universities(cc)
 
     facts = {
         "last_checked": today(),
-        "data_status": "needs_official_verification",\n        "population": population,\n        "population_year": population_year,\n        "population_source": "https://api.worldbank.org/v2/country/%s/indicator/SP.POP.TOTL" % cc.upper(),
+        "data_status": "needs_official_verification",
+        "population": population,
+        "population_year": population_year,
+        "population_source": "https://api.worldbank.org/v2/country/%s/indicator/SP.POP.TOTL" % cc.upper(),\n        "population": population,\n        "population_year": population_year,\n        "population_source": "https://api.worldbank.org/v2/country/%s/indicator/SP.POP.TOTL" % cc.upper(),
         "intake": "Varies by institution and programme; verify official deadlines.",
         "dates": {"source": "", "rows": [
             {"date": "Verify with institution", "event": "Application opening and deadline vary by university, programme and intake."},
