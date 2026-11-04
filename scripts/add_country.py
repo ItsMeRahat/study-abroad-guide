@@ -160,7 +160,7 @@ def build(cc):
 if __name__ == "__main__":
     if len(sys.argv) != 2 or len(sys.argv[1]) != 2 or not sys.argv[1].isalpha():
         sys.exit("Usage: python scripts/add_country.py <ISO-3166 alpha-2 code>")
-    cc = sys.argv[1].lower()
+    cc = sys.argv[1].strip().lower()
     meta, facts, unis, content = build(cc)
     for key, obj in (("facts", facts), ("universities", unis), ("content", content)):
         save("data/%s/%s.json" % (cc, key), obj)
