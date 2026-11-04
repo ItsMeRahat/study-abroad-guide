@@ -67,5 +67,6 @@
   },
   "population": 41798407,
   "population_year": 2026,
-  "population_source": "https://www150.statcan.gc.ca/n1/daily-quotidien/260923/dq260923a-eng.pdf"
+  "population_source": "https://www150.statcan.gc.ca/n1/daily-quotidien/260923/dq260923a-eng.pdf",
+  "population_reference_date": "1 July 2026"
 }
