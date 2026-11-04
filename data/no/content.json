@@ -1,0 +1,150 @@
+{
+ "meta": {
+  "code": "no",
+  "name": "Norway",
+  "flag": "🇳🇴",
+  "currency": "NOK",
+  "title": "Study in Norway: Applicant Guide",
+  "sub": "Bangladesh applicants · Universities, rankings, application, visa and money.",
+  "portal": "NOKUT accredited institutions",
+  "portal_url": "https://www.nokut.no/en/higher-education/higher-education-institutions/",
+  "top_label": "QS ranked",
+  "uni_title": "Norwegian universities",
+  "prog_btn": "Programmes on Study in Norway",
+  "list_note": "The list covers the QS-ranked universities and the main public and private institutions; the NOKUT list is the full register of accredited institutions.",
+  "rank_note": "Only 8 Norwegian institutions appear in the QS World University Rankings 2027, so the ranked list has 8 entries. The other institutions are listed separately.",
+  "gen_note": "Entry requirements, tuition fees and scholarships differ by programme. Open the Study in Norway button to see English-taught programmes, then read the programme page for its fee and requirements.",
+  "caution": "<b>Counsellor caution:</b> Always verify the current intake, exact programme, tuition fee, scholarship, funds amount, permit fee and embassy instructions immediately before advising a student. Bangladesh bank rules and Norwegian immigration rules can change. No agent, counsellor or university can guarantee admission, a scholarship or a residence-permit decision."
+ },
+ "tabs": [
+  [
+   "overview",
+   "Overview"
+  ],
+  [
+   "unis",
+   "Universities"
+  ],
+  [
+   "apply",
+   "Apply"
+  ],
+  [
+   "eng",
+   "English"
+  ],
+  [
+   "money",
+   "Money"
+  ],
+  [
+   "visa",
+   "Permit"
+  ],
+  [
+   "after",
+   "After study"
+  ],
+  [
+   "schol",
+   "Scholarships"
+  ]
+ ],
+ "links": {
+  "sin": "https://studyinnorway.no/",
+  "entry": "https://studyinnorway.no/entry-requirements-bachelor-and-master-programmes",
+  "gsu": "https://hkdir.no/en/foreign-education/lists-and-databases/higher-education-entrance-qualification-gsu",
+  "uiabd": "https://www.uia.no/english/studies/how-to-apply/countries/bangladesh.html",
+  "sweb": "https://fsweb.no/soknadsweb/login.jsf",
+  "nokut": "https://www.nokut.no/en/higher-education/higher-education-institutions/",
+  "uibproc": "https://www4.uib.no/en/studies/admission-and-application/application-process-from-outside-eueea-and-switzerland",
+  "uibperm": "https://www4.uib.no/en/studies/admission-and-application/first-time-study-permit",
+  "uiotuit": "https://uio.no/english/studies/admission/tuition",
+  "omtuit": "https://student.oslomet.no/en/tuition-fees-for-international-students-from-outside-eu-eea",
+  "nmbufunds": "https://www.nmbu.no/en/studies/instructions-funds-transfer",
+  "udi": "https://www.udi.no/en/want-to-apply/studies/studietillatelse/",
+  "udiapply": "https://www.udi.no/en/want-to-apply/studies/studietillatelse/university-college-or-university/how-to-apply-for-a-residence-permit-for-a-student-at-a-university-college-or-university/",
+  "udifees": "https://www.udi.no/en/word-definitions/fees/",
+  "udiwait": "https://www.udi.no/en/word-definitions/guide-to-case-processing-times-for-study-permits/",
+  "udiwork": "https://www.udi.no/en/want-to-apply/work-immigration/",
+  "udiperm": "https://www.udi.no/en/want-to-apply/permanent-residence/"
+ },
+ "req": {
+  "ug": [
+   [
+    "Academic qualification",
+    "HSC plus 1 year of university education, following the national GSU list as shown on UiA’s Bangladesh page. Check the programme page for subject requirements."
+   ],
+   [
+    "Bachelor’s places",
+    "English-taught bachelor’s programmes for applicants from outside the EU/EEA are limited. UiA states that residence permits for Bangladeshi bachelor’s applicants are rarely granted."
+   ],
+   [
+    "English",
+    "UiA example: IELTS Academic 5.0 or TOEFL iBT 60 (3.5 on the scale used after 21 January 2026). Other universities set their own scores."
+   ],
+   [
+    "Documents",
+    "Officially issued transcripts and diplomas uploaded to Søknadsweb. Documents not in English, Norwegian, Swedish or Danish need an authorised translation."
+   ]
+  ],
+  "pg": [
+   [
+    "Academic qualification",
+    "HSC plus 4 years of university education (180 ECTS equivalent). Your bachelor’s degree must include the courses the programme asks for."
+   ],
+   [
+    "Grades",
+    "UiA example: C or better on the Norwegian grading scale, calculated from the degree used for admission. Other universities set their own minimum."
+   ],
+   [
+    "English",
+    "UiA example: IELTS Academic 6.0, TOEFL iBT 80 (4.0 on the new scale) or PTE 62. Many programmes ask for more; check the programme page."
+   ],
+   [
+    "Documents",
+    "Final bachelor’s diploma and transcripts, officially issued and certified by the registrar’s or examinations office. Provisional certificates are accepted only in limited cases (UiA: degree completed within the last two years)."
+   ]
+  ]
+ },
+ "steps": [
+  "Choose the level: Master’s is the main route for applicants from Bangladesh. Search English-taught programmes on Study in Norway and on each university’s programme page.",
+  "Check eligibility: the Bangladesh requirement on the GSU list, the programme’s course requirements, the grade minimum and the English score.",
+  "Prepare documents: officially issued transcripts and diplomas, passport copy, English test result and any translations. Do not email documents; upload them.",
+  "Create the applicant’s own account on Søknadsweb with a personal email. Apply as an international applicant between 1 Nov and 1 Dec, unless the programme page states another window.",
+  "Upload all documents before the deadline. Many universities allow only one master’s programme per application, so confirm the rule for each.",
+  "Read the result in Søknadsweb (results usually arrive by April) and answer the offer by the date stated; late answers withdraw the offer.",
+  "If you pay tuition, follow the university’s invoice. Transfer the living-cost amount to the account the university sets up, as the offer asks.",
+  "Apply for the study permit in UDI’s Application Portal, pay the fee, and attend the embassy or VFS appointment if required. Travel only after the permit is granted."
+ ],
+ "sections": {
+  "overview": {
+   "title": "Overview",
+   "html": "<div class=\"card\"><h3 style=\"margin-top:0\"><span data-f=\"intake\">Autumn 2027</span>: international applicants</h3>\n<ul class=\"tl\" id=\"tl\"></ul>\n<p class=\"links\"><a data-u=\"uibproc\">Example: UiB application process</a> <a data-u=\"sin\">Study in Norway</a></p>\n<div class=\"note\">Windows differ by university and programme. NTNU lists 1 Feb to 1 Mar for some programmes, and music performance programmes at UiA close on 15 Dec. Check the programme page.</div></div>\n\n<h3>General entry requirements</h3>\n<div class=\"seg\" id=\"lvl\"><button aria-pressed=\"true\" data-l=\"ug\">Bachelor’s (UG)</button><button aria-pressed=\"false\" data-l=\"pg\">Master’s (PG)</button></div>\n<div class=\"card\"><dl id=\"req\"></dl></div>\n<div class=\"note warn\"><b>English test:</b> A Bangladeshi bachelor’s or master’s degree taught in English does not exempt you from the English requirement (UiA). Exemptions apply to studies in the UK, USA, Canada, Ireland, New Zealand, Australia or the Nordic countries, under each university’s rules.</div>\n<p class=\"links\"><b>Official sources:</b> <a data-u=\"gsu\">GSU list (HK-dir)</a> <a data-u=\"entry\">Entry requirements</a> <a data-u=\"uiabd\">UiA Bangladesh page</a></p>"
+  },
+  "apply": {
+   "title": "Application steps",
+   "html": "<p>Applications go through Søknadsweb or the university’s own portal. Tick each step as you finish it; your progress is saved on this device.</p>\n<div class=\"bar\"><i id=\"pb\"></i></div>\n<ol class=\"steps\" id=\"st\"></ol>\n<div class=\"card\"><b>Choices allowed:</b> UiB allows one master’s programme per application. Other universities set their own limit.</div>\n<div class=\"card\"><b>Application fee:</b> varies by university. Check the programme page before paying.</div>\n<p class=\"links\"><a data-u=\"sweb\">Søknadsweb</a> <a data-u=\"sin\">Study in Norway</a> <a data-u=\"nokut\">Accredited institutions (NOKUT)</a></p>"
+  },
+  "eng": {
+   "title": "English and grades",
+   "html": "<details open><summary>English requirement</summary><div>\n<p>Each university sets the accepted tests and scores for its programmes. The programme page always takes priority.</p>\n<ul class=\"b\">\n<li><b>UiA master’s:</b> IELTS Academic 6.0, TOEFL iBT 80 (4.0 on the scale used after 21 January 2026), PTE Academic 62. Scores older than two years are not valid.</li>\n<li><b>UiA bachelor’s:</b> IELTS Academic 5.0, TOEFL iBT 60 (3.5 on the new scale), PTE Academic 51.</li>\n<li><b>Bangladesh degrees:</b> a bachelor’s or master’s taught in English in Bangladesh does not exempt you from the English test (UiA).</li>\n<li><b>Exemption routes (UiA):</b> one year of university study taught in English in the UK, USA, Canada, Ireland, New Zealand or Australia, or a degree taught in English in a Nordic country.</li></ul></div></details>\n<details><summary>Programme requirements and grades</summary><div>\n<p>Your bachelor’s degree must include specific courses for most master’s programmes. Admission is competitive, and applicants are ranked by academic results. Meeting the requirements does not guarantee a place.</p>\n<p>You may be asked for course descriptions. If you are asked and do not send them, your application is not processed (UiA).</p></div></details>\n<p class=\"links\"><a data-u=\"uiabd\">UiA Bangladesh page</a> <a data-u=\"gsu\">GSU list (HK-dir)</a></p>"
+  },
+  "money": {
+   "title": "Money matters",
+   "html": "<details open><summary>Tuition</summary><div>\n<p>Students from outside the EU/EEA pay tuition at public institutions since autumn 2023. Each university sets the rate per programme. All students also pay a semester fee to the student welfare organisation.</p>\n<ul class=\"b\">\n<li><b>OsloMet 2026/27:</b> most master’s programmes NOK 67,000 to 95,000 per year.</li>\n<li><b>University of Oslo:</b> tuition applies to non-EU/EEA students; UiO states it offers no scholarships that cover tuition fees.</li>\n<li><b>University of Bergen:</b> all admitted applicants from outside the EU/EEA pay tuition fees.</li></ul>\n<p class=\"links\"><a data-u=\"uiotuit\">UiO tuition</a> <a data-u=\"omtuit\">OsloMet tuition</a></p></div></details>\n\n<details open><summary>Proof of funds for the study permit</summary><div>\n<div class=\"card\" style=\"background:var(--accbg)\"><b>Funds calculator</b> (UDI: NOK <span data-f=\"maintenance.annual\">170,368</span> per academic year, NOK <span data-f=\"maintenance.monthly\">15,488</span> per month)\n<div class=\"row\"><input type=\"number\" id=\"mo\" min=\"1\" max=\"6\" value=\"2\" aria-label=\"Academic years\" style=\"width:90px\"><span>academic years</span></div>\n<div class=\"big\" id=\"tot\">NOK 340,736</div><div class=\"big\" id=\"bdt\" style=\"font-size:1.35rem;color:var(--ink)\"></div><p id=\"fxn\" style=\"color:var(--mute);font-size:.88rem;margin:6px 0 0\"></p></div>\n<ul class=\"b\">\n<li><b>One semester only:</b> NOK <span data-f=\"maintenance.autumn_only\">77,440</span> for autumn or NOK <span data-f=\"maintenance.spring_only\">92,928</span> for spring.</li>\n<li><b>Where the money sits:</b> loans, grants, or your own funds in a Norwegian bank account or the university’s deposit account. Expected job income can count if you already have an offer.</li>\n<li><b>Tuition on top:</b> if you pay tuition, you must show it is paid or that you hold the money for it, in a Norwegian account or the university’s deposit account.</li>\n<li><b>Deposit accounts:</b> universities set these up for admitted students. NMBU uses a SiÅS account and returns the money if the permit is refused. UiA withdraws the offer if you do not transfer the amount.</li></ul>\n<p class=\"links\"><a data-u=\"udi\">UDI study permit</a> <a data-u=\"nmbufunds\">NMBU funds transfer</a></p></div></details>\n\n<details><summary>Bank statement at application</summary><div>\n<p>Some universities ask for a bank statement when you apply. Example from UiA:</p>\n<ul class=\"b\">\n<li>Statement in your own name, issued within the last three months, dated, signed and stamped by a bank official.</li>\n<li>If a sponsor provides the money, upload the sponsor’s statement and a confirmation letter.</li>\n<li>The statement must show the full amount for tuition and living costs. Work contracts are not accepted.</li></ul></div></details>"
+  },
+  "visa": {
+   "title": "Study permit",
+   "html": "<div class=\"card\">Bangladeshi citizens need a study permit for studies longer than three months. Apply after you receive your offer and the university confirms your place.</div>\n<details open><summary>How to apply</summary><div><ul class=\"b\">\n<li>Collect the admission letter, passport, proof of funds, proof that tuition is paid or covered, and proof of housing in Norway.</li>\n<li>Print UDI’s checklist, create an account in UDI’s Application Portal, and submit the online application.</li>\n<li>Pay the application fee in the portal by Visa, Mastercard, Apple Pay or Google Pay.</li>\n<li>Book the appointment at the embassy or VFS Application Centre you chose, and hand in your documents and biometrics.</li>\n<li>The place of study must be on NOKUT’s list of accredited institutions, and you must study full-time.</li>\n<li>Do not travel to Norway until the permit is granted, unless UDI says your case allows it.</li></ul>\n<p class=\"links\"><a data-u=\"udiapply\">UDI: how to apply</a> <a data-u=\"uibperm\">Example: UiB study permit page</a></p></div></details>\n<details><summary>Fee and processing time</summary><div>\n<p>Study permit fee for an adult: <b>NOK <span data-f=\"fees.permit_adult_nok\">5,400</span></b> (under 18: NOK <span data-f=\"fees.permit_child_nok\">2,700</span>). Renewals cost the same. UiB advises applying by 1 July for an autumn start so the case is processed in time.</p>\n<p>UDI publishes processing times for study permits. The figure is a guide, not a promise.</p>\n<p class=\"links\"><a data-u=\"udifees\">UDI fees</a> <a data-u=\"udiwait\">UDI processing times</a></p></div></details>\n<details><summary>Work and family while studying</summary><div>\n<ul class=\"b\">\n<li>A study permit allows up to <b><span data-f=\"work_hours_per_week\">20</span> hours of work per week</b> during studies and full-time work during holidays. You cannot be self-employed or run your own business.</li>\n<li>Your spouse or cohabitant and children can usually apply to join you. UDI currently cannot process a family member’s case at the same time as yours.</li>\n<li>UDI expects it to be likely that you can return home after your studies.</li></ul></div></details>"
+  },
+  "after": {
+   "title": "After you graduate",
+   "html": "<details open><summary>After graduation</summary><div>\n<p>Graduates who held a study permit can apply for a job-seeker residence permit before the study permit expires. Its maximum length is one year, and you must look for skilled work. Check UDI for the current funds and document requirements.</p>\n<p class=\"links\"><a data-u=\"udiwork\">UDI work immigration</a></p></div></details>\n<details><summary>Permanent residence</summary><div>\n<p>UDI states that the time you hold a study permit does not count toward a later permanent residence application.</p>\n<div class=\"note warn\">Do not promise permanent residence as a result of graduation. Check the rules for the permit you hold when you apply.</div>\n<p class=\"links\"><a data-u=\"udiperm\">UDI permanent residence</a></p></div></details>"
+  },
+  "schol": {
+   "title": "Scholarships",
+   "html": "<details open><summary>What the universities state</summary><div>\n<ul class=\"b\">\n<li><b>University of Oslo:</b> offers no scholarships that cover tuition fees.</li>\n<li><b>University of Agder:</b> offers no grants or scholarships.</li>\n<li><b>Other universities:</b> check each scholarship page for fee waivers. Rules and amounts change every year.</li></ul>\n<p class=\"links\"><a data-u=\"sin\">Study in Norway: costs and funding</a></p></div></details>\n<details><summary>Practical sequence</summary><div><ol class=\"b\">\n<li>Choose a programme and check its tuition fee.</li><li>Read the university’s scholarship page before you apply.</li><li>Apply by the programme deadline.</li><li>Submit any separate scholarship application if the page asks for one.</li></ol></div></details>"
+  }
+ }
+}

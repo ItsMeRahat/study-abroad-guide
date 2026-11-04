@@ -1,0 +1,56 @@
+{
+ "last_checked": "2026-11-04",
+ "intake": "Autumn 2027",
+ "dates": {
+  "source": "https://www4.uib.no/en/studies/admission-and-application/application-process-from-outside-eueea-and-switzerland",
+  "rows": [
+   {
+    "date": "1 Nov 2026",
+    "event": "Søknadsweb opens for applicants from outside the EU/EEA (most universities)"
+   },
+   {
+    "date": "1 Dec 2026",
+    "event": "Application deadline for most international master’s programmes"
+   },
+   {
+    "date": "15 Dec 2026",
+    "event": "Final document deadline at UiB; check your university"
+   },
+   {
+    "date": "Apr 2027",
+    "event": "Results published (UiB: by mid-April)"
+   },
+   {
+    "date": "Aug 2027",
+    "event": "Autumn semester starts"
+   }
+  ]
+ },
+ "maintenance": {
+  "annual": 170368,
+  "monthly": 15488,
+  "autumn_only": 77440,
+  "spring_only": 92928,
+  "year": "current UDI figure",
+  "source": "https://www.udi.no/en/want-to-apply/studies/studietillatelse/"
+ },
+ "fees": {
+  "permit_adult_nok": 5400,
+  "permit_child_nok": 2700,
+  "source": "https://www.udi.no/en/word-definitions/fees/"
+ },
+ "work_hours_per_week": 20,
+ "institutions": {
+  "listed": 26,
+  "stated_on_page": 26
+ },
+ "fx": {
+  "NOK_BDT": 12.0,
+  "date": "2026-11-04",
+  "source": "approximate seed; replaced by scripts/update_rate.py and by the live rate when the page is opened online"
+ },
+ "links": {
+  "programme_search": "https://studyinnorway.no/study-opportunities",
+  "note": "Study in Norway lists English-taught programmes. A university can set programmes_url in universities.json to override."
+ }
+}

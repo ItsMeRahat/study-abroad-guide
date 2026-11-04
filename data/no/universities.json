@@ -1,0 +1,311 @@
+{
+ "source": "https://www.nokut.no/en/higher-education/higher-education-institutions/",
+ "ranking_source": "QS World University Rankings 2027",
+ "ranking_note": "Only 8 Norwegian institutions appear in the QS World University Rankings 2027, so the ranked list has 8 entries.",
+ "universities": [
+  {
+   "id": "university-of-oslo",
+   "name": "University of Oslo",
+   "city": "Oslo",
+   "focus": "Comprehensive research university",
+   "website": "https://www.uio.no/english/",
+   "top10": true,
+   "top10_rank": 1,
+   "rank_label": "QS 2027 · #=131",
+   "profile": {
+    "ug_entry": "Per the national GSU list as shown on UiA’s Bangladesh page: HSC plus 1 year of university education. Bachelor’s places are limited; UiA notes residence permits for Bangladeshi bachelor’s applicants are rarely granted.",
+    "pg_entry": "HSC plus 4 years of university education (180 ECTS equivalent), with programme-specific courses. Minimum grade is set by each university (UiA: C or better on the Norwegian scale).",
+    "english": "Test scores differ by university and programme. Check the university’s English requirements page. A Bangladeshi degree taught in English does not exempt you (UiA).",
+    "courses": "English-taught programmes are listed on Study in Norway and in the university’s programme catalogue.",
+    "fees": "Tuition for non-EU/EEA students since 2023/24, charged per programme. See UiO’s tuition page for the current rate.",
+    "scholarship": "UiO states it does not offer scholarships that cover tuition fees."
+   },
+   "profile_source": "Counselling notes from official university and UDI pages, checked 4 November 2026. QS World University Rankings 2027. Confirm fees and scholarships on the official programme page."
+  },
+  {
+   "id": "ntnu",
+   "name": "Norwegian University of Science and Technology (NTNU)",
+   "city": "Trondheim (also Gjøvik, Ålesund)",
+   "focus": "Technology, natural sciences and broad programmes",
+   "website": "https://www.ntnu.edu/",
+   "top10": true,
+   "top10_rank": 2,
+   "rank_label": "QS 2027 · #264",
+   "profile": {
+    "ug_entry": "Per the national GSU list as shown on UiA’s Bangladesh page: HSC plus 1 year of university education. Bachelor’s places are limited; UiA notes residence permits for Bangladeshi bachelor’s applicants are rarely granted.",
+    "pg_entry": "HSC plus 4 years of university education (180 ECTS equivalent), with programme-specific courses. Minimum grade is set by each university (UiA: C or better on the Norwegian scale).",
+    "english": "Test scores differ by university and programme. Check the university’s English requirements page. A Bangladeshi degree taught in English does not exempt you (UiA).",
+    "courses": "English-taught programmes are listed on Study in Norway and in the university’s programme catalogue.",
+    "fees": "Non-EU/EEA students pay tuition at public institutions; the rate depends on the programme. Confirm on the official tuition page.",
+    "scholarship": "Confirm fee waivers and scholarships on NTNU’s scholarship page.",
+    "apply": "Most international master’s programmes: 1 Nov to 1 Dec. Some programmes: 1 Feb to 1 Mar. Choose the international applicant category in Søknadsweb."
+   },
+   "profile_source": "Counselling notes from official university and UDI pages, checked 4 November 2026. QS World University Rankings 2027. Confirm fees and scholarships on the official programme page."
+  },
+  {
+   "id": "university-of-bergen",
+   "name": "University of Bergen (UiB)",
+   "city": "Bergen",
+   "focus": "Broad research university",
+   "website": "https://www.uib.no/en",
+   "top10": true,
+   "top10_rank": 3,
+   "rank_label": "QS 2027 · #283",
+   "profile": {
+    "ug_entry": "Per the national GSU list as shown on UiA’s Bangladesh page: HSC plus 1 year of university education. Bachelor’s places are limited; UiA notes residence permits for Bangladeshi bachelor’s applicants are rarely granted.",
+    "pg_entry": "HSC plus 4 years of university education (180 ECTS equivalent), with programme-specific courses. Minimum grade is set by each university (UiA: C or better on the Norwegian scale).",
+    "english": "Test scores differ by university and programme. Check the university’s English requirements page. A Bangladeshi degree taught in English does not exempt you (UiA).",
+    "courses": "English-taught programmes are listed on Study in Norway and in the university’s programme catalogue.",
+    "fees": "All admitted applicants from outside the EU/EEA pay tuition fees (UiB).",
+    "scholarship": "Confirm scholarships and fee waivers on the university’s scholarship page.",
+    "apply": "Non-EU/EEA applicants: 1 Nov to 1 Dec, final documents by 15 Dec, results by April. You can apply for one master’s programme."
+   },
+   "profile_source": "Counselling notes from official university and UDI pages, checked 4 November 2026. QS World University Rankings 2027. Confirm fees and scholarships on the official programme page."
+  },
+  {
+   "id": "uit",
+   "name": "UiT The Arctic University of Norway",
+   "city": "Tromsø",
+   "focus": "Arctic and northern research university",
+   "website": "https://en.uit.no/",
+   "top10": true,
+   "top10_rank": 4,
+   "rank_label": "QS 2027 · #629",
+   "profile": {
+    "ug_entry": "Per the national GSU list as shown on UiA’s Bangladesh page: HSC plus 1 year of university education. Bachelor’s places are limited; UiA notes residence permits for Bangladeshi bachelor’s applicants are rarely granted.",
+    "pg_entry": "HSC plus 4 years of university education (180 ECTS equivalent), with programme-specific courses. Minimum grade is set by each university (UiA: C or better on the Norwegian scale).",
+    "english": "Test scores differ by university and programme. Check the university’s English requirements page. A Bangladeshi degree taught in English does not exempt you (UiA).",
+    "courses": "English-taught programmes are listed on Study in Norway and in the university’s programme catalogue.",
+    "fees": "Non-EU/EEA students pay tuition at public institutions; the rate depends on the programme. Confirm on the official tuition page.",
+    "scholarship": "Confirm scholarships and fee waivers on the university’s scholarship page."
+   },
+   "profile_source": "Counselling notes from official university and UDI pages, checked 4 November 2026. QS World University Rankings 2027. Confirm fees and scholarships on the official programme page."
+  },
+  {
+   "id": "nmbu",
+   "name": "Norwegian University of Life Sciences (NMBU)",
+   "city": "Ås",
+   "focus": "Life sciences, environment and food",
+   "website": "https://www.nmbu.no/en",
+   "top10": true,
+   "top10_rank": 5,
+   "rank_label": "QS 2027 · #761",
+   "profile": {
+    "ug_entry": "Per the national GSU list as shown on UiA’s Bangladesh page: HSC plus 1 year of university education. Bachelor’s places are limited; UiA notes residence permits for Bangladeshi bachelor’s applicants are rarely granted.",
+    "pg_entry": "HSC plus 4 years of university education (180 ECTS equivalent), with programme-specific courses. Minimum grade is set by each university (UiA: C or better on the Norwegian scale).",
+    "english": "Test scores differ by university and programme. Check the university’s English requirements page. A Bangladeshi degree taught in English does not exempt you (UiA).",
+    "courses": "English-taught programmes are listed on Study in Norway and in the university’s programme catalogue.",
+    "fees": "Non-EU/EEA students pay tuition at public institutions; the rate depends on the programme. Confirm on the official tuition page.",
+    "scholarship": "Confirm scholarships and fee waivers on the university’s scholarship page.",
+    "funds": "Living funds can be transferred to a SiÅS-administered account; funds go back to you if the permit is refused (NMBU)."
+   },
+   "profile_source": "Counselling notes from official university and UDI pages, checked 4 November 2026. QS World University Rankings 2027. Confirm fees and scholarships on the official programme page."
+  },
+  {
+   "id": "university-of-stavanger",
+   "name": "University of Stavanger (UiS)",
+   "city": "Stavanger",
+   "focus": "Broad university",
+   "website": "https://www.uis.no/en",
+   "top10": true,
+   "top10_rank": 6,
+   "rank_label": "QS 2027 · #851",
+   "profile": {
+    "ug_entry": "Per the national GSU list as shown on UiA’s Bangladesh page: HSC plus 1 year of university education. Bachelor’s places are limited; UiA notes residence permits for Bangladeshi bachelor’s applicants are rarely granted.",
+    "pg_entry": "HSC plus 4 years of university education (180 ECTS equivalent), with programme-specific courses. Minimum grade is set by each university (UiA: C or better on the Norwegian scale).",
+    "english": "Test scores differ by university and programme. Check the university’s English requirements page. A Bangladeshi degree taught in English does not exempt you (UiA).",
+    "courses": "English-taught programmes are listed on Study in Norway and in the university’s programme catalogue.",
+    "fees": "Non-EU/EEA students pay tuition at public institutions; the rate depends on the programme. Confirm on the official tuition page.",
+    "scholarship": "Confirm scholarships and fee waivers on the university’s scholarship page.",
+    "apply": "International applicants: 15 Nov to 1 Dec through Søknadsweb (UiS)."
+   },
+   "profile_source": "Counselling notes from official university and UDI pages, checked 4 November 2026. QS World University Rankings 2027. Confirm fees and scholarships on the official programme page."
+  },
+  {
+   "id": "university-of-agder",
+   "name": "University of Agder (UiA)",
+   "city": "Kristiansand and Grimstad",
+   "focus": "Broad university",
+   "website": "https://www.uia.no/english/",
+   "top10": true,
+   "top10_rank": 7,
+   "rank_label": "QS 2027 · 1001+",
+   "profile": {
+    "ug_entry": "HSC plus 1 year of university education. UiA notes residence permits for Bangladeshi bachelor’s applicants are rarely granted.",
+    "pg_entry": "HSC plus 4 years of university education (180 ECTS equivalent). GPA of C or better on the Norwegian scale. Final bachelor’s diploma required.",
+    "english": "UG: IELTS 5.0, TOEFL iBT 60 (3.5 on the scale used after 21 Jan 2026). PG: IELTS 6.0, TOEFL iBT 80 (4.0 on the new scale), PTE 62. Bangladeshi degrees taught in English do not exempt you.",
+    "courses": "English-taught programmes are listed on Study in Norway and in the university’s programme catalogue.",
+    "fees": "Non-EU/EEA students pay tuition; see UiA’s tuition fee page for current rates.",
+    "scholarship": "UiA states it does not offer any grants or scholarships.",
+    "apply": "1 Nov to 1 Dec. Music performance programmes: 1 Nov to 15 Dec. Apply personally; UiA does not work with recruitment agencies.",
+    "funds": "Admitted students transfer the living-cost amount to a university deposit account, or the offer is withdrawn (UiA)."
+   },
+   "profile_source": "Counselling notes from official university and UDI pages, checked 4 November 2026. QS World University Rankings 2027. Confirm fees and scholarships on the official programme page.",
+   "phone": "+47 38 14 15 64"
+  },
+  {
+   "id": "oslomet",
+   "name": "OsloMet – Oslo Metropolitan University",
+   "city": "Oslo",
+   "focus": "Applied and professional education",
+   "website": "https://www.oslomet.no/en",
+   "top10": true,
+   "top10_rank": 8,
+   "rank_label": "QS 2027 · 1201+",
+   "profile": {
+    "ug_entry": "Per the national GSU list as shown on UiA’s Bangladesh page: HSC plus 1 year of university education. Bachelor’s places are limited; UiA notes residence permits for Bangladeshi bachelor’s applicants are rarely granted.",
+    "pg_entry": "HSC plus 4 years of university education (180 ECTS equivalent), with programme-specific courses. Minimum grade is set by each university (UiA: C or better on the Norwegian scale).",
+    "english": "Test scores differ by university and programme. Check the university’s English requirements page. A Bangladeshi degree taught in English does not exempt you (UiA).",
+    "courses": "English-taught programmes are listed on Study in Norway and in the university’s programme catalogue.",
+    "fees": "2026/27: most master’s programmes NOK 67,000 to 95,000 per year; some are listed separately (OsloMet).",
+    "scholarship": "Confirm fee waivers and scholarships on OsloMet’s international student pages."
+   },
+   "profile_source": "Counselling notes from official university and UDI pages, checked 4 November 2026. QS World University Rankings 2027. Confirm fees and scholarships on the official programme page.",
+   "phone": null
+  },
+  {
+   "id": "nord-university",
+   "name": "Nord University",
+   "city": "Bodø",
+   "focus": "Multidisciplinary university with campuses in northern Norway",
+   "website": "https://www.nord.no/en",
+   "top10": false
+  },
+  {
+   "id": "usn",
+   "name": "University of South-Eastern Norway (USN)",
+   "city": "Drammen",
+   "focus": "Multidisciplinary university with several campuses",
+   "website": "https://www.usn.no/english/",
+   "top10": false
+  },
+  {
+   "id": "inn",
+   "name": "Inland Norway University of Applied Sciences (INN)",
+   "city": "Lillehammer",
+   "focus": "Multidisciplinary university with several campuses",
+   "website": "https://www.inn.no/english/",
+   "top10": false
+  },
+  {
+   "id": "hvl",
+   "name": "Western Norway University of Applied Sciences (HVL)",
+   "city": "Bergen",
+   "focus": "Applied sciences and professional education",
+   "website": "https://www.hvl.no/en/",
+   "top10": false
+  },
+  {
+   "id": "ostfold",
+   "name": "Østfold University College",
+   "city": "Halden",
+   "focus": "Multidisciplinary university college",
+   "website": "https://www.hiof.no/english/",
+   "top10": false
+  },
+  {
+   "id": "molde",
+   "name": "Molde University College",
+   "city": "Molde",
+   "focus": "Logistics, business and health",
+   "website": "https://www.himolde.no/english/",
+   "top10": false
+  },
+  {
+   "id": "volda",
+   "name": "Volda University College",
+   "city": "Volda",
+   "focus": "Media, humanities and teacher education",
+   "website": "https://www.hivolda.no/english",
+   "top10": false
+  },
+  {
+   "id": "nhh",
+   "name": "NHH Norwegian School of Economics",
+   "city": "Bergen",
+   "focus": "Business and economics",
+   "website": "https://www.nhh.no/en/",
+   "top10": false
+  },
+  {
+   "id": "nmh",
+   "name": "Norwegian Academy of Music",
+   "city": "Oslo",
+   "focus": "Music",
+   "website": "https://nmh.no/en",
+   "top10": false
+  },
+  {
+   "id": "nih",
+   "name": "Norwegian School of Sport Sciences",
+   "city": "Oslo",
+   "focus": "Sport sciences",
+   "website": "https://www.nih.no/en/",
+   "top10": false
+  },
+  {
+   "id": "aho",
+   "name": "Oslo School of Architecture and Design",
+   "city": "Oslo",
+   "focus": "Architecture and design",
+   "website": "https://aho.no/en",
+   "top10": false
+  },
+  {
+   "id": "khio",
+   "name": "Oslo National Academy of the Arts",
+   "city": "Oslo",
+   "focus": "Arts",
+   "website": "https://khio.no/en",
+   "top10": false
+  },
+  {
+   "id": "phs",
+   "name": "Norwegian Police University College",
+   "city": "Oslo",
+   "focus": "Police education",
+   "website": "https://www.phs.no/en/",
+   "top10": false
+  },
+  {
+   "id": "sami",
+   "name": "Sámi University of Applied Sciences",
+   "city": "Kautokeino",
+   "focus": "Sámi language, culture and professional education",
+   "website": "https://samas.no/en",
+   "top10": false
+  },
+  {
+   "id": "kristiania",
+   "name": "Kristiania University College",
+   "city": "Oslo",
+   "focus": "Private university college",
+   "website": "https://www.kristiania.no/en/",
+   "top10": false
+  },
+  {
+   "id": "bi",
+   "name": "BI Norwegian Business School",
+   "city": "Oslo",
+   "focus": "Business and management",
+   "website": "https://www.bi.edu/",
+   "top10": false
+  },
+  {
+   "id": "vid",
+   "name": "VID Specialized University",
+   "city": "Oslo",
+   "focus": "Health, social studies and theology",
+   "website": "https://www.vid.no/en/",
+   "top10": false
+  },
+  {
+   "id": "mf",
+   "name": "MF Norwegian School of Theology, Religion and Society",
+   "city": "Oslo",
+   "focus": "Theology and religion",
+   "website": "https://www.mf.no/en",
+   "top10": false
+  }
+ ]
+}
