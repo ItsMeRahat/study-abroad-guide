@@ -26,6 +26,20 @@ def country_record(cc):
             return c
     raise SystemExit("Unknown ISO-3166 alpha-2 country code: " + cc.upper())
 
+def world_bank_population(cc):
+    url = "https://api.worldbank.org/v2/country/%s/indicator/SP.POP.TOTL" % cc.upper()
+    try:
+        payload = get_json(url, {"format": "json", "per_page": 70})
+        rows = payload[1] if isinstance(payload, list) and len(payload) > 1 else []
+        valid = [x for x in rows if x.get("value") is not None]
+        if not valid:
+            return None, None
+        latest = max(valid, key=lambda x: int(x.get("date", 0)))
+        return int(latest["value"]), latest["date"]
+    except Exception as exc:
+        print("WARNING: World Bank population lookup failed:", exc)
+        return None, None
+
 def universities(cc):
     params = {"format": "json", "query": SPARQL % cc.upper()}
     endpoints = ["https://qlever.dev/api/wikidata", "https://query.wikidata.org/sparql"]
