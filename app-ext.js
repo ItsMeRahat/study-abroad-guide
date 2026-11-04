@@ -266,13 +266,14 @@
     '<dialog id="dlg" aria-labelledby="dt">' +
       '<div class="dl">' +
         '<h2 id="dt">Add a country</h2>' +
-        "<p>Pick a country and the guide builds its page from original sources: profile, exchange rate to BDT, universities with an official website and QS/THE ranks from the bundled ranking data.</p>" +
+        "<p>Choose a country. Add to this browser for a temporary preview, or generate permanent country data in the public website repository (owner only).</p>" +
         '<input type="search" id="cq" placeholder="Search countries" aria-label="Search countries">' +
         '<div id="clist" role="listbox"></div>' +
         '<p id="cpick"></p>' +
         '<ol id="clog"></ol>' +
         '<div class="acts">' +
-          '<button class="btn sm" id="cgo" disabled>Fetch and add</button>' +
+          '<button class="btn sm" id="cgo" disabled>Add to this browser</button>' +
+          '<button class="btn alt sm" id="cperm" type="button">Generate permanent data</button>' +
           '<button class="btn alt sm" id="cx">Close</button>' +
         '</div>' +
         '<div id="cadded"></div>' +
@@ -288,6 +289,19 @@
     if (!CL.length) loadList();
 
     added();
+  };
+
+  $("#cperm").onclick = function () {
+    if (!PICK) return;
+    var body =
+      "Country name: " + PICK.name.common + "\\n" +
+      "ISO code: " + PICK.cca2.toUpperCase() + "\\n";
+    var url =
+      "https://github.com/ItsMeRahat/study-abroad-guide/issues/new" +
+      "?template=country-request.md" +
+      "&title=" + encodeURIComponent("Country data request: " + PICK.name.common) +
+      "&body=" + encodeURIComponent(body);
+    window.open(url, "_blank", "noopener");
   };
 
   $("#cx").onclick = function () {
