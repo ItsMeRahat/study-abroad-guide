@@ -1,6 +1,6 @@
 {
   "last_checked": "2026-11-04",
-  "data_status": "needs_official_verification",
+  "data_status": "official_sources_added_review_institution_specific",
   "intake": "Varies by institution and programme; verify official deadlines.",
   "dates": {
     "source": "",
@@ -16,16 +16,21 @@
     ]
   },
   "maintenance": {
-    "monthly": 0,
-    "annual": 0,
-    "source": ""
+    "monthly": 1954,
+    "annual": 23448,
+    "source": "IRCC minimum for one applicant outside Quebec applying on or after 2026-09-01; excludes tuition and transportation."
   },
   "institutions": {
     "listed": 229,
     "source": "https://www.wikidata.org/"
   },
-  "fees": {},
-  "work_hours_per_week": null,
+  "fees": {
+    "international_undergraduate_average": 41746,
+    "international_graduate_average": 24028,
+    "academic_year": "2025/2026",
+    "source": "https://www150.statcan.gc.ca/n1/daily-quotidien/250910/dq250910d-eng.htm"
+  },
+  "work_hours_per_week": 24,
   "permit_wait": {
     "note": "Not yet verified. Check the official immigration authority."
   },
@@ -35,13 +40,21 @@
     "source": "open.er-api.com"
   },
   "links": {
-    "programme_search": "",
-    "note": "Add official national study portal and immigration links after verification."
+    "study_permit": "https://www.canada.ca/en/immigration-refugees-citizenship/services/study-canada/study-permit/apply.html",
+    "dli_list": "https://www.canada.ca/en/immigration-refugees-citizenship/services/study-canada/study-permit/prepare/designated-learning-institutions-list.html",
+    "funds": "https://www.canada.ca/en/immigration-refugees-citizenship/services/study-canada/study-permit/get-documents/financial-support.html",
+    "pal_tal": "https://www.canada.ca/en/immigration-refugees-citizenship/services/study-canada/study-permit/get-documents/provincial-attestation-letter.html",
+    "work": "https://www.canada.ca/en/immigration-refugees-citizenship/services/study-canada/work/work-off-campus.html",
+    "pgwp": "https://www.canada.ca/en/immigration-refugees-citizenship/services/study-canada/work/after-graduation/eligibility.html",
+    "scholarships": "https://www.educanada.ca/scholarships-bourses/searchAll-rechercheTous.aspx?lang=eng"
   },
   "sources": {
     "country_profile": "https://cdn.jsdelivr.net/gh/mledoze/countries@master/countries.json",
     "universities": "https://query.wikidata.org/sparql",
-    "exchange_rate": "https://open.er-api.com/"
+    "exchange_rate": "https://open.er-api.com/",
+    "ircc": "https://www.canada.ca/en/immigration-refugees-citizenship/services/study-canada.html",
+    "tuition": "https://www150.statcan.gc.ca/n1/daily-quotidien/250910/dq250910d-eng.htm",
+    "scholarships": "https://www.educanada.ca/scholarships-bourses/searchAll-rechercheTous.aspx?lang=eng"
   },
   "population": 41651653,
   "population_year": 2025,
