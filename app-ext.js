@@ -110,7 +110,7 @@
 
   load = function (c) {
     return (
-      CUS[c]
+      CUS[c] && !CC.some(function (entry) { return entry.code === c; })
         ? Promise.resolve(CUS[c])
         : _load(c)
     ).then(function (d) {
@@ -233,8 +233,16 @@
   var _boot = boot;
 
   boot = function (cs) {
+    var official = {};
+    (cs || []).forEach(function (entry) {
+      official[entry.code] = true;
+    });
+    Object.keys(CUS).forEach(function (k) {
+      if (official[k]) delete CUS[k];
+    });
+    save();
     return _boot(
-      cs.concat(
+      (cs || []).concat(
         Object.keys(CUS).map(function (k) {
           return CUS[k].entry;
         })
