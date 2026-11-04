@@ -1,4 +1,4 @@
-var $=function(s){return document.querySelector(s)},$$=function(s){return[].slice.call(document.querySelectorAll(s))};
+var $=function(s){return document.querySelector(s)},$=function(s){return[].slice.call(document.querySelectorAll(s))},DATA_VERSION="20261104b";
 var CC=[],CACHE={},D=null,code="se",U={},S=[],R={},META={},CUR="SEK",FX=13,FXN="",MON=0,scope="top",city="all",all=false,done={};
 function esc(t){return String(t==null?"":t).replace(/&/g,"&amp;").replace(/</g,"&lt;")}
 function lookup(o,p){return p.split(".").reduce(function(a,k){return a&&a[k]},o)}
@@ -78,7 +78,7 @@ window.scrollTo(0,0)}
 function load(c){if(CACHE[c])return Promise.resolve(CACHE[c]);
 if(window.__DATA__&&window.__DATA__.c&&window.__DATA__.c[c]){CACHE[c]=window.__DATA__.c[c];return Promise.resolve(CACHE[c])}
 var e=CC.filter(function(x){return x.code==c})[0],dir="data/"+(e.dir?e.dir+"/":"");
-return Promise.all(["facts","universities","content"].map(function(n){return fetch(dir+n+".json",{cache:"no-cache"}).then(function(r){if(!r.ok)throw 0;return r.json()})})).then(function(a){CACHE[c]={facts:a[0],universities:a[1],content:a[2]};return CACHE[c]})}
+return Promise.all(["facts","universities","content"].map(function(n){return fetch(dir+n+".json?v="+DATA_VERSION,{cache:"no-store"}).then(function(r){if(!r.ok)throw 0;return r.json()})})).then(function(a){CACHE[c]={facts:a[0],universities:a[1],content:a[2]};return CACHE[c]})}
 function setCountry(c,id){load(c).then(function(d){
 code=c;D=d;var C=d.content;META=C.meta;META.tabs=C.tabs;U=C.links;S=C.steps;R=C.req;CUR=META.currency;
 try{localStorage.setItem("cc",c)}catch(e){}
@@ -99,5 +99,5 @@ if(!c||!CC.some(function(x){return x.code==c}))c=CC[0].code;
 setCountry(c,id)}
 window.onhashchange=function(){var h=location.hash.slice(1).split("-");if(h.length>1&&h[0]!=code&&CC.some(function(x){return x.code==h[0]}))setCountry(h[0],h[1]);else if(D)show(h[h.length-1])};
 document.addEventListener("DOMContentLoaded",function(){
-(window.__DATA__&&window.__DATA__.countries?Promise.resolve(window.__DATA__.countries):fetch("data/countries.json",{cache:"no-cache"}).then(function(r){return r.json()})).then(boot).catch(function(){$("#main").innerHTML='<div class="note warn">Could not load the data files. Open this page from GitHub Pages, run <code>python -m http.server</code> in the project folder, or use standalone.html.</div>'});
+(window.__DATA__&&window.__DATA__.countries?Promise.resolve(window.__DATA__.countries):fetch("data/countries.json?v="+DATA_VERSION,{cache:"no-store"}).then(function(r){return r.json()})).then(boot).catch(function(){$("#main").innerHTML='<div class="note warn">Could not load the data files. Open this page from GitHub Pages, run <code>python -m http.server</code> in the project folder, or use standalone.html.</div>'});
 });
