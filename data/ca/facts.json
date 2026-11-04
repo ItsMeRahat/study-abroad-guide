@@ -62,9 +62,10 @@
     "exchange_rate": "https://open.er-api.com/",
     "ircc": "https://www.canada.ca/en/immigration-refugees-citizenship/services/study-canada.html",
     "tuition": "https://www150.statcan.gc.ca/n1/daily-quotidien/250910/dq250910d-eng.htm",
-    "scholarships": "https://www.educanada.ca/scholarships-bourses/searchAll-rechercheTous.aspx?lang=eng"
+    "scholarships": "https://www.educanada.ca/scholarships-bourses/searchAll-rechercheTous.aspx?lang=eng",
+    "population": "https://www150.statcan.gc.ca/n1/daily-quotidien/260923/dq260923a-eng.pdf"
   },
-  "population": 41651653,
-  "population_year": 2025,
-  "population_source": "https://data.worldbank.org/indicator/SP.POP.TOTL?locations=CA"
+  "population": 41798407,
+  "population_year": 2026,
+  "population_source": "https://www150.statcan.gc.ca/n1/daily-quotidien/260923/dq260923a-eng.pdf"
 }
