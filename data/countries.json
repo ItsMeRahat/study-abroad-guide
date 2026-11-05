@@ -1,23 +1,4 @@
 [
-  {
-    "code": "ca",
-    "name": "Canada",
-    "flag": "🇨🇦",
-    "dir": "ca",
-    "currency": "CAD"
-  },
-  {
-    "code": "no",
-    "name": "Norway",
-    "flag": "🇳🇴",
-    "dir": "no",
-    "currency": "NOK"
-  },
-  {
-    "code": "se",
-    "name": "Sweden",
-    "flag": "🇸🇪",
-    "dir": "se",
-    "currency": "SEK"
-  }
+  {"code":"se","name":"Sweden","flag":"🇸🇪","dir":"","currency":"SEK"},
+  {"code":"no","name":"Norway","flag":"🇳🇴","dir":"no","currency":"NOK"}
 ]
