@@ -18,7 +18,9 @@
         "english": "English 6 equivalent; IELTS 6.5 is a common route. Check exact programme score and bands.",
         "courses": "UG: Biomedicine. PG: Biomedicine, Global Health, Public Health Sciences, Health Informatics, Health Economics, Nutrition Science.",
         "fees": "UG Biomedicine: about SEK 540,000 total for 3 years. PG fees vary by programme.",
-        "scholarship": "KI Global Master’s Scholarship: competitive tuition support for selected Master’s students; Swedish Institute awards may apply to eligible applicants."
+        "scholarship": "KI Global Master’s Scholarship: competitive tuition support for selected Master’s students; Swedish Institute awards may apply to eligible applicants.",
+        "ug_gpa": "No university-wide numeric GPA/CGPA cutoff is published for general bachelor's eligibility. Bangladesh HSC is accepted for general eligibility; applicants graduating after 2009 must have passed Mathematics. Programme-specific subject prerequisites and selection rules apply. Source: https://www.universityadmissions.se/en/apply-to-bachelors/provide-application-documents-bachelors/country-instructions/bangladesh/",
+        "pg_gpa": "No single university-wide GPA/CGPA cutoff is published for general master's eligibility. Bangladesh applicants normally need a 4-year bachelor's degree, or bachelor's followed by master's (total 4 years); some 3-year honours degrees in specified fields may qualify. Programme-specific prerequisites and selection apply. Source: https://www.universityadmissions.se/en/apply-to-masters/provide-application-documents-masters/country-instructions/bangladesh/"
       },
       "profile_source": "Counselling notes, checked 4 November 2026. Confirm fees and scholarships on the official programme page."
     },
@@ -38,7 +40,9 @@
         "english": "Usually English 6 equivalent; IELTS 6.5 is a common route. Verify exact rules.",
         "courses": "UG: Selected options such as Development Studies (check intake). PG: Business, Economics, Engineering, Computer Science, Environment, Public Health, Social Sciences and Humanities.",
         "fees": "Programme-dependent; indicative many programmes SEK 135,000–270,000 per year. Verify exact fee.",
-        "scholarship": "Lund University Global Scholarship: merit-based partial or full tuition support for selected students; other awards may apply."
+        "scholarship": "Lund University Global Scholarship: merit-based partial or full tuition support for selected students; other awards may apply.",
+        "ug_gpa": "No official GPA requirement is set for Lund degree programmes; selection criteria vary by programme. Source: https://www.lunduniversity.lu.se/study/admission-degree-studies/faqs-application-and-admission",
+        "pg_gpa": "No official GPA requirement is set for Lund degree programmes; selection criteria vary by programme. Source: https://www.lunduniversity.lu.se/study/admission-degree-studies/faqs-application-and-admission"
       },
       "profile_source": "Counselling notes, checked 4 November 2026. Confirm fees and scholarships on the official programme page."
     },
@@ -58,7 +62,9 @@
         "english": "English 6 equivalent; IELTS 6.5 is commonly accepted for Master’s. Check component requirements.",
         "courses": "UG: Information and Communication Technology (verify current language/intake). PG: Computer Science, Data Science, Cybersecurity, Electrical and Mechanical Engineering, Architecture, Sustainable Technology.",
         "fees": "Most two-year Master’s programmes: about SEK 385,000 total; programme-dependent.",
-        "scholarship": "KTH Scholarship: competitive tuition-fee coverage for selected Master’s students; other eligible awards may apply."
+        "scholarship": "KTH Scholarship: competitive tuition-fee coverage for selected Master’s students; other eligible awards may apply.",
+        "ug_gpa": "No university-wide numeric GPA/CGPA cutoff is published for general bachelor's eligibility. Bangladesh HSC is accepted for general eligibility; applicants graduating after 2009 must have passed Mathematics. Programme-specific subject prerequisites and selection rules apply. Source: https://www.universityadmissions.se/en/apply-to-bachelors/provide-application-documents-bachelors/country-instructions/bangladesh/",
+        "pg_gpa": "No fixed numeric GPA cutoff is stated on the general entry page. Eligible applicants receive an individual merit rating (1–75); grades, education quality, programme fit and motivation are assessed. Source: https://www.kth.se/en/studies/master/entry-requirements-for-master-s-studies-1.6915"
       },
       "profile_source": "Counselling notes, checked 4 November 2026. Confirm fees and scholarships on the official programme page."
     },
@@ -78,7 +84,9 @@
         "english": "English 6 equivalent; IELTS 6.5 overall with no band below 5.5 is one accepted route. Verify current rules.",
         "courses": "UG: Selected programmes such as Game Design (check intake). PG: Business, Economics, Computer Science, Engineering, Biology, Chemistry, Public Health and International Relations.",
         "fees": "Programme-specific; indicative range around SEK 99,000–180,000 per year. Verify exact fee.",
-        "scholarship": "Uppsala University Global Scholarship: competitive tuition-fee support for selected Master’s students."
+        "scholarship": "Uppsala University Global Scholarship: competitive tuition-fee support for selected Master’s students.",
+        "ug_gpa": "No university-wide numeric GPA/CGPA cutoff is published for general bachelor's eligibility. Bangladesh HSC is accepted for general eligibility; applicants graduating after 2009 must have passed Mathematics. Programme-specific subject prerequisites and selection rules apply. Source: https://www.universityadmissions.se/en/apply-to-bachelors/provide-application-documents-bachelors/country-instructions/bangladesh/",
+        "pg_gpa": "No single university-wide numeric GPA cutoff is stated. Selection is usually based on academic qualifications and grades; criteria vary by programme. Source: https://www.uu.se/en/study/masters-studies/application/entry-requirements"
       },
       "profile_source": "Counselling notes, checked 4 November 2026. Confirm fees and scholarships on the official programme page."
     },
@@ -98,7 +106,9 @@
         "english": "English 6 equivalent for English-taught programmes.",
         "courses": "UG: Limited English-taught Bachelor’s options; verify current catalogue. PG: Computer Science, Data Science, Automotive, Electrical and Mechanical Engineering, Architecture, Industrial Design and Sustainable Energy.",
         "fees": "Indicative 2026/27: many Master’s programmes around SEK 160,000 per year; selected design/architecture programmes may be around SEK 210,000 per year.",
-        "scholarship": "IPOET Scholarship: competitive tuition-fee reduction for selected fee-paying Master’s students."
+        "scholarship": "IPOET Scholarship: competitive tuition-fee reduction for selected fee-paying Master’s students.",
+        "ug_gpa": "No university-wide numeric GPA/CGPA cutoff is published for general bachelor's eligibility. Bangladesh HSC is accepted for general eligibility; applicants graduating after 2009 must have passed Mathematics. Programme-specific subject prerequisites and selection rules apply. Source: https://www.universityadmissions.se/en/apply-to-bachelors/provide-application-documents-bachelors/country-instructions/bangladesh/",
+        "pg_gpa": "Chalmers explicitly states that it does not apply a minimum CGPA requirement. Eligible applicants are selected based on overall application strength and available places. Source: https://www.chalmers.se/en/education/application-and-admission/how-to-apply-from-application-to-admission/apply-for-masters-programmes/"
       },
       "profile_source": "Counselling notes, checked 4 November 2026. Confirm fees and scholarships on the official programme page."
     },
@@ -118,7 +128,9 @@
         "english": "English 6 equivalent; check programme for exact accepted tests and scores.",
         "courses": "UG: Selected options, including Experimental and Industrial Biomedicine (check intake). PG: Computer Science, Cybersecurity, Statistics and Machine Learning, Industrial Engineering, Biomedical Engineering, International Relations and Sustainability.",
         "fees": "Programme-dependent; verify the current fee on the official programme page.",
-        "scholarship": "LiU International Scholarship: typically a 50% tuition-fee reduction for selected eligible Master’s applicants."
+        "scholarship": "LiU International Scholarship: typically a 50% tuition-fee reduction for selected eligible Master’s applicants.",
+        "ug_gpa": "No university-wide numeric GPA/CGPA cutoff is published for general bachelor's eligibility. Bangladesh HSC is accepted for general eligibility; applicants graduating after 2009 must have passed Mathematics. Programme-specific subject prerequisites and selection rules apply. Source: https://www.universityadmissions.se/en/apply-to-bachelors/provide-application-documents-bachelors/country-instructions/bangladesh/",
+        "pg_gpa": "No single university-wide GPA/CGPA cutoff is published for general master's eligibility. Bangladesh applicants normally need a 4-year bachelor's degree, or bachelor's followed by master's (total 4 years); some 3-year honours degrees in specified fields may qualify. Programme-specific prerequisites and selection apply. Source: https://www.universityadmissions.se/en/apply-to-masters/provide-application-documents-masters/country-instructions/bangladesh/"
       },
       "profile_source": "Counselling notes, checked 4 November 2026. Confirm fees and scholarships on the official programme page."
     },
@@ -138,7 +150,9 @@
         "english": "Usually English 6 equivalent for English-taught programmes.",
         "courses": "UG: Selected options, including International Business and Politics (check intake). PG: Business, Economics, Computer Science, Data Science, Law, Environmental Science, International Relations and Social Sciences.",
         "fees": "Indicative: some humanities/social-science programmes around SEK 90,000 per year and some science programmes around SEK 140,000 per year. Exact fees vary.",
-        "scholarship": "Stockholm University Scholarship Scheme: competitive tuition-fee coverage for selected Master’s students."
+        "scholarship": "Stockholm University Scholarship Scheme: competitive tuition-fee coverage for selected Master’s students.",
+        "ug_gpa": "No university-wide numeric GPA/CGPA cutoff is published for general bachelor's eligibility. Bangladesh HSC is accepted for general eligibility; applicants graduating after 2009 must have passed Mathematics. Programme-specific subject prerequisites and selection rules apply. Source: https://www.universityadmissions.se/en/apply-to-bachelors/provide-application-documents-bachelors/country-instructions/bangladesh/",
+        "pg_gpa": "No single university-wide GPA/CGPA cutoff is published for general master's eligibility. Bangladesh applicants normally need a 4-year bachelor's degree, or bachelor's followed by master's (total 4 years); some 3-year honours degrees in specified fields may qualify. Programme-specific prerequisites and selection apply. Source: https://www.universityadmissions.se/en/apply-to-masters/provide-application-documents-masters/country-instructions/bangladesh/"
       },
       "profile_source": "Counselling notes, checked 4 November 2026. Confirm fees and scholarships on the official programme page."
     },
@@ -158,7 +172,9 @@
         "english": "Normally English 6 equivalent.",
         "courses": "UG: Selected English-taught options, including International Relations and Software Engineering (verify intake). PG: Business, Economics, Public Health, Global Studies, Computer Science, Education, Social Sciences and Environmental Studies.",
         "fees": "Programme-specific; check the exact programme fee.",
-        "scholarship": "Axel Adler Scholarship: tuition-fee scholarship for selected international students; other faculty/external awards may be available."
+        "scholarship": "Axel Adler Scholarship: tuition-fee scholarship for selected international students; other faculty/external awards may be available.",
+        "ug_gpa": "No university-wide numeric GPA/CGPA cutoff is published for general bachelor's eligibility. Bangladesh HSC is accepted for general eligibility; applicants graduating after 2009 must have passed Mathematics. Programme-specific subject prerequisites and selection rules apply. Source: https://www.universityadmissions.se/en/apply-to-bachelors/provide-application-documents-bachelors/country-instructions/bangladesh/",
+        "pg_gpa": "No single university-wide GPA/CGPA cutoff is published for general master's eligibility. Bangladesh applicants normally need a 4-year bachelor's degree, or bachelor's followed by master's (total 4 years); some 3-year honours degrees in specified fields may qualify. Programme-specific prerequisites and selection apply. Source: https://www.universityadmissions.se/en/apply-to-masters/provide-application-documents-masters/country-instructions/bangladesh/"
       },
       "profile_source": "Counselling notes, checked 4 November 2026. Confirm fees and scholarships on the official programme page."
     },
@@ -178,7 +194,9 @@
         "english": "Programme-specific; verify accepted English evidence.",
         "courses": "UG: Forest and Landscape (verify current programme and language). PG: Agricultural Economics, Agroecology, Animal Science, Environmental Science, Sustainable Development, Wildlife and Conservation.",
         "fees": "Programme-specific; consult the current programme fee.",
-        "scholarship": "SLU scholarships may be available for selected fee-paying students; check whether the award covers tuition only."
+        "scholarship": "SLU scholarships may be available for selected fee-paying students; check whether the award covers tuition only.",
+        "ug_gpa": "No university-wide numeric GPA/CGPA cutoff is published for general bachelor's eligibility. Bangladesh HSC is accepted for general eligibility; applicants graduating after 2009 must have passed Mathematics. Programme-specific subject prerequisites and selection rules apply. Source: https://www.universityadmissions.se/en/apply-to-bachelors/provide-application-documents-bachelors/country-instructions/bangladesh/",
+        "pg_gpa": "No single university-wide GPA/CGPA cutoff is published for general master's eligibility. Bangladesh applicants normally need a 4-year bachelor's degree, or bachelor's followed by master's (total 4 years); some 3-year honours degrees in specified fields may qualify. Programme-specific prerequisites and selection apply. Source: https://www.universityadmissions.se/en/apply-to-masters/provide-application-documents-masters/country-instructions/bangladesh/"
       },
       "profile_source": "Counselling notes, checked 4 November 2026. Confirm fees and scholarships on the official programme page."
     },
@@ -198,7 +216,9 @@
         "english": "Usually English 6 equivalent for English-taught programmes.",
         "courses": "UG: Selected English-taught programmes, including International Business Management (verify intake). PG: Public Health, Business, Computer Science, Environmental Science, Molecular Biology, Engineering and Design.",
         "fees": "Programme-dependent; fees vary by subject. Check the exact programme fee.",
-        "scholarship": "Umeå University Scholarship: full or partial tuition-fee waiver for selected high-achieving students; eligibility conditions apply."
+        "scholarship": "Umeå University Scholarship: full or partial tuition-fee waiver for selected high-achieving students; eligibility conditions apply.",
+        "ug_gpa": "No university-wide numeric GPA/CGPA cutoff is published for general bachelor's eligibility. Bangladesh HSC is accepted for general eligibility; applicants graduating after 2009 must have passed Mathematics. Programme-specific subject prerequisites and selection rules apply. Source: https://www.universityadmissions.se/en/apply-to-bachelors/provide-application-documents-bachelors/country-instructions/bangladesh/",
+        "pg_gpa": "No single university-wide GPA/CGPA cutoff is published for general master's eligibility. Bangladesh applicants normally need a 4-year bachelor's degree, or bachelor's followed by master's (total 4 years); some 3-year honours degrees in specified fields may qualify. Programme-specific prerequisites and selection apply. Source: https://www.universityadmissions.se/en/apply-to-masters/provide-application-documents-masters/country-instructions/bangladesh/"
       },
       "profile_source": "Counselling notes, checked 4 November 2026. Confirm fees and scholarships on the official programme page."
     },
@@ -210,7 +230,11 @@
       "website": "https://www.bth.se/english",
       "admissions_email": "admissions@bth.se",
       "phone": "+46 455 38 50 00",
-      "top10": false
+      "top10": false,
+      "profile": {
+        "ug_gpa": "No university-wide numeric GPA/CGPA cutoff is published for general bachelor's eligibility. Bangladesh HSC is accepted for general eligibility; applicants graduating after 2009 must have passed Mathematics. Programme-specific subject prerequisites and selection rules apply. Source: https://www.universityadmissions.se/en/apply-to-bachelors/provide-application-documents-bachelors/country-instructions/bangladesh/",
+        "pg_gpa": "No single university-wide GPA/CGPA cutoff is published for general master's eligibility. Bangladesh applicants normally need a 4-year bachelor's degree, or bachelor's followed by master's (total 4 years); some 3-year honours degrees in specified fields may qualify. Programme-specific prerequisites and selection apply. Source: https://www.universityadmissions.se/en/apply-to-masters/provide-application-documents-masters/country-instructions/bangladesh/"
+      }
     },
     {
       "id": "dalarna-university",
@@ -220,7 +244,11 @@
       "website": "http://www.du.se/en",
       "admissions_email": "support@du.se",
       "phone": "+46 23 77 80 00",
-      "top10": false
+      "top10": false,
+      "profile": {
+        "ug_gpa": "No university-wide numeric GPA/CGPA cutoff is published for general bachelor's eligibility. Bangladesh HSC is accepted for general eligibility; applicants graduating after 2009 must have passed Mathematics. Programme-specific subject prerequisites and selection rules apply. Source: https://www.universityadmissions.se/en/apply-to-bachelors/provide-application-documents-bachelors/country-instructions/bangladesh/",
+        "pg_gpa": "No single university-wide GPA/CGPA cutoff is published for general master's eligibility. Bangladesh applicants normally need a 4-year bachelor's degree, or bachelor's followed by master's (total 4 years); some 3-year honours degrees in specified fields may qualify. Programme-specific prerequisites and selection apply. Source: https://www.universityadmissions.se/en/apply-to-masters/provide-application-documents-masters/country-instructions/bangladesh/"
+      }
     },
     {
       "id": "halmstad-university",
@@ -230,7 +258,11 @@
       "website": "http://www.hh.se/english",
       "admissions_email": "fdia@hh.se",
       "phone": "+46 35 16 71 00",
-      "top10": false
+      "top10": false,
+      "profile": {
+        "ug_gpa": "No university-wide numeric GPA/CGPA cutoff is published for general bachelor's eligibility. Bangladesh HSC is accepted for general eligibility; applicants graduating after 2009 must have passed Mathematics. Programme-specific subject prerequisites and selection rules apply. Source: https://www.universityadmissions.se/en/apply-to-bachelors/provide-application-documents-bachelors/country-instructions/bangladesh/",
+        "pg_gpa": "No single university-wide GPA/CGPA cutoff is published for general master's eligibility. Bangladesh applicants normally need a 4-year bachelor's degree, or bachelor's followed by master's (total 4 years); some 3-year honours degrees in specified fields may qualify. Programme-specific prerequisites and selection apply. Source: https://www.universityadmissions.se/en/apply-to-masters/provide-application-documents-masters/country-instructions/bangladesh/"
+      }
     },
     {
       "id": "johannelund-school-of-theology",
@@ -240,7 +272,11 @@
       "website": "https://www.johannelund.nu/johannelund-school-of-theology/",
       "admissions_email": "info@johannelund.nu",
       "phone": "+46 18 16 99 00",
-      "top10": false
+      "top10": false,
+      "profile": {
+        "ug_gpa": "No university-wide numeric GPA/CGPA cutoff is published for general bachelor's eligibility. Bangladesh HSC is accepted for general eligibility; applicants graduating after 2009 must have passed Mathematics. Programme-specific subject prerequisites and selection rules apply. Source: https://www.universityadmissions.se/en/apply-to-bachelors/provide-application-documents-bachelors/country-instructions/bangladesh/",
+        "pg_gpa": "No single university-wide GPA/CGPA cutoff is published for general master's eligibility. Bangladesh applicants normally need a 4-year bachelor's degree, or bachelor's followed by master's (total 4 years); some 3-year honours degrees in specified fields may qualify. Programme-specific prerequisites and selection apply. Source: https://www.universityadmissions.se/en/apply-to-masters/provide-application-documents-masters/country-instructions/bangladesh/"
+      }
     },
     {
       "id": "j-nk-ping-university",
@@ -250,7 +286,11 @@
       "website": "https://ju.se/en.html",
       "admissions_email": "admissions.office@ju.se",
       "phone": "+46 36 10 10 00",
-      "top10": false
+      "top10": false,
+      "profile": {
+        "ug_gpa": "No university-wide numeric GPA/CGPA cutoff is published for general bachelor's eligibility. Bangladesh HSC is accepted for general eligibility; applicants graduating after 2009 must have passed Mathematics. Programme-specific subject prerequisites and selection rules apply. Source: https://www.universityadmissions.se/en/apply-to-bachelors/provide-application-documents-bachelors/country-instructions/bangladesh/",
+        "pg_gpa": "No single university-wide GPA/CGPA cutoff is published for general master's eligibility. Bangladesh applicants normally need a 4-year bachelor's degree, or bachelor's followed by master's (total 4 years); some 3-year honours degrees in specified fields may qualify. Programme-specific prerequisites and selection apply. Source: https://www.universityadmissions.se/en/apply-to-masters/provide-application-documents-masters/country-instructions/bangladesh/"
+      }
     },
     {
       "id": "karlstad-university",
@@ -260,7 +300,11 @@
       "website": "http://www.kau.se/en/",
       "admissions_email": "admission@kau.se",
       "phone": "+46 54 700 10 00",
-      "top10": false
+      "top10": false,
+      "profile": {
+        "ug_gpa": "No university-wide numeric GPA/CGPA cutoff is published for general bachelor's eligibility. Bangladesh HSC is accepted for general eligibility; applicants graduating after 2009 must have passed Mathematics. Programme-specific subject prerequisites and selection rules apply. Source: https://www.universityadmissions.se/en/apply-to-bachelors/provide-application-documents-bachelors/country-instructions/bangladesh/",
+        "pg_gpa": "No single university-wide GPA/CGPA cutoff is published for general master's eligibility. Bangladesh applicants normally need a 4-year bachelor's degree, or bachelor's followed by master's (total 4 years); some 3-year honours degrees in specified fields may qualify. Programme-specific prerequisites and selection apply. Source: https://www.universityadmissions.se/en/apply-to-masters/provide-application-documents-masters/country-instructions/bangladesh/"
+      }
     },
     {
       "id": "konstfack-university-of-arts-crafts-and-design",
@@ -270,7 +314,11 @@
       "website": "http://www.konstfack.se/en",
       "admissions_email": "Admissions@konstfack.se",
       "phone": "+46 8 450 4177",
-      "top10": false
+      "top10": false,
+      "profile": {
+        "ug_gpa": "No university-wide numeric GPA/CGPA cutoff is published for general bachelor's eligibility. Bangladesh HSC is accepted for general eligibility; applicants graduating after 2009 must have passed Mathematics. Programme-specific subject prerequisites and selection rules apply. Source: https://www.universityadmissions.se/en/apply-to-bachelors/provide-application-documents-bachelors/country-instructions/bangladesh/",
+        "pg_gpa": "No single university-wide GPA/CGPA cutoff is published for general master's eligibility. Bangladesh applicants normally need a 4-year bachelor's degree, or bachelor's followed by master's (total 4 years); some 3-year honours degrees in specified fields may qualify. Programme-specific prerequisites and selection apply. Source: https://www.universityadmissions.se/en/apply-to-masters/provide-application-documents-masters/country-instructions/bangladesh/"
+      }
     },
     {
       "id": "kristianstad-university",
@@ -280,7 +328,11 @@
       "website": "https://www.hkr.se/en/",
       "admissions_email": "info@hkr.se",
       "phone": "044-250 30 00",
-      "top10": false
+      "top10": false,
+      "profile": {
+        "ug_gpa": "No university-wide numeric GPA/CGPA cutoff is published for general bachelor's eligibility. Bangladesh HSC is accepted for general eligibility; applicants graduating after 2009 must have passed Mathematics. Programme-specific subject prerequisites and selection rules apply. Source: https://www.universityadmissions.se/en/apply-to-bachelors/provide-application-documents-bachelors/country-instructions/bangladesh/",
+        "pg_gpa": "No single university-wide GPA/CGPA cutoff is published for general master's eligibility. Bangladesh applicants normally need a 4-year bachelor's degree, or bachelor's followed by master's (total 4 years); some 3-year honours degrees in specified fields may qualify. Programme-specific prerequisites and selection apply. Source: https://www.universityadmissions.se/en/apply-to-masters/provide-application-documents-masters/country-instructions/bangladesh/"
+      }
     },
     {
       "id": "linnaeus-university",
@@ -290,7 +342,11 @@
       "website": "https://lnu.se/en/",
       "admissions_email": "admission@lnu.se",
       "phone": "+46 772 28 80 00",
-      "top10": false
+      "top10": false,
+      "profile": {
+        "ug_gpa": "No university-wide numeric GPA/CGPA cutoff is published for general bachelor's eligibility. Bangladesh HSC is accepted for general eligibility; applicants graduating after 2009 must have passed Mathematics. Programme-specific subject prerequisites and selection rules apply. Source: https://www.universityadmissions.se/en/apply-to-bachelors/provide-application-documents-bachelors/country-instructions/bangladesh/",
+        "pg_gpa": "No single university-wide GPA/CGPA cutoff is published for general master's eligibility. Bangladesh applicants normally need a 4-year bachelor's degree, or bachelor's followed by master's (total 4 years); some 3-year honours degrees in specified fields may qualify. Programme-specific prerequisites and selection apply. Source: https://www.universityadmissions.se/en/apply-to-masters/provide-application-documents-masters/country-instructions/bangladesh/"
+      }
     },
     {
       "id": "lule-university-of-technology",
@@ -300,7 +356,11 @@
       "website": "http://www.ltu.se/?l=en",
       "admissions_email": "universitetet@ltu.se",
       "phone": "+46 920 49 10 00",
-      "top10": false
+      "top10": false,
+      "profile": {
+        "ug_gpa": "No university-wide numeric GPA/CGPA cutoff is published for general bachelor's eligibility. Bangladesh HSC is accepted for general eligibility; applicants graduating after 2009 must have passed Mathematics. Programme-specific subject prerequisites and selection rules apply. Source: https://www.universityadmissions.se/en/apply-to-bachelors/provide-application-documents-bachelors/country-instructions/bangladesh/",
+        "pg_gpa": "No single university-wide GPA/CGPA cutoff is published for general master's eligibility. Bangladesh applicants normally need a 4-year bachelor's degree, or bachelor's followed by master's (total 4 years); some 3-year honours degrees in specified fields may qualify. Programme-specific prerequisites and selection apply. Source: https://www.universityadmissions.se/en/apply-to-masters/provide-application-documents-masters/country-instructions/bangladesh/"
+      }
     },
     {
       "id": "malm-university",
@@ -310,7 +370,11 @@
       "website": "https://mau.se/en/",
       "admissions_email": "info@mau.se",
       "phone": "+46 40 665 75 00",
-      "top10": false
+      "top10": false,
+      "profile": {
+        "ug_gpa": "No university-wide numeric GPA/CGPA cutoff is published for general bachelor's eligibility. Bangladesh HSC is accepted for general eligibility; applicants graduating after 2009 must have passed Mathematics. Programme-specific subject prerequisites and selection rules apply. Source: https://www.universityadmissions.se/en/apply-to-bachelors/provide-application-documents-bachelors/country-instructions/bangladesh/",
+        "pg_gpa": "No single university-wide GPA/CGPA cutoff is published for general master's eligibility. Bangladesh applicants normally need a 4-year bachelor's degree, or bachelor's followed by master's (total 4 years); some 3-year honours degrees in specified fields may qualify. Programme-specific prerequisites and selection apply. Source: https://www.universityadmissions.se/en/apply-to-masters/provide-application-documents-masters/country-instructions/bangladesh/"
+      }
     },
     {
       "id": "marie-cederschi-ld-university",
@@ -320,7 +384,11 @@
       "website": "https://www.mchs.se/engelska/marie-cederschiold-university.html",
       "admissions_email": "utbildningsstod@mchs.se",
       "phone": "+46 8 555 050 00",
-      "top10": false
+      "top10": false,
+      "profile": {
+        "ug_gpa": "No university-wide numeric GPA/CGPA cutoff is published for general bachelor's eligibility. Bangladesh HSC is accepted for general eligibility; applicants graduating after 2009 must have passed Mathematics. Programme-specific subject prerequisites and selection rules apply. Source: https://www.universityadmissions.se/en/apply-to-bachelors/provide-application-documents-bachelors/country-instructions/bangladesh/",
+        "pg_gpa": "No single university-wide GPA/CGPA cutoff is published for general master's eligibility. Bangladesh applicants normally need a 4-year bachelor's degree, or bachelor's followed by master's (total 4 years); some 3-year honours degrees in specified fields may qualify. Programme-specific prerequisites and selection apply. Source: https://www.universityadmissions.se/en/apply-to-masters/provide-application-documents-masters/country-instructions/bangladesh/"
+      }
     },
     {
       "id": "mid-sweden-university",
@@ -330,7 +398,11 @@
       "website": "http://www.miun.se/en",
       "admissions_email": "kontakt@miun.se",
       "phone": "+46 10 142 80 00",
-      "top10": false
+      "top10": false,
+      "profile": {
+        "ug_gpa": "No university-wide numeric GPA/CGPA cutoff is published for general bachelor's eligibility. Bangladesh HSC is accepted for general eligibility; applicants graduating after 2009 must have passed Mathematics. Programme-specific subject prerequisites and selection rules apply. Source: https://www.universityadmissions.se/en/apply-to-bachelors/provide-application-documents-bachelors/country-instructions/bangladesh/",
+        "pg_gpa": "No single university-wide GPA/CGPA cutoff is published for general master's eligibility. Bangladesh applicants normally need a 4-year bachelor's degree, or bachelor's followed by master's (total 4 years); some 3-year honours degrees in specified fields may qualify. Programme-specific prerequisites and selection apply. Source: https://www.universityadmissions.se/en/apply-to-masters/provide-application-documents-masters/country-instructions/bangladesh/"
+      }
     },
     {
       "id": "m-lardalen-university",
@@ -340,7 +412,11 @@
       "website": "https://www.mdu.se/en/malardalen-university",
       "admissions_email": "info@mdh.se",
       "phone": "+46 21 10 13 00",
-      "top10": false
+      "top10": false,
+      "profile": {
+        "ug_gpa": "No university-wide numeric GPA/CGPA cutoff is published for general bachelor's eligibility. Bangladesh HSC is accepted for general eligibility; applicants graduating after 2009 must have passed Mathematics. Programme-specific subject prerequisites and selection rules apply. Source: https://www.universityadmissions.se/en/apply-to-bachelors/provide-application-documents-bachelors/country-instructions/bangladesh/",
+        "pg_gpa": "No single university-wide GPA/CGPA cutoff is published for general master's eligibility. Bangladesh applicants normally need a 4-year bachelor's degree, or bachelor's followed by master's (total 4 years); some 3-year honours degrees in specified fields may qualify. Programme-specific prerequisites and selection apply. Source: https://www.universityadmissions.se/en/apply-to-masters/provide-application-documents-masters/country-instructions/bangladesh/"
+      }
     },
     {
       "id": "royal-college-of-music",
@@ -350,7 +426,11 @@
       "website": "https://www.kmh.se/in-english.html",
       "admissions_email": "antagning@kmh.se",
       "phone": "+46 8 572 10 000",
-      "top10": false
+      "top10": false,
+      "profile": {
+        "ug_gpa": "No university-wide numeric GPA/CGPA cutoff is published for general bachelor's eligibility. Bangladesh HSC is accepted for general eligibility; applicants graduating after 2009 must have passed Mathematics. Programme-specific subject prerequisites and selection rules apply. Source: https://www.universityadmissions.se/en/apply-to-bachelors/provide-application-documents-bachelors/country-instructions/bangladesh/",
+        "pg_gpa": "No single university-wide GPA/CGPA cutoff is published for general master's eligibility. Bangladesh applicants normally need a 4-year bachelor's degree, or bachelor's followed by master's (total 4 years); some 3-year honours degrees in specified fields may qualify. Programme-specific prerequisites and selection apply. Source: https://www.universityadmissions.se/en/apply-to-masters/provide-application-documents-masters/country-instructions/bangladesh/"
+      }
     },
     {
       "id": "royal-institute-of-art",
@@ -360,7 +440,11 @@
       "website": "https://kkh.se/en/",
       "admissions_email": "info@kkh.se",
       "phone": "+46 8 614 40 00",
-      "top10": false
+      "top10": false,
+      "profile": {
+        "ug_gpa": "No university-wide numeric GPA/CGPA cutoff is published for general bachelor's eligibility. Bangladesh HSC is accepted for general eligibility; applicants graduating after 2009 must have passed Mathematics. Programme-specific subject prerequisites and selection rules apply. Source: https://www.universityadmissions.se/en/apply-to-bachelors/provide-application-documents-bachelors/country-instructions/bangladesh/",
+        "pg_gpa": "No single university-wide GPA/CGPA cutoff is published for general master's eligibility. Bangladesh applicants normally need a 4-year bachelor's degree, or bachelor's followed by master's (total 4 years); some 3-year honours degrees in specified fields may qualify. Programme-specific prerequisites and selection apply. Source: https://www.universityadmissions.se/en/apply-to-masters/provide-application-documents-masters/country-instructions/bangladesh/"
+      }
     },
     {
       "id": "sophiahemmet-university",
@@ -370,7 +454,11 @@
       "website": "https://www.shh.se/en/",
       "admissions_email": "info@shh.se",
       "phone": "+46 8 406 20 00",
-      "top10": false
+      "top10": false,
+      "profile": {
+        "ug_gpa": "No university-wide numeric GPA/CGPA cutoff is published for general bachelor's eligibility. Bangladesh HSC is accepted for general eligibility; applicants graduating after 2009 must have passed Mathematics. Programme-specific subject prerequisites and selection rules apply. Source: https://www.universityadmissions.se/en/apply-to-bachelors/provide-application-documents-bachelors/country-instructions/bangladesh/",
+        "pg_gpa": "No single university-wide GPA/CGPA cutoff is published for general master's eligibility. Bangladesh applicants normally need a 4-year bachelor's degree, or bachelor's followed by master's (total 4 years); some 3-year honours degrees in specified fields may qualify. Programme-specific prerequisites and selection apply. Source: https://www.universityadmissions.se/en/apply-to-masters/provide-application-documents-masters/country-instructions/bangladesh/"
+      }
     },
     {
       "id": "stockholm-school-of-economics",
@@ -380,7 +468,11 @@
       "website": "http://www.hhs.se/",
       "admissions_email": "info@hhs.se",
       "phone": "+46 8 736 90 00",
-      "top10": false
+      "top10": false,
+      "profile": {
+        "ug_gpa": "No university-wide numeric GPA/CGPA cutoff is published for general bachelor's eligibility. Bangladesh HSC is accepted for general eligibility; applicants graduating after 2009 must have passed Mathematics. Programme-specific subject prerequisites and selection rules apply. Source: https://www.universityadmissions.se/en/apply-to-bachelors/provide-application-documents-bachelors/country-instructions/bangladesh/",
+        "pg_gpa": "No single university-wide GPA/CGPA cutoff is published for general master's eligibility. Bangladesh applicants normally need a 4-year bachelor's degree, or bachelor's followed by master's (total 4 years); some 3-year honours degrees in specified fields may qualify. Programme-specific prerequisites and selection apply. Source: https://www.universityadmissions.se/en/apply-to-masters/provide-application-documents-masters/country-instructions/bangladesh/"
+      }
     },
     {
       "id": "stockholm-university-of-the-arts",
@@ -390,7 +482,11 @@
       "website": "https://www.uniarts.se/english",
       "admissions_email": "info@uniarts.se",
       "phone": "+46 8 49 400 000",
-      "top10": false
+      "top10": false,
+      "profile": {
+        "ug_gpa": "No university-wide numeric GPA/CGPA cutoff is published for general bachelor's eligibility. Bangladesh HSC is accepted for general eligibility; applicants graduating after 2009 must have passed Mathematics. Programme-specific subject prerequisites and selection rules apply. Source: https://www.universityadmissions.se/en/apply-to-bachelors/provide-application-documents-bachelors/country-instructions/bangladesh/",
+        "pg_gpa": "No single university-wide GPA/CGPA cutoff is published for general master's eligibility. Bangladesh applicants normally need a 4-year bachelor's degree, or bachelor's followed by master's (total 4 years); some 3-year honours degrees in specified fields may qualify. Programme-specific prerequisites and selection apply. Source: https://www.universityadmissions.se/en/apply-to-masters/provide-application-documents-masters/country-instructions/bangladesh/"
+      }
     },
     {
       "id": "swedish-defence-university",
@@ -400,7 +496,11 @@
       "website": "https://www.fhs.se/en/",
       "admissions_email": "masterprogramme@fhs.se",
       "phone": "+46 8 553 425 00",
-      "top10": false
+      "top10": false,
+      "profile": {
+        "ug_gpa": "No university-wide numeric GPA/CGPA cutoff is published for general bachelor's eligibility. Bangladesh HSC is accepted for general eligibility; applicants graduating after 2009 must have passed Mathematics. Programme-specific subject prerequisites and selection rules apply. Source: https://www.universityadmissions.se/en/apply-to-bachelors/provide-application-documents-bachelors/country-instructions/bangladesh/",
+        "pg_gpa": "No single university-wide GPA/CGPA cutoff is published for general master's eligibility. Bangladesh applicants normally need a 4-year bachelor's degree, or bachelor's followed by master's (total 4 years); some 3-year honours degrees in specified fields may qualify. Programme-specific prerequisites and selection apply. Source: https://www.universityadmissions.se/en/apply-to-masters/provide-application-documents-masters/country-instructions/bangladesh/"
+      }
     },
     {
       "id": "swedish-red-cross-university",
@@ -410,7 +510,11 @@
       "website": "https://www.rkh.se/en/",
       "admissions_email": "info@rkh.se",
       "phone": "+46 8 587 516 00",
-      "top10": false
+      "top10": false,
+      "profile": {
+        "ug_gpa": "No university-wide numeric GPA/CGPA cutoff is published for general bachelor's eligibility. Bangladesh HSC is accepted for general eligibility; applicants graduating after 2009 must have passed Mathematics. Programme-specific subject prerequisites and selection rules apply. Source: https://www.universityadmissions.se/en/apply-to-bachelors/provide-application-documents-bachelors/country-instructions/bangladesh/",
+        "pg_gpa": "No single university-wide GPA/CGPA cutoff is published for general master's eligibility. Bangladesh applicants normally need a 4-year bachelor's degree, or bachelor's followed by master's (total 4 years); some 3-year honours degrees in specified fields may qualify. Programme-specific prerequisites and selection apply. Source: https://www.universityadmissions.se/en/apply-to-masters/provide-application-documents-masters/country-instructions/bangladesh/"
+      }
     },
     {
       "id": "s-dert-rn-university-in-stockholm",
@@ -420,7 +524,11 @@
       "website": "https://www.sh.se/english/sodertorn-university",
       "admissions_email": "info@sh.se",
       "phone": "+46 8 608 40 00",
-      "top10": false
+      "top10": false,
+      "profile": {
+        "ug_gpa": "No university-wide numeric GPA/CGPA cutoff is published for general bachelor's eligibility. Bangladesh HSC is accepted for general eligibility; applicants graduating after 2009 must have passed Mathematics. Programme-specific subject prerequisites and selection rules apply. Source: https://www.universityadmissions.se/en/apply-to-bachelors/provide-application-documents-bachelors/country-instructions/bangladesh/",
+        "pg_gpa": "No single university-wide GPA/CGPA cutoff is published for general master's eligibility. Bangladesh applicants normally need a 4-year bachelor's degree, or bachelor's followed by master's (total 4 years); some 3-year honours degrees in specified fields may qualify. Programme-specific prerequisites and selection apply. Source: https://www.universityadmissions.se/en/apply-to-masters/provide-application-documents-masters/country-instructions/bangladesh/"
+      }
     },
     {
       "id": "the-newman-institute",
@@ -430,7 +538,11 @@
       "website": "https://newman.se/in-english/",
       "admissions_email": "",
       "phone": "+46 18 580 07 00",
-      "top10": false
+      "top10": false,
+      "profile": {
+        "ug_gpa": "No university-wide numeric GPA/CGPA cutoff is published for general bachelor's eligibility. Bangladesh HSC is accepted for general eligibility; applicants graduating after 2009 must have passed Mathematics. Programme-specific subject prerequisites and selection rules apply. Source: https://www.universityadmissions.se/en/apply-to-bachelors/provide-application-documents-bachelors/country-instructions/bangladesh/",
+        "pg_gpa": "No single university-wide GPA/CGPA cutoff is published for general master's eligibility. Bangladesh applicants normally need a 4-year bachelor's degree, or bachelor's followed by master's (total 4 years); some 3-year honours degrees in specified fields may qualify. Programme-specific prerequisites and selection apply. Source: https://www.universityadmissions.se/en/apply-to-masters/provide-application-documents-masters/country-instructions/bangladesh/"
+      }
     },
     {
       "id": "the-swedish-school-of-sport-and-health-sciences",
@@ -440,7 +552,11 @@
       "website": "https://www.gih.se/in-english/",
       "admissions_email": "international@gih.se",
       "phone": "+46 8 120 537 00",
-      "top10": false
+      "top10": false,
+      "profile": {
+        "ug_gpa": "No university-wide numeric GPA/CGPA cutoff is published for general bachelor's eligibility. Bangladesh HSC is accepted for general eligibility; applicants graduating after 2009 must have passed Mathematics. Programme-specific subject prerequisites and selection rules apply. Source: https://www.universityadmissions.se/en/apply-to-bachelors/provide-application-documents-bachelors/country-instructions/bangladesh/",
+        "pg_gpa": "No single university-wide GPA/CGPA cutoff is published for general master's eligibility. Bangladesh applicants normally need a 4-year bachelor's degree, or bachelor's followed by master's (total 4 years); some 3-year honours degrees in specified fields may qualify. Programme-specific prerequisites and selection apply. Source: https://www.universityadmissions.se/en/apply-to-masters/provide-application-documents-masters/country-instructions/bangladesh/"
+      }
     },
     {
       "id": "university-college-stockholm",
@@ -450,7 +566,11 @@
       "website": "https://ehs.se/en/",
       "admissions_email": "info@ehs.se",
       "phone": "+46 8 564 357 00",
-      "top10": false
+      "top10": false,
+      "profile": {
+        "ug_gpa": "No university-wide numeric GPA/CGPA cutoff is published for general bachelor's eligibility. Bangladesh HSC is accepted for general eligibility; applicants graduating after 2009 must have passed Mathematics. Programme-specific subject prerequisites and selection rules apply. Source: https://www.universityadmissions.se/en/apply-to-bachelors/provide-application-documents-bachelors/country-instructions/bangladesh/",
+        "pg_gpa": "No single university-wide GPA/CGPA cutoff is published for general master's eligibility. Bangladesh applicants normally need a 4-year bachelor's degree, or bachelor's followed by master's (total 4 years); some 3-year honours degrees in specified fields may qualify. Programme-specific prerequisites and selection apply. Source: https://www.universityadmissions.se/en/apply-to-masters/provide-application-documents-masters/country-instructions/bangladesh/"
+      }
     },
     {
       "id": "university-west",
@@ -460,7 +580,11 @@
       "website": "http://www.hv.se/en",
       "admissions_email": "admission@hv.se",
       "phone": "+46 520 22 30 00",
-      "top10": false
+      "top10": false,
+      "profile": {
+        "ug_gpa": "No university-wide numeric GPA/CGPA cutoff is published for general bachelor's eligibility. Bangladesh HSC is accepted for general eligibility; applicants graduating after 2009 must have passed Mathematics. Programme-specific subject prerequisites and selection rules apply. Source: https://www.universityadmissions.se/en/apply-to-bachelors/provide-application-documents-bachelors/country-instructions/bangladesh/",
+        "pg_gpa": "No single university-wide GPA/CGPA cutoff is published for general master's eligibility. Bangladesh applicants normally need a 4-year bachelor's degree, or bachelor's followed by master's (total 4 years); some 3-year honours degrees in specified fields may qualify. Programme-specific prerequisites and selection apply. Source: https://www.universityadmissions.se/en/apply-to-masters/provide-application-documents-masters/country-instructions/bangladesh/"
+      }
     },
     {
       "id": "university-of-bor-s",
@@ -470,7 +594,11 @@
       "website": "http://www.hb.se/en/",
       "admissions_email": "admissions@hb.se",
       "phone": "+46 33 435 40 00",
-      "top10": false
+      "top10": false,
+      "profile": {
+        "ug_gpa": "No university-wide numeric GPA/CGPA cutoff is published for general bachelor's eligibility. Bangladesh HSC is accepted for general eligibility; applicants graduating after 2009 must have passed Mathematics. Programme-specific subject prerequisites and selection rules apply. Source: https://www.universityadmissions.se/en/apply-to-bachelors/provide-application-documents-bachelors/country-instructions/bangladesh/",
+        "pg_gpa": "No single university-wide GPA/CGPA cutoff is published for general master's eligibility. Bangladesh applicants normally need a 4-year bachelor's degree, or bachelor's followed by master's (total 4 years); some 3-year honours degrees in specified fields may qualify. Programme-specific prerequisites and selection apply. Source: https://www.universityadmissions.se/en/apply-to-masters/provide-application-documents-masters/country-instructions/bangladesh/"
+      }
     },
     {
       "id": "university-of-g-vle",
@@ -480,7 +608,11 @@
       "website": "https://www.hig.se/engelska/university-of-gavle",
       "admissions_email": "registrator@hig.se",
       "phone": "+46 26 64 85 00",
-      "top10": false
+      "top10": false,
+      "profile": {
+        "ug_gpa": "No university-wide numeric GPA/CGPA cutoff is published for general bachelor's eligibility. Bangladesh HSC is accepted for general eligibility; applicants graduating after 2009 must have passed Mathematics. Programme-specific subject prerequisites and selection rules apply. Source: https://www.universityadmissions.se/en/apply-to-bachelors/provide-application-documents-bachelors/country-instructions/bangladesh/",
+        "pg_gpa": "No single university-wide GPA/CGPA cutoff is published for general master's eligibility. Bangladesh applicants normally need a 4-year bachelor's degree, or bachelor's followed by master's (total 4 years); some 3-year honours degrees in specified fields may qualify. Programme-specific prerequisites and selection apply. Source: https://www.universityadmissions.se/en/apply-to-masters/provide-application-documents-masters/country-instructions/bangladesh/"
+      }
     },
     {
       "id": "university-of-sk-vde",
@@ -490,7 +622,11 @@
       "website": "http://www.his.se/english",
       "admissions_email": "admission@his.se",
       "phone": "+46 500 44 80 00",
-      "top10": false
+      "top10": false,
+      "profile": {
+        "ug_gpa": "No university-wide numeric GPA/CGPA cutoff is published for general bachelor's eligibility. Bangladesh HSC is accepted for general eligibility; applicants graduating after 2009 must have passed Mathematics. Programme-specific subject prerequisites and selection rules apply. Source: https://www.universityadmissions.se/en/apply-to-bachelors/provide-application-documents-bachelors/country-instructions/bangladesh/",
+        "pg_gpa": "No single university-wide GPA/CGPA cutoff is published for general master's eligibility. Bangladesh applicants normally need a 4-year bachelor's degree, or bachelor's followed by master's (total 4 years); some 3-year honours degrees in specified fields may qualify. Programme-specific prerequisites and selection apply. Source: https://www.universityadmissions.se/en/apply-to-masters/provide-application-documents-masters/country-instructions/bangladesh/"
+      }
     },
     {
       "id": "rebro-university",
@@ -500,7 +636,11 @@
       "website": "http://www.oru.se/English/",
       "admissions_email": "freemover@oru.se",
       "phone": "+46 19 30 30 00",
-      "top10": false
+      "top10": false,
+      "profile": {
+        "ug_gpa": "No university-wide numeric GPA/CGPA cutoff is published for general bachelor's eligibility. Bangladesh HSC is accepted for general eligibility; applicants graduating after 2009 must have passed Mathematics. Programme-specific subject prerequisites and selection rules apply. Source: https://www.universityadmissions.se/en/apply-to-bachelors/provide-application-documents-bachelors/country-instructions/bangladesh/",
+        "pg_gpa": "No single university-wide GPA/CGPA cutoff is published for general master's eligibility. Bangladesh applicants normally need a 4-year bachelor's degree, or bachelor's followed by master's (total 4 years); some 3-year honours degrees in specified fields may qualify. Programme-specific prerequisites and selection apply. Source: https://www.universityadmissions.se/en/apply-to-masters/provide-application-documents-masters/country-instructions/bangladesh/"
+      }
     }
   ]
 }
