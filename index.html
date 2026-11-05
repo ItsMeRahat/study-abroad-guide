@@ -219,7 +219,7 @@ $("#main").innerHTML=META.tabs.map(function(p){var h=p[0]=="unis"?unisHtml():"<h
 var f=d.facts;MON=f.maintenance.monthly||0;FX=(f.fx&&f.fx[CUR+"_BDT"])||13;FXN=f.fx?"Rate: 1 "+CUR+" = "+FX.toFixed(2)+" BDT (stored "+f.fx.date+", refreshed daily).":"";
 $("#caution").innerHTML=META.caution;
 $("#dstat").textContent="Data checked "+f.last_checked+" · Confirm with official links";
-wire();calc();liveFx(c);show(id||"overview",1)}).catch(function(){$("#main").innerHTML='<div class="note warn">Could not load the data files. Open this page from GitHub Pages, run <code>python -m http.server</code> in the project folder, or use standalone.html.</div>'})}
+wire();calc();liveFx(c);show(id||"overview",1)}).catch(function(e){console.error("Country guide boot error:",e);$("#main").innerHTML='<div class="note warn"><b>Guide startup failed.</b><p>Technical detail: <code>'+esc(e&&e.message?e.message:String(e))+'</code></p></div>'})}
 function boot(cs){CC=cs;$("#cc").innerHTML=CC.map(function(x){return'<option value="'+esc(x.code)+'">'+esc(x.flag+" "+x.name)+"</option>"}).join("");
 $("#cc").onchange=function(){setCountry(this.value,"overview")};
 var h=location.hash.slice(1).split("-"),c=null,id=null;
